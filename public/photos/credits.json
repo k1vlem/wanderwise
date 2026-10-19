@@ -140,14 +140,14 @@
     "height": 1280
   },
   "munich": {
-    "key": "wiki:Marienplatz",
-    "file": "File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg",
-    "author": "Diliff",
+    "key": "File:Munich skyline.jpg",
+    "file": "File:Munich skyline.jpg",
+    "author": "Stefan Kühn",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg",
-    "width": 2089,
-    "height": 1800
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Munich_skyline.jpg",
+    "width": 3495,
+    "height": 2355
   },
   "vienna": {
     "key": "wiki:Hofburg|Heldenplatz",
@@ -520,14 +520,14 @@
     "height": 3000
   },
   "s-balloon": {
-    "key": "wiki:Cappadocia",
-    "file": "File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
-    "author": "Arian Zwegers from Brussels, Belgium",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
-    "width": 5184,
-    "height": 3456
+    "key": "File:Hot air balloon ride at sunrise in Cappadocia 2.JPG",
+    "file": "File:Hot air balloon ride at sunrise in Cappadocia 2.JPG",
+    "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hot_air_balloon_ride_at_sunrise_in_Cappadocia_2.JPG",
+    "width": 7360,
+    "height": 4912
   },
   "s-goreme_museum": {
     "key": "File:Pasabag, Capadocia, Turquía, 2024-10-01, DD 23.jpg",
@@ -570,14 +570,14 @@
     "height": 3232
   },
   "s-acropolis": {
-    "key": "wiki:Parthenon",
-    "file": "File:The_Parthenon_in_Athens.jpg",
-    "author": "Steve Swayne",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
-    "width": 1144,
-    "height": 804
+    "key": "File:Parthenon east side Acropolis Athens, Greece.jpg",
+    "file": "File:Parthenon east side Acropolis Athens, Greece.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Parthenon_east_side_Acropolis_Athens,_Greece.jpg",
+    "width": 5951,
+    "height": 4417
   },
   "s-acropolis_museum": {
     "key": "File:Acropolis Museum in Athens with Acropolis View.jpg",
@@ -660,14 +660,14 @@
     "height": 3024
   },
   "s-wine": {
-    "key": "File:Santorini 103.jpg",
-    "file": "File:Santorini 103.jpg",
-    "author": "LBM1948",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Santorini_103.jpg",
-    "width": 4236,
-    "height": 2664
+    "key": "File:Santorini wines.jpg",
+    "file": "File:Santorini wines.jpg",
+    "author": "Marcelo Costa",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Santorini_wines.jpg",
+    "width": 2592,
+    "height": 1944
   },
   "s-british_museum": {
     "key": "wiki:British Museum",
@@ -950,14 +950,14 @@
     "height": 6222
   },
   "s-mirabell": {
-    "key": "wiki:Mirabell Palace",
-    "file": "File:Palatul_Mirabell1.jpg",
-    "author": "Cezar Suceveanu",
+    "key": "File:Schloss Mirabell-Festung Hohensalzburg-Salzburg.jpg",
+    "file": "File:Schloss Mirabell-Festung Hohensalzburg-Salzburg.jpg",
+    "author": "Yair Haklai",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Palatul_Mirabell1.jpg",
-    "width": 3072,
-    "height": 2304
+    "source": "https://commons.wikimedia.org/wiki/File:Schloss_Mirabell-Festung_Hohensalzburg-Salzburg.jpg",
+    "width": 3264,
+    "height": 2448
   },
   "s-getreidegasse": {
     "key": "wiki:Getreidegasse",
@@ -1100,14 +1100,14 @@
     "height": 3105
   },
   "s-dom": {
-    "key": "wiki:Dom Tower of Utrecht",
-    "file": "File:DomTorenUtrechtNederland.jpg",
-    "author": "Massimo Catarinella",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:DomTorenUtrechtNederland.jpg",
-    "width": 1763,
-    "height": 3300
+    "key": "File:Dom Quarter 7082.jpg",
+    "file": "File:Dom Quarter 7082.jpg",
+    "author": "C messier",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dom_Quarter_7082.jpg",
+    "width": 4255,
+    "height": 3192
   },
   "s-kinderdijk": {
     "key": "wiki:Kinderdijk",
@@ -1320,14 +1320,14 @@
     "height": 2136
   },
   "d-suppli": {
-    "key": "wiki:Supplì|it:Supplì",
-    "file": "File:Supplì.jpg",
-    "author": "FrederikBianko",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Suppl%C3%AC.jpg",
-    "width": 1152,
-    "height": 864
+    "key": "File:Alice Pizza Piola 3.jpg",
+    "file": "File:Alice Pizza Piola 3.jpg",
+    "author": "Saggittarius A",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alice_Pizza_Piola_3.jpg",
+    "width": 3648,
+    "height": 2736
   },
   "d-saltimbocca-alla-romana": {
     "key": "wiki:Saltimbocca",
@@ -1450,14 +1450,14 @@
     "height": 1322
   },
   "d-kabak-tatlisi": {
-    "key": "wiki:tr:Kabak tatlısı|Kabak tatlısı",
-    "file": "File:Baked_pumpkin.jpg",
-    "author": "Biser Todorov",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Baked_pumpkin.jpg",
-    "width": 768,
-    "height": 1024
+    "key": "File:Kabak dessert.jpg",
+    "file": "File:Kabak dessert.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kabak_dessert.jpg",
+    "width": 2560,
+    "height": 1920
   },
   "d-souvlaki": {
     "key": "wiki:Souvlaki",
@@ -1490,14 +1490,14 @@
     "height": 2000
   },
   "d-loukoumades": {
-    "key": "wiki:Loukoumades|Lokma",
-    "file": "File:Sam'dan_lokma_tatlisi.jpg",
-    "author": "elif ayse",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sam%27dan_lokma_tatlisi.jpg",
-    "width": 860,
-    "height": 646
+    "key": "File:2019 Marin Greek Festival - Sarah Stierch 11.jpg",
+    "file": "File:2019 Marin Greek Festival - Sarah Stierch 11.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Marin_Greek_Festival_-_Sarah_Stierch_11.jpg",
+    "width": 4032,
+    "height": 3024
   },
   "d-tomatokeftedes": {
     "key": "wiki:Tomatokeftedes|el:Ντοματοκεφτέδες",
@@ -1609,16 +1609,6 @@
     "width": 2878,
     "height": 2304
   },
-  "d-cranachan": {
-    "key": "wiki:Cranachan",
-    "file": "File:Cranachan_(4332953688).jpg",
-    "author": "Saskia van de Nieuwenhof from Edinburgh, United Kingdom",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cranachan_(4332953688).jpg",
-    "width": 1536,
-    "height": 2048
-  },
   "d-currywurst": {
     "key": "wiki:Currywurst",
     "file": "File:20220430_currywurst.jpg",
@@ -1670,14 +1660,14 @@
     "height": 2007
   },
   "d-schweinshaxe": {
-    "key": "wiki:Schweinshaxe",
-    "file": "File:00ane_Haxen.jpg",
-    "author": "Erich Ferdinand",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:00ane_Haxen.jpg",
-    "width": 845,
-    "height": 634
+    "key": "File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg",
+    "file": "File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg",
+    "author": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Schweinshaxe_at_Der_Landgraf,_Fangzhuang_(20211001174341).jpg",
+    "width": 3997,
+    "height": 2664
   },
   "d-obatzda": {
     "key": "wiki:Obatzda",
@@ -1840,14 +1830,14 @@
     "height": 3216
   },
   "d-vinho-do-porto": {
-    "key": "wiki:Port wine",
-    "file": "File:Port_wine.jpg",
-    "author": "Jon Sullivan",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Port_wine.jpg",
-    "width": 1024,
-    "height": 768
+    "key": "File:Portugal - DSC0763 (24701077667).jpg",
+    "file": "File:Portugal - DSC0763 (24701077667).jpg",
+    "author": "Ben K",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Portugal_-_DSC0763_(24701077667).jpg",
+    "width": 4912,
+    "height": 3264
   },
   "d-haring": {
     "key": "wiki:Soused herring",
@@ -2008,5 +1998,15 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bosna_Wien_Dr_Karl_Renner_Ring.jpg",
     "width": 4160,
     "height": 2336
+  },
+  "d-scottish-salmon": {
+    "key": "wiki:Salmon as food",
+    "file": "File:Sashimi_-_Maguro_Restaurant,_Bangna,_Bangkok_(44856596864).jpg",
+    "author": "Vee Satayamas from Bangkok, Thailand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sashimi_-_Maguro_Restaurant,_Bangna,_Bangkok_(44856596864).jpg",
+    "width": 6000,
+    "height": 4000
   }
 }
