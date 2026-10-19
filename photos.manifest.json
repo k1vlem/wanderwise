@@ -95,9 +95,7 @@
   {
    "id": "munich",
    "kind": "place",
-   "wiki": [
-    "Marienplatz"
-   ]
+   "file": "File:Munich skyline.jpg"
   },
   {
    "id": "vienna",
@@ -368,9 +366,7 @@
   {
    "id": "s-balloon",
    "kind": "detail",
-   "wiki": [
-    "Cappadocia"
-   ]
+   "file": "File:Hot air balloon ride at sunrise in Cappadocia 2.JPG"
   },
   {
    "id": "s-goreme_museum",
@@ -399,9 +395,7 @@
   {
    "id": "s-acropolis",
    "kind": "detail",
-   "wiki": [
-    "Parthenon"
-   ]
+   "file": "File:Parthenon east side Acropolis Athens, Greece.jpg"
   },
   {
    "id": "s-acropolis_museum",
@@ -458,7 +452,7 @@
   {
    "id": "s-wine",
    "kind": "detail",
-   "file": "File:Santorini 103.jpg"
+   "file": "File:Santorini wines.jpg"
   },
   {
    "id": "s-british_museum",
@@ -655,9 +649,7 @@
   {
    "id": "s-mirabell",
    "kind": "detail",
-   "wiki": [
-    "Mirabell Palace"
-   ]
+   "file": "File:Schloss Mirabell-Festung Hohensalzburg-Salzburg.jpg"
   },
   {
    "id": "s-getreidegasse",
@@ -765,9 +757,7 @@
   {
    "id": "s-dom",
    "kind": "detail",
-   "wiki": [
-    "Dom Tower of Utrecht"
-   ]
+   "file": "File:Dom Quarter 7082.jpg"
   },
   {
    "id": "s-kinderdijk",
@@ -920,10 +910,7 @@
   {
    "id": "d-suppli",
    "kind": "detail",
-   "wiki": [
-    "Supplì",
-    "it:Supplì"
-   ]
+   "file": "File:Alice Pizza Piola 3.jpg"
   },
   {
    "id": "d-saltimbocca-alla-romana",
@@ -1003,10 +990,7 @@
   {
    "id": "d-kabak-tatlisi",
    "kind": "detail",
-   "wiki": [
-    "tr:Kabak tatlısı",
-    "Kabak tatlısı"
-   ]
+   "file": "File:Kabak dessert.jpg"
   },
   {
    "id": "d-souvlaki",
@@ -1032,10 +1016,7 @@
   {
    "id": "d-loukoumades",
    "kind": "detail",
-   "wiki": [
-    "Loukoumades",
-    "Lokma"
-   ]
+   "file": "File:2019 Marin Greek Festival - Sarah Stierch 11.jpg"
   },
   {
    "id": "d-tomatokeftedes",
@@ -1113,10 +1094,10 @@
    ]
   },
   {
-   "id": "d-cranachan",
+   "id": "d-scottish-salmon",
    "kind": "detail",
    "wiki": [
-    "Cranachan"
+    "Salmon as food"
    ]
   },
   {
@@ -1155,9 +1136,7 @@
   {
    "id": "d-schweinshaxe",
    "kind": "detail",
-   "wiki": [
-    "Schweinshaxe"
-   ]
+   "file": "File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg"
   },
   {
    "id": "d-obatzda",
@@ -1278,9 +1257,7 @@
   {
    "id": "d-vinho-do-porto",
    "kind": "detail",
-   "wiki": [
-    "Port wine"
-   ]
+   "file": "File:Portugal - DSC0763 (24701077667).jpg"
   },
   {
    "id": "d-haring",

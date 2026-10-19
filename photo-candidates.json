@@ -1,58 +1,11 @@
 {
- "s-balloon": {
-  "queries": ["Cappadocia hot air balloons sunrise", "Göreme balloons sunrise", "hot air balloons over Cappadocia", "Kapadokya balon"],
-  "wiki": ["de:Kappadokien", "fr:Cappadoce", "tr:Kapadokya"],
-  "minWidth": 2000
- },
- "s-acropolis": {
-  "queries": ["Parthenon Athens", "Parthenon west facade Acropolis", "Acropolis of Athens Parthenon"],
-  "wiki": ["de:Parthenon", "fr:Parthénon", "el:Παρθενώνας"],
-  "minWidth": 2000
- },
- "s-dom": {
-  "queries": ["Domtoren Utrecht", "Domplein Utrecht Domtoren", "Dom Tower Utrecht"],
-  "wiki": ["nl:Domtoren (Utrecht)", "de:Domturm (Utrecht)", "fr:Tour Dom"],
-  "minWidth": 1600
- },
- "s-mirabell": {
-  "queries": ["Mirabellgarten Festung Hohensalzburg", "Mirabell Gardens Salzburg", "Mirabellgarten Salzburg"],
-  "wiki": ["de:Mirabellgarten", "fr:Jardins Mirabell"],
-  "minWidth": 1600
- },
- "munich": {
-  "queries": ["München Frauenkirche Alpen Panorama", "Munich skyline Frauenkirche", "München Altstadt Blick vom Alten Peter", "Munich Isar old town"],
-  "wiki": ["de:München", "fr:Munich", "de:Frauenkirche (München)"],
-  "minWidth": 1920
- },
  "d-scottish-salmon": {
-  "queries": ["pan fried salmon fillet plate", "salmon fillet dish vegetables", "grilled salmon fillet restaurant", "Scottish salmon dish"],
-  "wiki": ["Salmon as food", "Smoked salmon"],
-  "minWidth": 1400
- },
- "d-suppli": {
-  "queries": ["Supplì", "suppli al telefono", "suppli Roman rice croquettes"],
-  "wiki": ["it:Supplì", "de:Supplì"],
+  "queries": ["Salmon dish", "Grilled salmon", "Seared salmon", "Lachsfilet", "Saumon grillé", "Salmon steak", "salmon fillet"],
   "minWidth": 1200
  },
- "d-kabak-tatlisi": {
-  "queries": ["Kabak tatlısı", "kabak tatlisi walnuts", "Turkish pumpkin dessert"],
-  "wiki": ["tr:Kabak tatlısı", "de:Kabak tatlısı"],
-  "minWidth": 1200,
-  "portrait": true
- },
- "d-loukoumades": {
-  "queries": ["Loukoumades", "loukoumades honey", "lokma dessert", "Λουκουμάδες"],
-  "wiki": ["el:Λουκουμάδες", "Lokma", "de:Loukoumades"],
+ "d-scottish-salmon-2": {
+  "queries": ["Smoked salmon", "Scottish smoked salmon", "salmon plate restaurant", "Salmon with vegetables"],
+  "wiki": ["Smoked salmon", "Salmon as food", "de:Lachs"],
   "minWidth": 1200
- },
- "d-schweinshaxe": {
-  "queries": ["Schweinshaxe", "Schweinshaxe Knödel", "Bavarian pork knuckle", "Schweinshaxe Biergarten"],
-  "wiki": ["de:Schweinshaxe", "Pork knuckle"],
-  "minWidth": 1200
- },
- "d-vinho-do-porto": {
-  "queries": ["Port wine glass", "glass of port wine Porto", "port wine tasting Vila Nova de Gaia", "Vinho do Porto copo"],
-  "wiki": ["pt:Vinho do Porto", "de:Portwein", "fr:Porto (vin)"],
-  "minWidth": 1400
  }
 }

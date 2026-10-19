@@ -180,7 +180,7 @@ DISHES = {
     'cullen-skink': ['Cullen skink'],
     'haggis-neeps-tatties': ['Haggis'],
     'scotch-pie': ['Scotch pie'],
-    'cranachan': ['Cranachan'],
+    'scottish-salmon': ['Salmon as food'],
     'currywurst': ['Currywurst'],
     'doner-kebab': ['Doner kebab'],
     'eisbein': ['Eisbein'],
@@ -218,6 +218,16 @@ DISHES = {
 # Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
 # article lead image was a map, a logo, too small or simply not the best shot.
 PINNED = {
+    's-balloon': 'File:Hot air balloon ride at sunrise in Cappadocia 2.JPG',
+    's-acropolis': 'File:Parthenon east side Acropolis Athens, Greece.jpg',
+    's-dom': 'File:Dom Quarter 7082.jpg',
+    's-mirabell': 'File:Schloss Mirabell-Festung Hohensalzburg-Salzburg.jpg',
+    'munich': 'File:Munich skyline.jpg',
+    'd-suppli': 'File:Alice Pizza Piola 3.jpg',
+    'd-kabak-tatlisi': 'File:Kabak dessert.jpg',
+    'd-loukoumades': 'File:2019 Marin Greek Festival - Sarah Stierch 11.jpg',
+    'd-schweinshaxe': 'File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg',
+    'd-vinho-do-porto': 'File:Portugal - DSC0763 (24701077667).jpg',
     'santorini': 'File:1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg',
     'salzburg': 'File:Salzburg - Festung Hohensalzburg 15 - 2018-08-20.jpg',
     'utrecht': 'File:Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56.jpg',
@@ -241,7 +251,6 @@ PINNED = {
     's-acropolis_museum': 'File:Acropolis Museum in Athens with Acropolis View.jpg',
     's-lycabettus': 'File:View of Lycabettus Hill from the Areopagus, Athens, 20240531 1216 9596.jpg',
     's-caldera_hike': 'File:Fira at Santorini (from north).jpg',
-    's-wine': 'File:Santorini 103.jpg',
     's-castle_edi': 'File:Edinburgh Castle, from Princes Street Gardens - geograph.org.uk - 5417710.jpg',
     's-wall_memorial': 'File:Mur de Berlin et mirador (Berlin).jpg',
     's-residenz': 'File:Antiquarium, Münchner Residenz.jpg',
