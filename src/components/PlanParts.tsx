@@ -183,7 +183,7 @@ export function Schedule({ plan, tickets = false }: { plan: Plan; tickets?: bool
 export function Stamp({ children, tone = 'good' }: { children: ReactNode; tone?: 'good' | 'bad' }) {
   return (
     <span
-      className={`inline-block -rotate-3 rounded-lg border-2 border-dashed px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.08em] ${
+      className={`inline-block -rotate-3 whitespace-nowrap rounded-lg border-2 border-dashed px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.08em] ${
         tone === 'good' ? 'border-lagoon text-lagoon-dark' : 'border-sunset text-sunset-dark'
       }`}
     >
