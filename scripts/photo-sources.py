@@ -418,6 +418,7 @@ DISHES = {
 # Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
 # article lead image was a map, a logo, too small or simply not the best shot.
 PINNED = {
+    'd-banh-xeo': 'File:Bánh xèo (15826153307).jpg',
     's-universal': 'File:Universal Studios Hollywood (4) (7962961388).jpg',
     's-grand_mosque': 'File:Sheikh Zayed Mosque Silhouette.jpg',
     'd-banh-mi': 'File:Bánh Mì Phượng (2024) - img 04.jpg',
