@@ -21,6 +21,6 @@
     { "id": "lisbon", "wiki": "Belém Tower" },
     { "id": "porto", "wiki": "Dom Luís I Bridge" },
     { "id": "amsterdam", "wiki": ["Keizersgracht", "Magere Brug", "Rijksmuseum"] },
-    { "id": "utrecht", "wiki": ["Oudegracht", "Utrecht"] }
+    { "id": "utrecht", "wiki": ["Nieuwegracht", "Domplein", "Oudegracht"] }
   ]
 }
