@@ -1,8 +1,2 @@
-ok   s-universal                  File:Universal Studios Hollywood (4) (7962961388).jpg (3264x2448, CC BY 2.0)
-ok   s-kata_beach                 File:Kata Beach1.jpg (7892x4439, CC BY 2.0)
-ok   s-grand_mosque               File:Sheikh Zayed Mosque Silhouette.jpg (4032x2268, CC BY-SA 4.0)
-ok   s-qasr_hosn                  File:Qasr_al_Hosn_in_2019.jpg (4032x3024, CC BY-SA 4.0)
-ok   d-banh-mi                    File:Bánh Mì Phượng (2024) - img 04.jpg (3024x4032, CC BY 4.0)
-ok   d-banh-xeo                   File:Banh_Xeo_with_fish_sauce_and_vegetables.jpg (600x400, CC BY 2.0)
-ok   d-pastilla                   File:Dy10.jpg (4608x2592, CC BY-SA 4.0)
-Done: 7 fetched, 0 failed.
+ok   d-banh-xeo                   File:Bánh xèo (15826153307).jpg (5472x3648, CC BY-SA 2.0)
+Done: 1 fetched, 0 failed.
