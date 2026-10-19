@@ -10,14 +10,14 @@
     "height": 2848
   },
   "paris": {
-    "key": "File:Tour Eiffel Wikimedia Commons.jpg",
-    "file": "File:Tour Eiffel Wikimedia Commons.jpg",
-    "author": "Benh LIEU SONG",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
-    "width": 2900,
-    "height": 5367
+    "key": "File:Paris - Eiffelturm und Marsfeld2.jpg",
+    "file": "File:Paris - Eiffelturm und Marsfeld2.jpg",
+    "author": "Wladyslaw (Taxiarchos228)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_-_Eiffelturm_und_Marsfeld2.jpg",
+    "width": 4114,
+    "height": 4235
   },
   "nice": {
     "key": "wiki:Promenade des Anglais",
@@ -30,14 +30,14 @@
     "height": 5108
   },
   "barcelona": {
-    "key": "wiki:Sagrada Família",
-    "file": "File:SF_maig_2_cropped.jpg",
-    "author": "Canaan",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SF_maig_2_cropped.jpg",
-    "width": 1227,
-    "height": 1786
+    "key": "wiki:Park Güell|Casa Batlló",
+    "file": "File:Parc_guell_-_panoramio.jpg",
+    "author": "essetefano",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_guell_-_panoramio.jpg",
+    "width": 2048,
+    "height": 1536
   },
   "seville": {
     "key": "wiki:Plaza de España (Seville)",
@@ -80,24 +80,24 @@
     "height": 1238
   },
   "cappadocia": {
-    "key": "wiki:Göreme",
-    "file": "File:Göreme_town_and_valley_2015.JPG",
-    "author": "MusikAnimal",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_town_and_valley_2015.JPG",
-    "width": 6000,
-    "height": 4000
-  },
-  "athens": {
-    "key": "wiki:Parthenon",
-    "file": "File:The_Parthenon_in_Athens.jpg",
-    "author": "Steve Swayne",
+    "key": "wiki:Cappadocia|Göreme",
+    "file": "File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
+    "author": "Arian Zwegers from Brussels, Belgium",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
-    "width": 1144,
-    "height": 804
+    "source": "https://commons.wikimedia.org/wiki/File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
+    "width": 5184,
+    "height": 3456
+  },
+  "athens": {
+    "key": "wiki:Acropolis of Athens",
+    "file": "File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
+    "width": 8640,
+    "height": 5760
   },
   "santorini": {
     "key": "wiki:Oia, Greece",
@@ -190,23 +190,23 @@
     "height": 2942
   },
   "amsterdam": {
-    "key": "wiki:Prinsengracht",
-    "file": "File:Prinsengracht.jpg",
-    "author": "Kaz Alting",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Prinsengracht.jpg",
-    "width": 4608,
-    "height": 3072
+    "key": "wiki:Keizersgracht|Magere Brug|Rijksmuseum",
+    "file": "File:Keizersgracht_Jul_2019.jpg",
+    "author": "JayAmber",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keizersgracht_Jul_2019.jpg",
+    "width": 2048,
+    "height": 1536
   },
   "utrecht": {
-    "key": "wiki:Dom Tower of Utrecht",
-    "file": "File:DomTorenUtrechtNederland.jpg",
-    "author": "Massimo Catarinella",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:DomTorenUtrechtNederland.jpg",
-    "width": 1763,
-    "height": 3300
+    "key": "wiki:Oudegracht|Utrecht",
+    "file": "File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
+    "author": "Diliff",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
+    "width": 4172,
+    "height": 5553
   }
 }
