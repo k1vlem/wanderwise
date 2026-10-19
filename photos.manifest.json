@@ -147,10 +147,7 @@
   {
    "id": "losangeles",
    "kind": "place",
-   "wiki": [
-    "Downtown Los Angeles",
-    "Hollywood Sign"
-   ]
+   "file": "File:Los Angeles with Mount Baldy.jpg"
   },
   {
    "id": "beijing",
@@ -193,26 +190,17 @@
   {
    "id": "kyoto",
    "kind": "place",
-   "wiki": [
-    "Hōkan-ji",
-    "Kiyomizu-dera"
-   ]
+   "file": "File:Yasaka-dori early morning with street lanterns and the Tower of Yasaka (Hokan-ji Temple), Kyoto, Japan.jpg"
   },
   {
    "id": "bangkok",
    "kind": "place",
-   "wiki": [
-    "Chao Phraya River",
-    "Bangkok"
-   ]
+   "file": "File:Silom Sunset by Don Ramey Logan.jpg"
   },
   {
    "id": "phuket",
    "kind": "place",
-   "wiki": [
-    "Patong",
-    "Phuket province"
-   ]
+   "file": "File:Phuket Aerial.jpg"
   },
   {
    "id": "dubai",
@@ -231,10 +219,7 @@
   {
    "id": "riyadh",
    "kind": "place",
-   "wiki": [
-    "Al Faisaliyah Center",
-    "Riyadh"
-   ]
+   "file": "File:Riyadh Skyline showing the King Abdullah Financial District (KAFD) and the famous Kingdom Tower .jpg"
   },
   {
    "id": "alula",
@@ -246,10 +231,7 @@
   {
    "id": "kualalumpur",
    "kind": "place",
-   "wiki": [
-    "Kuala Lumpur Tower",
-    "Kuala Lumpur"
-   ]
+   "file": "File:Kuala Lumpur Skyline at dusk 1.jpg"
   },
   {
    "id": "penang",
@@ -269,9 +251,7 @@
   {
    "id": "hoian",
    "kind": "place",
-   "wiki": [
-    "Hội An"
-   ]
+   "file": "File:Hội An, Ancient Town, 2020-01 CN-11.jpg"
   },
   {
    "id": "marrakech",
@@ -937,9 +917,7 @@
   {
    "id": "s-top_rock",
    "kind": "detail",
-   "wiki": [
-    "Top of the Rock"
-   ]
+   "file": "File:Empire State Building viewed from Top of the Rock 201403 3.jpg"
   },
   {
    "id": "s-central_park",
@@ -965,10 +943,7 @@
   {
    "id": "s-broadway",
    "kind": "detail",
-   "wiki": [
-    "Broadway theatre",
-    "Times Square"
-   ]
+   "file": "File:Times Square (7181802138).jpg"
   },
   {
    "id": "s-griffith",
@@ -980,9 +955,7 @@
   {
    "id": "s-walk_of_fame",
    "kind": "detail",
-   "wiki": [
-    "Hollywood Walk of Fame"
-   ]
+   "file": "File:Los Angeles (California, USA), Hollywood Boulevard, Gregory Peck -- 2012 -- 4975.jpg"
   },
   {
    "id": "s-santa_monica",
@@ -1045,9 +1018,7 @@
   {
    "id": "s-bund",
    "kind": "detail",
-   "wiki": [
-    "The Bund"
-   ]
+   "file": "File:The Bund at Night.png"
   },
   {
    "id": "s-yu_garden",
@@ -1059,16 +1030,12 @@
   {
    "id": "s-shanghai_tower",
    "kind": "detail",
-   "wiki": [
-    "Shanghai Tower"
-   ]
+   "file": "File:Shanghai skyscrapers 5166285.jpg"
   },
   {
    "id": "s-french_concession",
    "kind": "detail",
-   "wiki": [
-    "Shanghai French Concession"
-   ]
+   "file": "File:Hengshan lu-b.jpg"
   },
   {
    "id": "s-zhujiajiao",
@@ -1088,9 +1055,7 @@
   {
    "id": "s-anthropology",
    "kind": "detail",
-   "wiki": [
-    "National Museum of Anthropology (Mexico)"
-   ]
+   "file": "File:2019-02-24 - Museo Nacional de Antropología - 070.jpg"
   },
   {
    "id": "s-frida",
@@ -1125,9 +1090,7 @@
   {
    "id": "s-isla_mujeres",
    "kind": "detail",
-   "wiki": [
-    "Isla Mujeres"
-   ]
+   "file": "File:Hermosa Caleta beach Isla Mujeres QR 01.jpg"
   },
   {
    "id": "s-cenote",
@@ -1140,9 +1103,7 @@
   {
    "id": "s-playa_delfines",
    "kind": "detail",
-   "wiki": [
-    "es:Playa Delfines"
-   ]
+   "file": "File:Cancun-beach-Mexico-2016-Luka-Peternel.jpg"
   },
   {
    "id": "s-musa",
@@ -1175,10 +1136,7 @@
   {
    "id": "s-teamlab",
    "kind": "detail",
-   "wiki": [
-    "TeamLab Planets",
-    "TeamLab"
-   ]
+   "file": "File:Photos at teamlab planets tokyo.jpg"
   },
   {
    "id": "s-fuji",
@@ -1250,9 +1208,7 @@
   {
    "id": "s-chatuchak",
    "kind": "detail",
-   "wiki": [
-    "Chatuchak Weekend Market"
-   ]
+   "file": "File:Chatuchak Weekend Market Soi.jpg"
   },
   {
    "id": "s-floating_market",
@@ -1272,38 +1228,27 @@
   {
    "id": "s-big_buddha",
    "kind": "detail",
-   "wiki": [
-    "Big Buddha (Phuket)"
-   ]
+   "file": "File:Big Buddha Phuket, Thailand.jpg"
   },
   {
    "id": "s-old_town_phuket",
    "kind": "detail",
-   "wiki": [
-    "Phuket City"
-   ]
+   "file": "File:Soi Rommanee 1.jpg"
   },
   {
    "id": "s-kata_beach",
    "kind": "detail",
-   "wiki": [
-    "Kata Beach",
-    "Karon Beach"
-   ]
+   "file": "File:Phuket - Kata Beach 001.jpg"
   },
   {
    "id": "s-promthep",
    "kind": "detail",
-   "wiki": [
-    "Laem Phromthep"
-   ]
+   "file": "File:Beautiful Sunset on Promthep Cape, Phuket island, Thailand.jpg"
   },
   {
    "id": "s-burj_khalifa",
    "kind": "detail",
-   "wiki": [
-    "Burj Khalifa"
-   ]
+   "file": "File:Dubai Skyline mit Burj Khalifa (cropped).jpg"
   },
   {
    "id": "s-dubai_fountain",
@@ -1315,10 +1260,7 @@
   {
    "id": "s-desert_safari",
    "kind": "detail",
-   "wiki": [
-    "Desert safari",
-    "Arabian Desert"
-   ]
+   "file": "File:A car on Dubai Dune bashing.jpg"
   },
   {
    "id": "s-old_dubai",
@@ -1345,9 +1287,7 @@
   {
    "id": "s-louvre_ad",
    "kind": "detail",
-   "wiki": [
-    "Louvre Abu Dhabi"
-   ]
+   "file": "File:Terrace (250155753).jpeg"
   },
   {
    "id": "s-qasr_watan",
@@ -1359,41 +1299,27 @@
   {
    "id": "s-corniche",
    "kind": "detail",
-   "wiki": [
-    "Abu Dhabi Corniche",
-    "Corniche (Abu Dhabi)"
-   ]
+   "file": "File:Beach @ Corniche @ Abu Dhabi (16018369376).jpg"
   },
   {
    "id": "s-mangroves",
    "kind": "detail",
-   "wiki": [
-    "Mangrove National Park (Abu Dhabi)",
-    "Eastern Mangroves"
-   ]
+   "file": "File:A white heron in the mangroves of Abu Dhabi.jpg"
   },
   {
    "id": "s-diriyah",
    "kind": "detail",
-   "wiki": [
-    "At-Turaif",
-    "Diriyah"
-   ]
+   "file": "File:At-Turaif District in ad-Dir'iyah (6).jpg"
   },
   {
    "id": "s-edge_world",
    "kind": "detail",
-   "wiki": [
-    "Edge of the World (Saudi Arabia)",
-    "Jebel Fihrayn"
-   ]
+   "file": "File:Edge of the World.jpg"
   },
   {
    "id": "s-kingdom_centre",
    "kind": "detail",
-   "wiki": [
-    "Kingdom Centre"
-   ]
+   "file": "File:Riyadh Skyline.jpg"
   },
   {
    "id": "s-masmak",
@@ -1406,17 +1332,12 @@
   {
    "id": "s-national_museum_sa",
    "kind": "detail",
-   "wiki": [
-    "National Museum of Saudi Arabia"
-   ]
+   "file": "File:National Museum Riyadh (6329577420).jpg"
   },
   {
    "id": "s-hegra",
    "kind": "detail",
-   "wiki": [
-    "Hegra (Mada'in Salih)",
-    "Hegra"
-   ]
+   "file": "File:Madain Saleh 2017 02.jpg"
   },
   {
    "id": "s-elephant_rock",
@@ -1429,32 +1350,22 @@
   {
    "id": "s-old_town_alula",
    "kind": "detail",
-   "wiki": [
-    "AlUla Old Town",
-    "Old Town of AlUla"
-   ]
+   "file": "File:Old Town, Al-'Ula (4).jpg"
   },
   {
    "id": "s-maraya",
    "kind": "detail",
-   "wiki": [
-    "Maraya (building)",
-    "Maraya"
-   ]
+   "file": "File:Maraya Concert Hall 20260130 5.jpg"
   },
   {
    "id": "s-alula_balloon",
    "kind": "detail",
-   "wiki": [
-    "Hot air balloon"
-   ]
+   "file": "File:AlUla Hot Air Balloon (2023).jpg"
   },
   {
    "id": "s-petronas",
    "kind": "detail",
-   "wiki": [
-    "Petronas Towers"
-   ]
+   "file": "File:Petronas Twin Towers (230715-1406).jpg"
   },
   {
    "id": "s-batu_caves",
@@ -1466,17 +1377,12 @@
   {
    "id": "s-jalan_alor",
    "kind": "detail",
-   "wiki": [
-    "Jalan Alor"
-   ]
+   "file": "File:Jalan Alor - Kuala Lumpur.jpg"
   },
   {
    "id": "s-merdeka",
    "kind": "detail",
-   "wiki": [
-    "Merdeka Square, Kuala Lumpur",
-    "Sultan Abdul Samad Building"
-   ]
+   "file": "File:2016 Kuala Lumpur, Budynek Sułtana Abdula Samada (06).jpg"
   },
   {
    "id": "s-melaka",
@@ -1489,10 +1395,7 @@
   {
    "id": "s-george_town",
    "kind": "detail",
-   "wiki": [
-    "Armenian Street, Penang",
-    "Street art"
-   ]
+   "file": "File:Penang - Little Children on a Bicycle.JPG"
   },
   {
    "id": "s-kek_lok_si",
@@ -1504,9 +1407,7 @@
   {
    "id": "s-penang_hill",
    "kind": "detail",
-   "wiki": [
-    "Penang Hill"
-   ]
+   "file": "File:Penang Hill Funicular Railway - panoramio.jpg"
   },
   {
    "id": "s-clan_jetties",
@@ -1570,23 +1471,17 @@
   {
    "id": "s-lantern_night",
    "kind": "detail",
-   "wiki": [
-    "Thu Bồn River"
-   ]
+   "file": "File:Lanterns in Hoi An 6.jpg"
   },
   {
    "id": "s-my_son",
    "kind": "detail",
-   "wiki": [
-    "Mỹ Sơn"
-   ]
+   "file": "File:2024 - Mỹ Sơn Group B, C and D - img 23.jpg"
   },
   {
    "id": "s-an_bang",
    "kind": "detail",
-   "wiki": [
-    "An Bang Beach"
-   ]
+   "file": "File:Playa An Bang, Hoi An, Vietnam (39510560665).jpg"
   },
   {
    "id": "s-ba_na",
@@ -1620,10 +1515,7 @@
   {
    "id": "s-souks",
    "kind": "detail",
-   "wiki": [
-    "Medina of Marrakesh",
-    "Souk"
-   ]
+   "file": "File:Lámparas, Djemaa el Fna -- 2014 -- Marrakech, Marruecos.jpg"
   },
   {
    "id": "s-atlas",
@@ -1643,16 +1535,12 @@
   {
    "id": "s-medina_fes",
    "kind": "detail",
-   "wiki": [
-    "Fes el Bali"
-   ]
+   "file": "File:Looking Upon The Medina in Fes, Morocco.jpg"
   },
   {
    "id": "s-bou_inania",
    "kind": "detail",
-   "wiki": [
-    "Bou Inania Madrasa (Fez)"
-   ]
+   "file": "File:Bou Inania Madrasa 2011.jpg"
   },
   {
    "id": "s-merenid_tombs",
@@ -2202,9 +2090,7 @@
   {
    "id": "d-ny-pizza",
    "kind": "detail",
-   "wiki": [
-    "New York-style pizza"
-   ]
+   "file": "File:Piazza pizza slice.JPG"
   },
   {
    "id": "d-bagel-lox",
@@ -2224,9 +2110,7 @@
   {
    "id": "d-ny-strip-steak",
    "kind": "detail",
-   "wiki": [
-    "Strip steak"
-   ]
+   "file": "File:Hickory Grilled NY Strip (6523198789).jpg"
   },
   {
    "id": "d-fish-tacos",
@@ -2357,17 +2241,12 @@
   {
    "id": "d-sopa-de-lima",
    "kind": "detail",
-   "wiki": [
-    "Sopa de lima"
-   ]
+   "file": "File:Sopa de lima yucateca en Mercado Santa Anita de Mérida 04.jpg"
   },
   {
    "id": "d-camarones-al-mojo-de-ajo",
    "kind": "detail",
-   "wiki": [
-    "es:Camarones al mojo de ajo",
-    "Garlic shrimp"
-   ]
+   "file": "File:Camarones al mojo de ajo.JPG"
   },
   {
    "id": "d-ramen",
@@ -2400,9 +2279,7 @@
   {
    "id": "d-yudofu",
    "kind": "detail",
-   "wiki": [
-    "Yudōfu"
-   ]
+   "file": "File:Yudōfu 001.jpg"
   },
   {
    "id": "d-okonomiyaki",
@@ -2477,10 +2354,7 @@
   {
    "id": "d-pla-neung-manao",
    "kind": "detail",
-   "wiki": [
-    "th:ปลากะพงนึ่งมะนาว",
-    "Steamed fish"
-   ]
+   "file": "File:Thai steamed fish with lime juice.jpg"
   },
   {
    "id": "d-shawarma",
@@ -2506,10 +2380,7 @@
   {
    "id": "d-arabic-mixed-grill",
    "kind": "detail",
-   "wiki": [
-    "Mixed grill",
-    "Shish taouk"
-   ]
+   "file": "File:Chicken Çöp Kebab Platter - Lavash 2025-12-26.jpg"
   },
   {
    "id": "d-falafel",
@@ -2526,11 +2397,10 @@
    ]
   },
   {
-   "id": "d-grilled-hammour",
+   "id": "d-arabic-mezze",
    "kind": "detail",
    "wiki": [
-    "Hammour",
-    "Grilled fish"
+    "Hummus"
    ]
   },
   {
@@ -2544,9 +2414,7 @@
   {
    "id": "d-jareesh",
    "kind": "detail",
-   "wiki": [
-    "Jareesh"
-   ]
+   "file": "File:Jarish SaudiCuisine.JPG"
   },
   {
    "id": "d-mutabbaq",
@@ -2558,16 +2426,12 @@
   {
    "id": "d-kabsa",
    "kind": "detail",
-   "wiki": [
-    "Kabsa"
-   ]
+   "file": "File:Machboos (cropped).JPG"
   },
   {
    "id": "d-mandi",
    "kind": "detail",
-   "wiki": [
-    "Mandi (food)"
-   ]
+   "file": "File:Mandi Lamb Shank, Lepak @ Sultan, 62 Bussorah St, Singapore (02).jpg"
   },
   {
    "id": "d-sambusa",
@@ -2577,10 +2441,10 @@
    ]
   },
   {
-   "id": "d-ful-medames",
+   "id": "d-shakshuka",
    "kind": "detail",
    "wiki": [
-    "Ful medames"
+    "Shakshouka"
    ]
   },
   {
@@ -2628,9 +2492,7 @@
   {
    "id": "d-char-kway-teow",
    "kind": "detail",
-   "wiki": [
-    "Char kway teow"
-   ]
+   "file": "File:Char kway teow in parit buntar.jpg"
   },
   {
    "id": "d-assam-laksa",
@@ -2650,10 +2512,7 @@
   {
    "id": "d-prawn-mee",
    "kind": "detail",
-   "wiki": [
-    "Hae mee",
-    "Prawn noodles"
-   ]
+   "file": "File:Malaysian prawn noodles.jpg"
   },
   {
    "id": "d-pho",
@@ -2680,9 +2539,7 @@
   {
    "id": "d-nem-ran",
    "kind": "detail",
-   "wiki": [
-    "Chả giò"
-   ]
+   "file": "File:Chả giò SG (nem rán giòn) ở quán bún riêu Bà Ti ng26th7n2023 (3).jpg"
   },
   {
    "id": "d-cao-lau",
@@ -2715,9 +2572,7 @@
   {
    "id": "d-harira",
    "kind": "detail",
-   "wiki": [
-    "Harira"
-   ]
+   "file": "File:Harira vegetarisch.jpg"
   },
   {
    "id": "d-mechoui",
@@ -2729,17 +2584,12 @@
   {
    "id": "d-tagine",
    "kind": "detail",
-   "wiki": [
-    "Tajine"
-   ]
+   "file": "File:Tagine au poisson.jpeg"
   },
   {
    "id": "d-tanjia",
    "kind": "detail",
-   "wiki": [
-    "Tangia",
-    "Tanjia"
-   ]
+   "file": "File:Tangia in Marrakech 07.jpg"
   },
   {
    "id": "d-bissara",
