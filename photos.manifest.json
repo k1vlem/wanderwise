@@ -1,26 +1,1456 @@
 {
-  "note": "Each photo is the lead image of an English Wikipedia article, downloaded from Wikimedia Commons by scripts/fetch-photos.mjs. To replace a photo, set \"file\" to a Commons file name (\"File:Example.jpg\").",
-  "photos": [
-    { "id": "hero", "wiki": "Positano" },
-    { "id": "paris", "file": "File:Paris - Eiffelturm und Marsfeld2.jpg" },
-    { "id": "nice", "wiki": "Promenade des Anglais" },
-    { "id": "barcelona", "wiki": ["Park Güell", "Casa Batlló"] },
-    { "id": "seville", "wiki": "Plaza de España (Seville)" },
-    { "id": "rome", "wiki": "Colosseum" },
-    { "id": "florence", "wiki": "Florence Cathedral" },
-    { "id": "istanbul", "wiki": "Hagia Sophia" },
-    { "id": "cappadocia", "wiki": ["Cappadocia", "Göreme"] },
-    { "id": "athens", "wiki": "Acropolis of Athens" },
-    { "id": "santorini", "wiki": "Oia, Greece" },
-    { "id": "london", "wiki": "Tower Bridge" },
-    { "id": "edinburgh", "wiki": "Edinburgh Castle" },
-    { "id": "berlin", "wiki": "Brandenburg Gate" },
-    { "id": "munich", "wiki": "Marienplatz" },
-    { "id": "vienna", "wiki": "Schönbrunn Palace" },
-    { "id": "salzburg", "wiki": "Hohensalzburg Fortress" },
-    { "id": "lisbon", "wiki": "Belém Tower" },
-    { "id": "porto", "wiki": "Dom Luís I Bridge" },
-    { "id": "amsterdam", "wiki": ["Keizersgracht", "Magere Brug", "Rijksmuseum"] },
-    { "id": "utrecht", "wiki": ["Nieuwegracht", "Domplein", "Oudegracht"] }
-  ]
+ "note": "Photos are lead images of Wikipedia articles (\"lang:Title\" for other languages), downloaded from Wikimedia Commons by scripts/fetch-photos.mjs. The first article whose image is not used yet wins. To pin a photo, set \"file\" to a Commons file name.",
+ "photos": [
+  {
+   "id": "hero",
+   "kind": "place",
+   "wiki": [
+    "Positano"
+   ]
+  },
+  {
+   "id": "paris",
+   "kind": "place",
+   "file": "File:Paris - Eiffelturm und Marsfeld2.jpg"
+  },
+  {
+   "id": "nice",
+   "kind": "place",
+   "wiki": [
+    "Promenade des Anglais"
+   ]
+  },
+  {
+   "id": "barcelona",
+   "kind": "place",
+   "wiki": [
+    "Casa Batlló",
+    "Passeig de Gràcia"
+   ]
+  },
+  {
+   "id": "seville",
+   "kind": "place",
+   "wiki": [
+    "Plaza de España (Seville)"
+   ]
+  },
+  {
+   "id": "rome",
+   "kind": "place",
+   "wiki": [
+    "Colosseum"
+   ]
+  },
+  {
+   "id": "florence",
+   "kind": "place",
+   "wiki": [
+    "Ponte Vecchio"
+   ]
+  },
+  {
+   "id": "istanbul",
+   "kind": "place",
+   "wiki": [
+    "Galata Tower"
+   ]
+  },
+  {
+   "id": "cappadocia",
+   "kind": "place",
+   "wiki": [
+    "Göreme"
+   ]
+  },
+  {
+   "id": "athens",
+   "kind": "place",
+   "wiki": [
+    "Acropolis of Athens"
+   ]
+  },
+  {
+   "id": "santorini",
+   "kind": "place",
+   "wiki": [
+    "Santorini",
+    "Fira"
+   ]
+  },
+  {
+   "id": "london",
+   "kind": "place",
+   "wiki": [
+    "Tower Bridge"
+   ]
+  },
+  {
+   "id": "edinburgh",
+   "kind": "place",
+   "wiki": [
+    "Old Town, Edinburgh",
+    "Princes Street Gardens"
+   ]
+  },
+  {
+   "id": "berlin",
+   "kind": "place",
+   "wiki": [
+    "Brandenburg Gate"
+   ]
+  },
+  {
+   "id": "munich",
+   "kind": "place",
+   "wiki": [
+    "Marienplatz"
+   ]
+  },
+  {
+   "id": "vienna",
+   "kind": "place",
+   "wiki": [
+    "Hofburg",
+    "Heldenplatz"
+   ]
+  },
+  {
+   "id": "salzburg",
+   "kind": "place",
+   "wiki": [
+    "Historic Centre of the City of Salzburg",
+    "Salzburg Cathedral"
+   ]
+  },
+  {
+   "id": "lisbon",
+   "kind": "place",
+   "wiki": [
+    "Belém Tower"
+   ]
+  },
+  {
+   "id": "porto",
+   "kind": "place",
+   "wiki": [
+    "Dom Luís I Bridge"
+   ]
+  },
+  {
+   "id": "amsterdam",
+   "kind": "place",
+   "wiki": [
+    "Keizersgracht"
+   ]
+  },
+  {
+   "id": "utrecht",
+   "kind": "place",
+   "wiki": [
+    "Oudegracht",
+    "Utrecht"
+   ]
+  },
+  {
+   "id": "s-eiffel",
+   "kind": "detail",
+   "file": "File:Tour Eiffel Wikimedia Commons.jpg"
+  },
+  {
+   "id": "s-louvre",
+   "kind": "detail",
+   "wiki": [
+    "Louvre Pyramid",
+    "Louvre"
+   ]
+  },
+  {
+   "id": "s-orsay",
+   "kind": "detail",
+   "wiki": [
+    "Musée d'Orsay"
+   ]
+  },
+  {
+   "id": "s-montmartre",
+   "kind": "detail",
+   "wiki": [
+    "Sacré-Cœur, Paris",
+    "Montmartre"
+   ]
+  },
+  {
+   "id": "s-seine",
+   "kind": "detail",
+   "wiki": [
+    "Bateaux Mouches",
+    "Pont Alexandre III"
+   ]
+  },
+  {
+   "id": "s-promenade",
+   "kind": "detail",
+   "wiki": [
+    "Baie des Anges",
+    "Promenade des Anglais"
+   ]
+  },
+  {
+   "id": "s-old_nice",
+   "kind": "detail",
+   "wiki": [
+    "Cours Saleya",
+    "Vieux Nice"
+   ]
+  },
+  {
+   "id": "s-castle_hill",
+   "kind": "detail",
+   "wiki": [
+    "Colline du Château"
+   ]
+  },
+  {
+   "id": "s-matisse",
+   "kind": "detail",
+   "wiki": [
+    "Musée Matisse (Nice)"
+   ]
+  },
+  {
+   "id": "s-eze",
+   "kind": "detail",
+   "wiki": [
+    "Èze"
+   ]
+  },
+  {
+   "id": "s-sagrada",
+   "kind": "detail",
+   "wiki": [
+    "Sagrada Família"
+   ]
+  },
+  {
+   "id": "s-guell",
+   "kind": "detail",
+   "wiki": [
+    "Park Güell"
+   ]
+  },
+  {
+   "id": "s-gothic",
+   "kind": "detail",
+   "wiki": [
+    "Gothic Quarter, Barcelona"
+   ]
+  },
+  {
+   "id": "s-barceloneta",
+   "kind": "detail",
+   "wiki": [
+    "Platja de la Barceloneta",
+    "La Barceloneta, Barcelona"
+   ]
+  },
+  {
+   "id": "s-bunkers",
+   "kind": "detail",
+   "wiki": [
+    "Turó de la Rovira"
+   ]
+  },
+  {
+   "id": "s-alcazar",
+   "kind": "detail",
+   "wiki": [
+    "Alcázar of Seville"
+   ]
+  },
+  {
+   "id": "s-cathedral_sev",
+   "kind": "detail",
+   "wiki": [
+    "Giralda",
+    "Seville Cathedral"
+   ]
+  },
+  {
+   "id": "s-plaza_espana",
+   "kind": "detail",
+   "wiki": [
+    "María Luisa Park",
+    "Plaza de España (Seville)"
+   ]
+  },
+  {
+   "id": "s-setas",
+   "kind": "detail",
+   "wiki": [
+    "Metropol Parasol"
+   ]
+  },
+  {
+   "id": "s-flamenco",
+   "kind": "detail",
+   "wiki": [
+    "Flamenco"
+   ]
+  },
+  {
+   "id": "s-colosseum",
+   "kind": "detail",
+   "wiki": [
+    "Roman Forum"
+   ]
+  },
+  {
+   "id": "s-vatican",
+   "kind": "detail",
+   "wiki": [
+    "Sistine Chapel ceiling",
+    "Sistine Chapel"
+   ]
+  },
+  {
+   "id": "s-pantheon",
+   "kind": "detail",
+   "wiki": [
+    "Trevi Fountain"
+   ]
+  },
+  {
+   "id": "s-borghese",
+   "kind": "detail",
+   "wiki": [
+    "Galleria Borghese"
+   ]
+  },
+  {
+   "id": "s-trastevere",
+   "kind": "detail",
+   "wiki": [
+    "Trastevere"
+   ]
+  },
+  {
+   "id": "s-uffizi",
+   "kind": "detail",
+   "wiki": [
+    "Uffizi"
+   ]
+  },
+  {
+   "id": "s-duomo",
+   "kind": "detail",
+   "wiki": [
+    "Florence Cathedral"
+   ]
+  },
+  {
+   "id": "s-accademia",
+   "kind": "detail",
+   "wiki": [
+    "David (Michelangelo)"
+   ]
+  },
+  {
+   "id": "s-michelangelo",
+   "kind": "detail",
+   "wiki": [
+    "Piazzale Michelangelo"
+   ]
+  },
+  {
+   "id": "s-boboli",
+   "kind": "detail",
+   "wiki": [
+    "Boboli Gardens"
+   ]
+  },
+  {
+   "id": "s-hagia",
+   "kind": "detail",
+   "wiki": [
+    "Hagia Sophia"
+   ]
+  },
+  {
+   "id": "s-topkapi",
+   "kind": "detail",
+   "wiki": [
+    "Topkapı Palace"
+   ]
+  },
+  {
+   "id": "s-bluemosque",
+   "kind": "detail",
+   "wiki": [
+    "Blue Mosque, Istanbul",
+    "Sultan Ahmed Mosque"
+   ]
+  },
+  {
+   "id": "s-bazaar",
+   "kind": "detail",
+   "wiki": [
+    "Grand Bazaar, Istanbul"
+   ]
+  },
+  {
+   "id": "s-bosphorus",
+   "kind": "detail",
+   "wiki": [
+    "Bosphorus"
+   ]
+  },
+  {
+   "id": "s-balloon",
+   "kind": "detail",
+   "wiki": [
+    "Cappadocia"
+   ]
+  },
+  {
+   "id": "s-goreme_museum",
+   "kind": "detail",
+   "wiki": [
+    "Göreme Open Air Museum"
+   ]
+  },
+  {
+   "id": "s-rose_valley",
+   "kind": "detail",
+   "wiki": [
+    "Fairy chimney",
+    "Love Valley"
+   ]
+  },
+  {
+   "id": "s-derinkuyu",
+   "kind": "detail",
+   "wiki": [
+    "Derinkuyu underground city"
+   ]
+  },
+  {
+   "id": "s-uchisar",
+   "kind": "detail",
+   "wiki": [
+    "Uçhisar"
+   ]
+  },
+  {
+   "id": "s-acropolis",
+   "kind": "detail",
+   "wiki": [
+    "Parthenon"
+   ]
+  },
+  {
+   "id": "s-acropolis_museum",
+   "kind": "detail",
+   "wiki": [
+    "Acropolis Museum"
+   ]
+  },
+  {
+   "id": "s-agora",
+   "kind": "detail",
+   "wiki": [
+    "Ancient Agora of Athens",
+    "Temple of Hephaestus"
+   ]
+  },
+  {
+   "id": "s-plaka",
+   "kind": "detail",
+   "wiki": [
+    "Plaka",
+    "Anafiotika"
+   ]
+  },
+  {
+   "id": "s-lycabettus",
+   "kind": "detail",
+   "wiki": [
+    "Mount Lycabettus"
+   ]
+  },
+  {
+   "id": "s-caldera_hike",
+   "kind": "detail",
+   "wiki": [
+    "Santorini caldera"
+   ]
+  },
+  {
+   "id": "s-oia",
+   "kind": "detail",
+   "wiki": [
+    "Oia, Greece"
+   ]
+  },
+  {
+   "id": "s-akrotiri",
+   "kind": "detail",
+   "wiki": [
+    "Akrotiri (prehistoric city)"
+   ]
+  },
+  {
+   "id": "s-red_beach",
+   "kind": "detail",
+   "wiki": [
+    "Red Beach (Santorini)"
+   ]
+  },
+  {
+   "id": "s-wine",
+   "kind": "detail",
+   "wiki": [
+    "Vinsanto",
+    "Santorini (wine)"
+   ]
+  },
+  {
+   "id": "s-british_museum",
+   "kind": "detail",
+   "wiki": [
+    "British Museum"
+   ]
+  },
+  {
+   "id": "s-tower",
+   "kind": "detail",
+   "wiki": [
+    "Tower of London"
+   ]
+  },
+  {
+   "id": "s-westminster",
+   "kind": "detail",
+   "wiki": [
+    "Big Ben",
+    "Palace of Westminster"
+   ]
+  },
+  {
+   "id": "s-eye",
+   "kind": "detail",
+   "wiki": [
+    "London Eye"
+   ]
+  },
+  {
+   "id": "s-west_end",
+   "kind": "detail",
+   "wiki": [
+    "West End theatre"
+   ]
+  },
+  {
+   "id": "s-castle_edi",
+   "kind": "detail",
+   "wiki": [
+    "Edinburgh Castle"
+   ]
+  },
+  {
+   "id": "s-royal_mile",
+   "kind": "detail",
+   "wiki": [
+    "Royal Mile"
+   ]
+  },
+  {
+   "id": "s-arthurs_seat",
+   "kind": "detail",
+   "wiki": [
+    "Arthur's Seat"
+   ]
+  },
+  {
+   "id": "s-holyrood",
+   "kind": "detail",
+   "wiki": [
+    "Holyrood Palace"
+   ]
+  },
+  {
+   "id": "s-calton",
+   "kind": "detail",
+   "wiki": [
+    "Calton Hill"
+   ]
+  },
+  {
+   "id": "s-brandenburg",
+   "kind": "detail",
+   "wiki": [
+    "Reichstag building"
+   ]
+  },
+  {
+   "id": "s-museum_island",
+   "kind": "detail",
+   "wiki": [
+    "Museum Island",
+    "Altes Museum"
+   ]
+  },
+  {
+   "id": "s-wall_memorial",
+   "kind": "detail",
+   "wiki": [
+    "Berlin Wall Memorial",
+    "Berlin Wall"
+   ]
+  },
+  {
+   "id": "s-east_side",
+   "kind": "detail",
+   "wiki": [
+    "East Side Gallery"
+   ]
+  },
+  {
+   "id": "s-kreuzberg",
+   "kind": "detail",
+   "wiki": [
+    "Oberbaum Bridge",
+    "Kreuzberg"
+   ]
+  },
+  {
+   "id": "s-marienplatz",
+   "kind": "detail",
+   "wiki": [
+    "New Town Hall (Munich)"
+   ]
+  },
+  {
+   "id": "s-neuschwanstein",
+   "kind": "detail",
+   "wiki": [
+    "Neuschwanstein Castle"
+   ]
+  },
+  {
+   "id": "s-residenz",
+   "kind": "detail",
+   "wiki": [
+    "Munich Residenz"
+   ]
+  },
+  {
+   "id": "s-english_garden",
+   "kind": "detail",
+   "wiki": [
+    "Englischer Garten",
+    "Eisbach (Isar)"
+   ]
+  },
+  {
+   "id": "s-hofbrauhaus",
+   "kind": "detail",
+   "wiki": [
+    "Hofbräuhaus am Platzl"
+   ]
+  },
+  {
+   "id": "s-schonbrunn",
+   "kind": "detail",
+   "wiki": [
+    "Schönbrunn Palace"
+   ]
+  },
+  {
+   "id": "s-belvedere",
+   "kind": "detail",
+   "wiki": [
+    "The Kiss (Klimt)",
+    "Belvedere, Vienna"
+   ]
+  },
+  {
+   "id": "s-stephansdom",
+   "kind": "detail",
+   "wiki": [
+    "St. Stephen's Cathedral, Vienna"
+   ]
+  },
+  {
+   "id": "s-naschmarkt",
+   "kind": "detail",
+   "wiki": [
+    "Naschmarkt"
+   ]
+  },
+  {
+   "id": "s-opera",
+   "kind": "detail",
+   "wiki": [
+    "Vienna State Opera"
+   ]
+  },
+  {
+   "id": "s-fortress",
+   "kind": "detail",
+   "wiki": [
+    "Hohensalzburg Fortress"
+   ]
+  },
+  {
+   "id": "s-hallstatt",
+   "kind": "detail",
+   "wiki": [
+    "Hallstatt"
+   ]
+  },
+  {
+   "id": "s-mozart",
+   "kind": "detail",
+   "wiki": [
+    "Mozart's birthplace"
+   ]
+  },
+  {
+   "id": "s-mirabell",
+   "kind": "detail",
+   "wiki": [
+    "Mirabell Palace"
+   ]
+  },
+  {
+   "id": "s-getreidegasse",
+   "kind": "detail",
+   "wiki": [
+    "Getreidegasse"
+   ]
+  },
+  {
+   "id": "s-belem",
+   "kind": "detail",
+   "wiki": [
+    "Jerónimos Monastery"
+   ]
+  },
+  {
+   "id": "s-tram28",
+   "kind": "detail",
+   "wiki": [
+    "Lisbon tramway network",
+    "Tram 28 (Lisbon)"
+   ]
+  },
+  {
+   "id": "s-sintra",
+   "kind": "detail",
+   "wiki": [
+    "Pena Palace"
+   ]
+  },
+  {
+   "id": "s-sao_jorge",
+   "kind": "detail",
+   "wiki": [
+    "São Jorge Castle"
+   ]
+  },
+  {
+   "id": "s-fado",
+   "kind": "detail",
+   "wiki": [
+    "Fado"
+   ]
+  },
+  {
+   "id": "s-ribeira",
+   "kind": "detail",
+   "wiki": [
+    "Ribeira (Porto)",
+    "Cais da Ribeira"
+   ]
+  },
+  {
+   "id": "s-port_cellar",
+   "kind": "detail",
+   "wiki": [
+    "Vila Nova de Gaia",
+    "Port wine"
+   ]
+  },
+  {
+   "id": "s-lello",
+   "kind": "detail",
+   "wiki": [
+    "Livraria Lello"
+   ]
+  },
+  {
+   "id": "s-clerigos",
+   "kind": "detail",
+   "wiki": [
+    "Clérigos Church"
+   ]
+  },
+  {
+   "id": "s-douro_cruise",
+   "kind": "detail",
+   "wiki": [
+    "Rabelo boat",
+    "Douro"
+   ]
+  },
+  {
+   "id": "s-rijks",
+   "kind": "detail",
+   "wiki": [
+    "Rijksmuseum"
+   ]
+  },
+  {
+   "id": "s-van_gogh",
+   "kind": "detail",
+   "wiki": [
+    "Van Gogh Museum"
+   ]
+  },
+  {
+   "id": "s-anne_frank",
+   "kind": "detail",
+   "wiki": [
+    "Anne Frank House"
+   ]
+  },
+  {
+   "id": "s-jordaan",
+   "kind": "detail",
+   "wiki": [
+    "Jordaan"
+   ]
+  },
+  {
+   "id": "s-canal_cruise",
+   "kind": "detail",
+   "wiki": [
+    "Magere Brug"
+   ]
+  },
+  {
+   "id": "s-dom",
+   "kind": "detail",
+   "wiki": [
+    "Dom Tower of Utrecht"
+   ]
+  },
+  {
+   "id": "s-kinderdijk",
+   "kind": "detail",
+   "wiki": [
+    "Kinderdijk"
+   ]
+  },
+  {
+   "id": "s-rietveld",
+   "kind": "detail",
+   "wiki": [
+    "Rietveld Schröder House"
+   ]
+  },
+  {
+   "id": "s-boat_utrecht",
+   "kind": "detail",
+   "wiki": [
+    "Oudegracht"
+   ]
+  },
+  {
+   "id": "s-wharves",
+   "kind": "detail",
+   "wiki": [
+    "Oudegracht"
+   ]
+  },
+  {
+   "id": "d-croque-monsieur",
+   "kind": "detail",
+   "wiki": [
+    "Croque monsieur"
+   ]
+  },
+  {
+   "id": "d-steak-frites",
+   "kind": "detail",
+   "wiki": [
+    "Steak frites"
+   ]
+  },
+  {
+   "id": "d-crepes",
+   "kind": "detail",
+   "wiki": [
+    "Crêpe"
+   ]
+  },
+  {
+   "id": "d-boeuf-bourguignon",
+   "kind": "detail",
+   "wiki": [
+    "Beef bourguignon"
+   ]
+  },
+  {
+   "id": "d-socca",
+   "kind": "detail",
+   "wiki": [
+    "Socca",
+    "Farinata"
+   ]
+  },
+  {
+   "id": "d-salade-nicoise",
+   "kind": "detail",
+   "wiki": [
+    "Salade niçoise"
+   ]
+  },
+  {
+   "id": "d-daube-nicoise",
+   "kind": "detail",
+   "wiki": [
+    "fr:Daube niçoise",
+    "Daube"
+   ]
+  },
+  {
+   "id": "d-pissaladiere",
+   "kind": "detail",
+   "wiki": [
+    "Pissaladière"
+   ]
+  },
+  {
+   "id": "d-pa-amb-tomaquet",
+   "kind": "detail",
+   "wiki": [
+    "Pa amb tomàquet"
+   ]
+  },
+  {
+   "id": "d-paella",
+   "kind": "detail",
+   "wiki": [
+    "Paella"
+   ]
+  },
+  {
+   "id": "d-tapas",
+   "kind": "detail",
+   "wiki": [
+    "Tapas"
+   ]
+  },
+  {
+   "id": "d-crema-catalana",
+   "kind": "detail",
+   "wiki": [
+    "Crema catalana"
+   ]
+  },
+  {
+   "id": "d-salmorejo",
+   "kind": "detail",
+   "wiki": [
+    "Salmorejo"
+   ]
+  },
+  {
+   "id": "d-jamon-iberico",
+   "kind": "detail",
+   "wiki": [
+    "Jamón ibérico"
+   ]
+  },
+  {
+   "id": "d-espinacas-con-garbanzos",
+   "kind": "detail",
+   "wiki": [
+    "es:Espinacas con garbanzos"
+   ]
+  },
+  {
+   "id": "d-pescaito-frito",
+   "kind": "detail",
+   "wiki": [
+    "es:Pescaíto frito",
+    "Fried fish"
+   ]
+  },
+  {
+   "id": "d-carbonara",
+   "kind": "detail",
+   "wiki": [
+    "Carbonara"
+   ]
+  },
+  {
+   "id": "d-cacio-e-pepe",
+   "kind": "detail",
+   "wiki": [
+    "Cacio e pepe"
+   ]
+  },
+  {
+   "id": "d-suppli",
+   "kind": "detail",
+   "wiki": [
+    "Supplì",
+    "it:Supplì"
+   ]
+  },
+  {
+   "id": "d-saltimbocca-alla-romana",
+   "kind": "detail",
+   "wiki": [
+    "Saltimbocca"
+   ]
+  },
+  {
+   "id": "d-schiacciata",
+   "kind": "detail",
+   "wiki": [
+    "Schiacciata",
+    "it:Schiacciata"
+   ]
+  },
+  {
+   "id": "d-bistecca-alla-fiorentina",
+   "kind": "detail",
+   "wiki": [
+    "Bistecca alla fiorentina"
+   ]
+  },
+  {
+   "id": "d-lampredotto",
+   "kind": "detail",
+   "wiki": [
+    "Lampredotto"
+   ]
+  },
+  {
+   "id": "d-ribollita",
+   "kind": "detail",
+   "wiki": [
+    "Ribollita"
+   ]
+  },
+  {
+   "id": "d-balik-ekmek",
+   "kind": "detail",
+   "wiki": [
+    "Balık ekmek"
+   ]
+  },
+  {
+   "id": "d-meze",
+   "kind": "detail",
+   "wiki": [
+    "Meze"
+   ]
+  },
+  {
+   "id": "d-baklava",
+   "kind": "detail",
+   "wiki": [
+    "Baklava"
+   ]
+  },
+  {
+   "id": "d-iskender-kebap",
+   "kind": "detail",
+   "wiki": [
+    "İskender kebap"
+   ]
+  },
+  {
+   "id": "d-gozleme",
+   "kind": "detail",
+   "wiki": [
+    "Gözleme"
+   ]
+  },
+  {
+   "id": "d-testi-kebabi",
+   "kind": "detail",
+   "wiki": [
+    "Testi kebab",
+    "tr:Testi kebabı"
+   ]
+  },
+  {
+   "id": "d-manti",
+   "kind": "detail",
+   "wiki": [
+    "Manti (food)"
+   ]
+  },
+  {
+   "id": "d-kabak-tatlisi",
+   "kind": "detail",
+   "wiki": [
+    "tr:Kabak tatlısı",
+    "Kabak tatlısı"
+   ]
+  },
+  {
+   "id": "d-souvlaki",
+   "kind": "detail",
+   "wiki": [
+    "Souvlaki"
+   ]
+  },
+  {
+   "id": "d-moussaka",
+   "kind": "detail",
+   "wiki": [
+    "Moussaka"
+   ]
+  },
+  {
+   "id": "d-horiatiki",
+   "kind": "detail",
+   "wiki": [
+    "Greek salad"
+   ]
+  },
+  {
+   "id": "d-loukoumades",
+   "kind": "detail",
+   "wiki": [
+    "Loukoumades",
+    "Lokma"
+   ]
+  },
+  {
+   "id": "d-tomatokeftedes",
+   "kind": "detail",
+   "wiki": [
+    "Tomatokeftedes",
+    "el:Ντοματοκεφτέδες"
+   ]
+  },
+  {
+   "id": "d-fava",
+   "kind": "detail",
+   "wiki": [
+    "Fava (Greek dish)",
+    "Split pea"
+   ]
+  },
+  {
+   "id": "d-htapodi-sti-skara",
+   "kind": "detail",
+   "wiki": [
+    "Octopus as food"
+   ]
+  },
+  {
+   "id": "d-assyrtiko",
+   "kind": "detail",
+   "wiki": [
+    "Assyrtiko"
+   ]
+  },
+  {
+   "id": "d-fish-and-chips",
+   "kind": "detail",
+   "wiki": [
+    "Fish and chips"
+   ]
+  },
+  {
+   "id": "d-sunday-roast",
+   "kind": "detail",
+   "wiki": [
+    "Sunday roast"
+   ]
+  },
+  {
+   "id": "d-afternoon-tea",
+   "kind": "detail",
+   "wiki": [
+    "Afternoon tea",
+    "Tea (meal)"
+   ]
+  },
+  {
+   "id": "d-brick-lane-curry",
+   "kind": "detail",
+   "wiki": [
+    "Chicken tikka masala",
+    "Brick Lane"
+   ]
+  },
+  {
+   "id": "d-cullen-skink",
+   "kind": "detail",
+   "wiki": [
+    "Cullen skink"
+   ]
+  },
+  {
+   "id": "d-haggis-neeps-tatties",
+   "kind": "detail",
+   "wiki": [
+    "Haggis"
+   ]
+  },
+  {
+   "id": "d-scotch-pie",
+   "kind": "detail",
+   "wiki": [
+    "Scotch pie"
+   ]
+  },
+  {
+   "id": "d-cranachan",
+   "kind": "detail",
+   "wiki": [
+    "Cranachan"
+   ]
+  },
+  {
+   "id": "d-currywurst",
+   "kind": "detail",
+   "wiki": [
+    "Currywurst"
+   ]
+  },
+  {
+   "id": "d-doner-kebab",
+   "kind": "detail",
+   "wiki": [
+    "Doner kebab"
+   ]
+  },
+  {
+   "id": "d-eisbein",
+   "kind": "detail",
+   "wiki": [
+    "Eisbein"
+   ]
+  },
+  {
+   "id": "d-konigsberger-klopse",
+   "kind": "detail",
+   "wiki": [
+    "Königsberger Klopse"
+   ]
+  },
+  {
+   "id": "d-weisswurst",
+   "kind": "detail",
+   "wiki": [
+    "Weißwurst"
+   ]
+  },
+  {
+   "id": "d-schweinshaxe",
+   "kind": "detail",
+   "wiki": [
+    "Schweinshaxe"
+   ]
+  },
+  {
+   "id": "d-obatzda",
+   "kind": "detail",
+   "wiki": [
+    "Obatzda"
+   ]
+  },
+  {
+   "id": "d-apfelstrudel",
+   "kind": "detail",
+   "wiki": [
+    "Apple strudel"
+   ]
+  },
+  {
+   "id": "d-kasekrainer",
+   "kind": "detail",
+   "wiki": [
+    "Käsekrainer"
+   ]
+  },
+  {
+   "id": "d-wiener-schnitzel",
+   "kind": "detail",
+   "wiki": [
+    "Wiener schnitzel"
+   ]
+  },
+  {
+   "id": "d-sachertorte",
+   "kind": "detail",
+   "wiki": [
+    "Sachertorte"
+   ]
+  },
+  {
+   "id": "d-tafelspitz",
+   "kind": "detail",
+   "wiki": [
+    "Tafelspitz"
+   ]
+  },
+  {
+   "id": "d-bosna",
+   "kind": "detail",
+   "wiki": [
+    "Bosna (food)",
+    "de:Bosna (Wurst)"
+   ]
+  },
+  {
+   "id": "d-kasnocken",
+   "kind": "detail",
+   "wiki": [
+    "Kasnocken",
+    "de:Kasnocken"
+   ]
+  },
+  {
+   "id": "d-mozartkugel",
+   "kind": "detail",
+   "wiki": [
+    "Mozartkugel"
+   ]
+  },
+  {
+   "id": "d-salzburger-nockerl",
+   "kind": "detail",
+   "wiki": [
+    "Salzburger Nockerl"
+   ]
+  },
+  {
+   "id": "d-pastel-de-nata",
+   "kind": "detail",
+   "wiki": [
+    "Pastel de nata"
+   ]
+  },
+  {
+   "id": "d-bacalhau-a-bras",
+   "kind": "detail",
+   "wiki": [
+    "Bacalhau à Brás",
+    "pt:Bacalhau à Brás"
+   ]
+  },
+  {
+   "id": "d-bifana",
+   "kind": "detail",
+   "wiki": [
+    "Bifana"
+   ]
+  },
+  {
+   "id": "d-sardinhas-assadas",
+   "kind": "detail",
+   "wiki": [
+    "pt:Sardinha assada",
+    "Sardine"
+   ]
+  },
+  {
+   "id": "d-francesinha",
+   "kind": "detail",
+   "wiki": [
+    "Francesinha"
+   ]
+  },
+  {
+   "id": "d-tripas-a-moda-do-porto",
+   "kind": "detail",
+   "wiki": [
+    "Tripas à moda do Porto"
+   ]
+  },
+  {
+   "id": "d-bolinhos-de-bacalhau",
+   "kind": "detail",
+   "wiki": [
+    "Pastéis de bacalhau",
+    "Bolinhos de bacalhau"
+   ]
+  },
+  {
+   "id": "d-vinho-do-porto",
+   "kind": "detail",
+   "wiki": [
+    "Port wine"
+   ]
+  },
+  {
+   "id": "d-haring",
+   "kind": "detail",
+   "wiki": [
+    "Soused herring"
+   ]
+  },
+  {
+   "id": "d-bitterballen",
+   "kind": "detail",
+   "wiki": [
+    "Bitterballen"
+   ]
+  },
+  {
+   "id": "d-stroopwafel",
+   "kind": "detail",
+   "wiki": [
+    "Stroopwafel"
+   ]
+  },
+  {
+   "id": "d-stamppot",
+   "kind": "detail",
+   "wiki": [
+    "Stamppot"
+   ]
+  },
+  {
+   "id": "d-uitsmijter",
+   "kind": "detail",
+   "wiki": [
+    "Uitsmijter"
+   ]
+  },
+  {
+   "id": "d-kibbeling",
+   "kind": "detail",
+   "wiki": [
+    "Kibbeling"
+   ]
+  },
+  {
+   "id": "d-poffertjes",
+   "kind": "detail",
+   "wiki": [
+    "Poffertjes"
+   ]
+  },
+  {
+   "id": "d-appeltaart",
+   "kind": "detail",
+   "wiki": [
+    "Dutch apple pie",
+    "Apple pie"
+   ]
+  }
+ ]
 }

@@ -29,6 +29,7 @@ export interface Sight {
 }
 
 export interface Dish {
+  id: string;
   n: string;
   d: L7;
   /** Typical price per person, EUR */
