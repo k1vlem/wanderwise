@@ -1,1 +1,212 @@
-{}
+{
+  "hero": {
+    "key": "wiki:Positano",
+    "file": "File:Positano_Sunset.JPG",
+    "author": "JeCCo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Positano_Sunset.JPG",
+    "width": 4272,
+    "height": 2848
+  },
+  "paris": {
+    "key": "File:Tour Eiffel Wikimedia Commons.jpg",
+    "file": "File:Tour Eiffel Wikimedia Commons.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+    "width": 2900,
+    "height": 5367
+  },
+  "nice": {
+    "key": "wiki:Promenade des Anglais",
+    "file": "File:CollineDuChateau_NiceFrance2022.png",
+    "author": "3602kiva",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:CollineDuChateau_NiceFrance2022.png",
+    "width": 6784,
+    "height": 5108
+  },
+  "barcelona": {
+    "key": "wiki:Sagrada Família",
+    "file": "File:SF_maig_2_cropped.jpg",
+    "author": "Canaan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SF_maig_2_cropped.jpg",
+    "width": 1227,
+    "height": 1786
+  },
+  "seville": {
+    "key": "wiki:Plaza de España (Seville)",
+    "file": "File:Plaza_de_España_(Sevilla)_-_01.jpg",
+    "author": "Carlos Delgado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
+    "width": 3888,
+    "height": 2592
+  },
+  "rome": {
+    "key": "wiki:Colosseum",
+    "file": "File:Colosseo_2020.jpg",
+    "author": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "width": 12051,
+    "height": 8442
+  },
+  "florence": {
+    "key": "wiki:Florence Cathedral",
+    "file": "File:Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg",
+    "author": "Gary Campbell-Hall",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "width": 3872,
+    "height": 2592
+  },
+  "istanbul": {
+    "key": "wiki:Hagia Sophia",
+    "file": "File:Hagia_Sophia_(228968325).jpeg",
+    "author": "Adli Wahid",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg",
+    "width": 2048,
+    "height": 1238
+  },
+  "cappadocia": {
+    "key": "wiki:Göreme",
+    "file": "File:Göreme_town_and_valley_2015.JPG",
+    "author": "MusikAnimal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_town_and_valley_2015.JPG",
+    "width": 6000,
+    "height": 4000
+  },
+  "athens": {
+    "key": "wiki:Parthenon",
+    "file": "File:The_Parthenon_in_Athens.jpg",
+    "author": "Steve Swayne",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+    "width": 1144,
+    "height": 804
+  },
+  "santorini": {
+    "key": "wiki:Oia, Greece",
+    "file": "File:Oia_sunset_-_panoramio_(2).jpg",
+    "author": "TomasEE",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oia_sunset_-_panoramio_(2).jpg",
+    "width": 5202,
+    "height": 3465
+  },
+  "london": {
+    "key": "wiki:Tower Bridge",
+    "file": "File:Tower_Bridge_at_Dawn.jpg",
+    "author": "Fuzzypiggy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_at_Dawn.jpg",
+    "width": 5554,
+    "height": 3703
+  },
+  "edinburgh": {
+    "key": "wiki:Edinburgh Castle",
+    "file": "File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
+    "author": "Enric",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
+    "width": 2816,
+    "height": 1816
+  },
+  "berlin": {
+    "key": "wiki:Brandenburg Gate",
+    "file": "File:Brandenburger_Tor_abends.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg",
+    "width": 1920,
+    "height": 1280
+  },
+  "munich": {
+    "key": "wiki:Marienplatz",
+    "file": "File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg",
+    "width": 2089,
+    "height": 1800
+  },
+  "vienna": {
+    "key": "wiki:Schönbrunn Palace",
+    "file": "File:Wien_-_Schloss_Schönbrunn.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG",
+    "width": 5650,
+    "height": 3860
+  },
+  "salzburg": {
+    "key": "wiki:Hohensalzburg Fortress",
+    "file": "File:Salzburg_-_Festung_Hohensalzburg.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Festung_Hohensalzburg.JPG",
+    "width": 5460,
+    "height": 3641
+  },
+  "lisbon": {
+    "key": "wiki:Belém Tower",
+    "file": "File:Torre_Belém_April_2009-4a.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Torre_Bel%C3%A9m_April_2009-4a.jpg",
+    "width": 5035,
+    "height": 4805
+  },
+  "porto": {
+    "key": "wiki:Dom Luís I Bridge",
+    "file": "File:Dom_Luís_I_Bridge_(36961760686).jpg",
+    "author": "Deensel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dom_Lu%C3%ADs_I_Bridge_(36961760686).jpg",
+    "width": 3861,
+    "height": 2942
+  },
+  "amsterdam": {
+    "key": "wiki:Prinsengracht",
+    "file": "File:Prinsengracht.jpg",
+    "author": "Kaz Alting",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prinsengracht.jpg",
+    "width": 4608,
+    "height": 3072
+  },
+  "utrecht": {
+    "key": "wiki:Dom Tower of Utrecht",
+    "file": "File:DomTorenUtrechtNederland.jpg",
+    "author": "Massimo Catarinella",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DomTorenUtrechtNederland.jpg",
+    "width": 1763,
+    "height": 3300
+  }
+}

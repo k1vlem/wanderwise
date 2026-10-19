@@ -1,22 +1,22 @@
-fail hero         No Commons info for File:3840px-Positano_Sunset.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail paris        Lead image of "Eiffel Tower" is not on Commons
-fail nice         No Commons info for File:3840px-CollineDuChateau_NiceFrance2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail barcelona    No Commons info for File:SF_maig_2_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail seville      No Commons info for File:3840px-Plaza_de_España_(Sevilla)_-_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail rome         No Commons info for File:3840px-Colosseo_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail florence     No Commons info for File:3840px-Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail istanbul     No Commons info for File:Hagia_Sophia_(228968325).jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail cappadocia   No Commons info for File:3840px-Göreme_town_and_valley_2015.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail athens       No Commons info for File:The_Parthenon_in_Athens.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail santorini    No Commons info for File:3840px-Oia_sunset_-_panoramio_(2).jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail london       No Commons info for File:3840px-Tower_Bridge_at_Dawn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail edinburgh    No Commons info for File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail berlin       No Commons info for File:Brandenburger_Tor_abends.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail munich       No Commons info for File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail vienna       No Commons info for File:3840px-Wien_-_Schloss_Schönbrunn.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail salzburg     No Commons info for File:3840px-Salzburg_-_Festung_Hohensalzburg.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail lisbon       No Commons info for File:3840px-Torre_Belém_April_2009-4a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail porto        No Commons info for File:3840px-Dom_Luís_I_Bridge_(36961760686).jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
-fail amsterdam    No Commons info for File:Imagen_de_los_canales_concéntricos_en_Ámsterdam.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-fail utrecht      No Commons info for File:DomTorenUtrechtNederland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
-Done: 0 fetched, 21 failed.
+ok   hero         File:Positano_Sunset.JPG (4272x2848, CC BY 4.0)
+ok   paris        File:Tour Eiffel Wikimedia Commons.jpg (2900x5367, Public domain)
+ok   nice         File:CollineDuChateau_NiceFrance2022.png (6784x5108, CC0)
+ok   barcelona    File:SF_maig_2_cropped.jpg (1227x1786, CC BY-SA 4.0)
+ok   seville      File:Plaza_de_España_(Sevilla)_-_01.jpg (3888x2592, CC BY-SA 4.0)
+ok   rome         File:Colosseo_2020.jpg (12051x8442, CC BY-SA 4.0)
+ok   florence     File:Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg (3872x2592, CC BY 2.0)
+ok   istanbul     File:Hagia_Sophia_(228968325).jpeg (2048x1238, CC BY-SA 3.0)
+ok   cappadocia   File:Göreme_town_and_valley_2015.JPG (6000x4000, CC BY-SA 4.0)
+ok   athens       File:The_Parthenon_in_Athens.jpg (1144x804, CC BY 2.0)
+ok   santorini    File:Oia_sunset_-_panoramio_(2).jpg (5202x3465, CC BY 3.0)
+ok   london       File:Tower_Bridge_at_Dawn.jpg (5554x3703, CC BY-SA 3.0)
+ok   edinburgh    File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg (2816x1816, CC BY-SA 4.0)
+ok   berlin       File:Brandenburger_Tor_abends.jpg (1920x1280, CC BY-SA 3.0)
+ok   munich       File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg (2089x1800, CC BY-SA 3.0)
+ok   vienna       File:Wien_-_Schloss_Schönbrunn.JPG (5650x3860, CC BY-SA 4.0)
+ok   salzburg     File:Salzburg_-_Festung_Hohensalzburg.JPG (5460x3641, CC BY-SA 4.0)
+ok   lisbon       File:Torre_Belém_April_2009-4a.jpg (5035x4805, CC BY-SA 3.0)
+ok   porto        File:Dom_Luís_I_Bridge_(36961760686).jpg (3861x2942, CC BY 2.0)
+ok   amsterdam    File:Prinsengracht.jpg (4608x3072, CC BY-SA 3.0)
+ok   utrecht      File:DomTorenUtrechtNederland.jpg (1763x3300, CC BY 3.0)
+Done: 21 fetched, 0 failed.
