@@ -418,6 +418,10 @@ DISHES = {
 # Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
 # article lead image was a map, a logo, too small or simply not the best shot.
 PINNED = {
+    'd-hong-shao-rou': 'File:Red braised pork belly 红烧肉 hóngshāoròu 23 January 2025 Filipinas4.jpg',
+    'd-couscous': 'File:Couscous "7 vegetables".jpg',
+    'd-yakitori': 'File:Yakitori set and others at Torihei-chan, Kamata East Exit (20230806200725).jpg',
+    'd-tacos-al-pastor': 'File:Tacos 2.jpg',
     'd-banh-xeo': 'File:Bánh xèo (15826153307).jpg',
     's-universal': 'File:Universal Studios Hollywood (4) (7962961388).jpg',
     's-grand_mosque': 'File:Sheikh Zayed Mosque Silhouette.jpg',
