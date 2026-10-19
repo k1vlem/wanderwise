@@ -2,11 +2,12 @@ import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Photo } from '../components/Photo';
+import { PhotoButton } from '../components/PhotoViewer';
 import { CATEGORY_STYLE } from '../components/PlanParts';
 import { TripFields } from '../components/TripFields';
 import { COUNTRIES, cityById, countryPhoto } from '../data';
 import { useI18n } from '../i18n';
-import { describeItem } from '../lib/describe';
+import { dayPhoto, dayTitle, describeItem } from '../lib/describe';
 import { addDays, dealPerPerson, planTrip, weekFromPerPerson, type TripInput } from '../lib/planner';
 import { DEFAULT_INPUT, defaultStart, queryFromInput, todayIso } from '../lib/query';
 
@@ -186,6 +187,7 @@ function PlannerTeaser() {
     [],
   );
   const day = sample.days[1];
+  const teaserPhotos = [{ id: dayPhoto(day), title: dayTitle(day, i18n), note: pick(cityById(day.city).n) }];
   return (
     <section className="mt-20 bg-shell">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
@@ -201,26 +203,33 @@ function PlannerTeaser() {
             <Icon name="arrow" size={18} />
           </Link>
         </div>
-        <div className="min-w-0 rounded-3xl bg-white p-5 shadow-lift sm:p-6">
-          <p className="text-sm font-semibold text-muted">
-            {t('day.label', { n: 2 })} · {date(day.date, { weekday: 'short', day: 'numeric', month: 'short' })} · {pick(cityById(day.city).n)}
-          </p>
-          <ol className="mt-3">
-            {day.items.map((item, i) => {
-              const d = describeItem(item, sample, i18n);
-              const style = CATEGORY_STYLE[d.category];
-              return (
-                <li key={i} className="flex items-center gap-3 border-t border-line py-3">
-                  <span className="w-12 text-sm font-bold tabular-nums">{item.time}</span>
-                  <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full ${style.chip}`}>
-                    <Icon name={style.icon} size={15} />
-                  </span>
-                  <span className="min-w-0 flex-1 truncate text-[15px] font-semibold">{d.title}</span>
-                  <span className="text-sm font-bold tabular-nums">{item.cost ? money(item.cost) : d.cost}</span>
-                </li>
-              );
-            })}
-          </ol>
+        <div className="min-w-0 overflow-hidden rounded-3xl bg-white shadow-lift">
+          <PhotoButton items={teaserPhotos} className="aspect-[16/7] w-full" />
+          <div className="p-5 sm:p-6">
+            <p className="text-sm font-semibold text-muted">
+              {t('day.label', { n: 2 })} · {date(day.date, { weekday: 'short', day: 'numeric', month: 'short' })} · {pick(cityById(day.city).n)}
+            </p>
+            <ol className="mt-3">
+              {day.items.map((item, i) => {
+                const d = describeItem(item, sample, i18n);
+                const style = CATEGORY_STYLE[d.category];
+                return (
+                  <li key={i} className="flex items-center gap-3 border-t border-line py-3">
+                    <span className="w-12 text-sm font-bold tabular-nums">{item.time}</span>
+                    {d.photo ? (
+                      <Photo id={d.photo} alt="" className="h-11 w-11 shrink-0 rounded-xl" />
+                    ) : (
+                      <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl ${style.chip}`}>
+                        <Icon name={style.icon} size={16} />
+                      </span>
+                    )}
+                    <span className="min-w-0 flex-1 truncate text-[15px] font-semibold">{d.title}</span>
+                    <span className="text-sm font-bold tabular-nums">{item.cost ? money(item.cost) : d.cost}</span>
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
         </div>
       </div>
     </section>
