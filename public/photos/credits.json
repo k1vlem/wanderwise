@@ -30,14 +30,14 @@
     "height": 5108
   },
   "barcelona": {
-    "key": "wiki:Park Güell|Casa Batlló",
-    "file": "File:Parc_guell_-_panoramio.jpg",
-    "author": "essetefano",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Parc_guell_-_panoramio.jpg",
-    "width": 2048,
-    "height": 1536
+    "key": "wiki:Casa Batlló|Passeig de Gràcia",
+    "file": "File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+    "author": "ChristianSchd",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+    "width": 2244,
+    "height": 2765
   },
   "seville": {
     "key": "wiki:Plaza de España (Seville)",
@@ -60,14 +60,14 @@
     "height": 8442
   },
   "florence": {
-    "key": "wiki:Florence Cathedral",
-    "file": "File:Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg",
-    "author": "Gary Campbell-Hall",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
-    "width": 3872,
-    "height": 2592
+    "key": "wiki:Ponte Vecchio",
+    "file": "File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_from_Ponte_alle_Grazie.jpg",
+    "width": 6000,
+    "height": 3340
   },
   "istanbul": {
     "key": "wiki:Hagia Sophia",
@@ -80,14 +80,14 @@
     "height": 1238
   },
   "cappadocia": {
-    "key": "wiki:Cappadocia|Göreme",
-    "file": "File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
-    "author": "Arian Zwegers from Brussels, Belgium",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
-    "width": 5184,
-    "height": 3456
+    "key": "wiki:Göreme",
+    "file": "File:Göreme_town_and_valley_2015.JPG",
+    "author": "MusikAnimal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_town_and_valley_2015.JPG",
+    "width": 6000,
+    "height": 4000
   },
   "athens": {
     "key": "wiki:Acropolis of Athens",
@@ -100,14 +100,14 @@
     "height": 5760
   },
   "santorini": {
-    "key": "wiki:Oia, Greece",
-    "file": "File:Oia_sunset_-_panoramio_(2).jpg",
-    "author": "TomasEE",
+    "key": "wiki:Santorini|Fira",
+    "file": "File:2011_Dimos_Thiras.png",
+    "author": "Pitichinaccio",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Oia_sunset_-_panoramio_(2).jpg",
-    "width": 5202,
-    "height": 3465
+    "source": "https://commons.wikimedia.org/wiki/File:2011_Dimos_Thiras.png",
+    "width": 2000,
+    "height": 1253
   },
   "london": {
     "key": "wiki:Tower Bridge",
@@ -120,14 +120,14 @@
     "height": 3703
   },
   "edinburgh": {
-    "key": "wiki:Edinburgh Castle",
-    "file": "File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
-    "author": "Enric",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
-    "width": 2816,
-    "height": 1816
+    "key": "wiki:Old Town, Edinburgh|Princes Street Gardens",
+    "file": "File:Old_Town_from_Princes_Street.JPG",
+    "author": "Kim Traynor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Town_from_Princes_Street.JPG",
+    "width": 4000,
+    "height": 2014
   },
   "berlin": {
     "key": "wiki:Brandenburg Gate",
@@ -150,24 +150,24 @@
     "height": 1800
   },
   "vienna": {
-    "key": "wiki:Schönbrunn Palace",
-    "file": "File:Wien_-_Schloss_Schönbrunn.JPG",
+    "key": "wiki:Hofburg|Heldenplatz",
+    "file": "File:Wien_-_Neue_Hofburg.JPG",
     "author": "C.Stadler/Bwag",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG",
-    "width": 5650,
-    "height": 3860
+    "license": "CC BY-SA 3.0 at",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Neue_Hofburg.JPG",
+    "width": 5050,
+    "height": 2220
   },
   "salzburg": {
-    "key": "wiki:Hohensalzburg Fortress",
-    "file": "File:Salzburg_-_Festung_Hohensalzburg.JPG",
-    "author": "C.Stadler/Bwag",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Festung_Hohensalzburg.JPG",
-    "width": 5460,
-    "height": 3641
+    "key": "wiki:Historic Centre of the City of Salzburg|Salzburg Cathedral",
+    "file": "File:SalzburgerAltstadt02b.jpg",
+    "author": "Thomas Pintaric (= Pintaric)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:SalzburgerAltstadt02b.jpg",
+    "width": 1200,
+    "height": 800
   },
   "lisbon": {
     "key": "wiki:Belém Tower",
@@ -190,7 +190,7 @@
     "height": 2942
   },
   "amsterdam": {
-    "key": "wiki:Keizersgracht|Magere Brug|Rijksmuseum",
+    "key": "wiki:Keizersgracht",
     "file": "File:Keizersgracht_Jul_2019.jpg",
     "author": "JayAmber",
     "license": "CC BY-SA 4.0",
@@ -200,7 +200,7 @@
     "height": 1536
   },
   "utrecht": {
-    "key": "wiki:Nieuwegracht|Domplein|Oudegracht",
+    "key": "wiki:Oudegracht|Utrecht",
     "file": "File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
     "author": "Diliff",
     "license": "CC BY 2.5",
@@ -208,5 +208,1725 @@
     "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
     "width": 4172,
     "height": 5553
+  },
+  "s-eiffel": {
+    "key": "File:Tour Eiffel Wikimedia Commons.jpg",
+    "file": "File:Tour Eiffel Wikimedia Commons.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+    "width": 2900,
+    "height": 5367
+  },
+  "s-louvre": {
+    "key": "wiki:Louvre Pyramid|Louvre",
+    "file": "File:Louvre_Museum_Wikimedia_Commons.jpg",
+    "author": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
+    "width": 6740,
+    "height": 2832
+  },
+  "s-montmartre": {
+    "key": "wiki:Sacré-Cœur, Paris|Montmartre",
+    "file": "File:Le_sacre_coeur.jpg",
+    "author": "Tonchino",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_sacre_coeur.jpg",
+    "width": 2304,
+    "height": 2598
+  },
+  "s-seine": {
+    "key": "wiki:Bateaux Mouches|Pont Alexandre III",
+    "file": "File:Bateau_mouche_jnl_4.jpg",
+    "author": "Jean-noël Lafargue",
+    "license": "FAL",
+    "licenseUrl": "http://artlibre.org/licence/lal/en",
+    "source": "https://commons.wikimedia.org/wiki/File:Bateau_mouche_jnl_4.jpg",
+    "width": 1200,
+    "height": 800
+  },
+  "s-promenade": {
+    "key": "wiki:Baie des Anges|Promenade des Anglais",
+    "file": "File:Nice-seafront.jpg",
+    "author": "Ioan Sameli",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nice-seafront.jpg",
+    "width": 2592,
+    "height": 1944
+  },
+  "s-matisse": {
+    "key": "wiki:Musée Matisse (Nice)",
+    "file": "File:Musée_Matisse_Nice.JPG",
+    "author": "Tubantia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Matisse_Nice.JPG",
+    "width": 2421,
+    "height": 1834
+  },
+  "s-eze": {
+    "key": "wiki:Èze",
+    "file": "File:Èze_Alpes_Maritimes_France_(261171069).jpeg",
+    "author": "Jean Pierre Lozi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%88ze_Alpes_Maritimes_France_(261171069).jpeg",
+    "width": 2048,
+    "height": 1152
+  },
+  "s-sagrada": {
+    "key": "wiki:Sagrada Família",
+    "file": "File:SF_maig_2_cropped.jpg",
+    "author": "Canaan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SF_maig_2_cropped.jpg",
+    "width": 1227,
+    "height": 1786
+  },
+  "s-guell": {
+    "key": "wiki:Park Güell",
+    "file": "File:Parc_guell_-_panoramio.jpg",
+    "author": "essetefano",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parc_guell_-_panoramio.jpg",
+    "width": 2048,
+    "height": 1536
+  },
+  "s-gothic": {
+    "key": "wiki:Gothic Quarter, Barcelona",
+    "file": "File:Barcelona_-_Carrer_del_Bisbe.jpg",
+    "author": "Llull",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Carrer_del_Bisbe.jpg",
+    "width": 794,
+    "height": 1094
+  },
+  "s-barceloneta": {
+    "key": "wiki:Platja de la Barceloneta|La Barceloneta, Barcelona",
+    "file": "File:Barcelona_Barceloneta.svg",
+    "author": "Sémhur for the original map. I (SMP) did the colourings",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Barceloneta.svg",
+    "width": 925,
+    "height": 878
+  },
+  "s-bunkers": {
+    "key": "wiki:Turó de la Rovira",
+    "file": "File:Turó_Rovira.jpg",
+    "author": "Canaan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tur%C3%B3_Rovira.jpg",
+    "width": 2048,
+    "height": 1536
+  },
+  "s-alcazar": {
+    "key": "wiki:Alcázar of Seville",
+    "file": "File:Sevilla-2-2_(48040287512)-edit.jpg",
+    "author": "Ajay Suresh from New York, NY, USA. Edited by MenkinAlRire",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sevilla-2-2_(48040287512)-edit.jpg",
+    "width": 4299,
+    "height": 3224
+  },
+  "s-cathedral_sev": {
+    "key": "wiki:Giralda|Seville Cathedral",
+    "file": "File:Sevilla_Cathedral_-_Giralda.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sevilla_Cathedral_-_Giralda.jpg",
+    "width": 3602,
+    "height": 3816
+  },
+  "s-plaza_espana": {
+    "key": "wiki:María Luisa Park|Plaza de España (Seville)",
+    "file": "File:Parque_de_María_Luisa_(2).jpg",
+    "author": "Gzzz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parque_de_Mar%C3%ADa_Luisa_(2).jpg",
+    "width": 3128,
+    "height": 2280
+  },
+  "s-setas": {
+    "key": "wiki:Metropol Parasol",
+    "file": "File:Metropolparasolnov2011001.jpg",
+    "author": "Anual",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Metropolparasolnov2011001.jpg",
+    "width": 3872,
+    "height": 2592
+  },
+  "s-flamenco": {
+    "key": "wiki:Flamenco",
+    "file": "File:Belen_maya.jpg",
+    "author": "Unknown",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Belen_maya.jpg",
+    "width": 376,
+    "height": 400
+  },
+  "s-colosseum": {
+    "key": "wiki:Roman Forum",
+    "file": "File:Foro_Romano_Musei_Capitolini_Roma.jpg",
+    "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Foro_Romano_Musei_Capitolini_Roma.jpg",
+    "width": 17000,
+    "height": 6980
+  },
+  "s-vatican": {
+    "key": "wiki:Sistine Chapel ceiling|Sistine Chapel",
+    "file": "File:Sistine_Chapel_ceiling_02_(brightened).jpg",
+    "author": "Antoine Taveneaux",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_ceiling_02_(brightened).jpg",
+    "width": 3264,
+    "height": 4928
+  },
+  "s-pantheon": {
+    "key": "wiki:Trevi Fountain",
+    "file": "File:Trevi_Fountain_-_Roma.jpg",
+    "author": "NikonZ7II",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain_-_Roma.jpg",
+    "width": 8734,
+    "height": 4738
+  },
+  "s-borghese": {
+    "key": "wiki:Galleria Borghese",
+    "file": "File:Galleria_Borghese_-_logo_(Italy,_2022-).svg",
+    "author": "Studio Lorenzo Marini Group",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Galleria_Borghese_-_logo_(Italy,_2022-).svg",
+    "width": 512,
+    "height": 377
+  },
+  "s-trastevere": {
+    "key": "wiki:Trastevere",
+    "file": "File:Santa_Maria_in_Trastevere_fountain.jpg",
+    "author": "Jensens",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Trastevere_fountain.jpg",
+    "width": 2085,
+    "height": 1119
+  },
+  "s-uffizi": {
+    "key": "wiki:Uffizi",
+    "file": "File:Florence,_Italy_-_panoramio_(125).jpg",
+    "author": "Arek N.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence,_Italy_-_panoramio_(125).jpg",
+    "width": 3456,
+    "height": 2304
+  },
+  "s-duomo": {
+    "key": "wiki:Florence Cathedral",
+    "file": "File:Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg",
+    "author": "Gary Campbell-Hall",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "width": 3872,
+    "height": 2592
+  },
+  "s-accademia": {
+    "key": "wiki:David (Michelangelo)",
+    "file": "File:'David'_by_Michelangelo_Fir_JBU004.jpg",
+    "author": "Jörg Bittner Unna",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU004.jpg",
+    "width": 3260,
+    "height": 4890
+  },
+  "s-boboli": {
+    "key": "wiki:Boboli Gardens",
+    "file": "File:Jardín_de_Bóboli,_Florencia,_Italia,_2022-09-19,_DD_26.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_B%C3%B3boli,_Florencia,_Italia,_2022-09-19,_DD_26.jpg",
+    "width": 7850,
+    "height": 5233
+  },
+  "s-hagia": {
+    "key": "wiki:Hagia Sophia",
+    "file": "File:Hagia_Sophia_(228968325).jpeg",
+    "author": "Adli Wahid",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg",
+    "width": 2048,
+    "height": 1238
+  },
+  "s-topkapi": {
+    "key": "wiki:Topkapı Palace",
+    "file": "File:Topkapı_-_01.jpg",
+    "author": "Carlos Delgado",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Topkap%C4%B1_-_01.jpg",
+    "width": 3635,
+    "height": 1817
+  },
+  "s-bluemosque": {
+    "key": "wiki:Blue Mosque, Istanbul|Sultan Ahmed Mosque",
+    "file": "File:Istanbul_(34223582516)_(cropped).jpg",
+    "author": "Pedro Szekely from Los Angeles, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Istanbul_(34223582516)_(cropped).jpg",
+    "width": 3000,
+    "height": 2528
+  },
+  "s-bazaar": {
+    "key": "wiki:Grand Bazaar, Istanbul",
+    "file": "File:Istanbul_asv2021-11_img41_Grand_Bazaar.jpg",
+    "author": "A.Savin",
+    "license": "FAL",
+    "licenseUrl": "http://artlibre.org/licence/lal/en",
+    "source": "https://commons.wikimedia.org/wiki/File:Istanbul_asv2021-11_img41_Grand_Bazaar.jpg",
+    "width": 3791,
+    "height": 5687
+  },
+  "s-bosphorus": {
+    "key": "wiki:Bosphorus",
+    "file": "File:Turkish_Strait_disambig.svg",
+    "author": "User:Interiot",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Turkish_Strait_disambig.svg",
+    "width": 469,
+    "height": 388
+  },
+  "s-balloon": {
+    "key": "wiki:Cappadocia",
+    "file": "File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
+    "author": "Arian Zwegers from Brussels, Belgium",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
+    "width": 5184,
+    "height": 3456
+  },
+  "s-goreme_museum": {
+    "key": "wiki:Göreme Open Air Museum",
+    "file": "File:Göreme_town_and_valley_2015.JPG",
+    "author": "MusikAnimal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_town_and_valley_2015.JPG",
+    "width": 6000,
+    "height": 4000
+  },
+  "s-rose_valley": {
+    "key": "wiki:Fairy chimney|Love Valley",
+    "file": "File:USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg",
+    "author": "Luca Galuzzi (Lucag)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg",
+    "width": 2000,
+    "height": 1333
+  },
+  "s-derinkuyu": {
+    "key": "wiki:Derinkuyu underground city",
+    "file": "File:Derinkuyu_Underground_City_9910_Nevit.jpg",
+    "author": "Nevit Dilmen (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9910_Nevit.jpg",
+    "width": 4000,
+    "height": 3000
+  },
+  "s-uchisar": {
+    "key": "wiki:Uçhisar",
+    "file": "File:Uçhisar,_Cappadocia_01.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar,_Cappadocia_01.jpg",
+    "width": 4848,
+    "height": 3232
+  },
+  "s-acropolis": {
+    "key": "wiki:Parthenon",
+    "file": "File:The_Parthenon_in_Athens.jpg",
+    "author": "Steve Swayne",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Parthenon_in_Athens.jpg",
+    "width": 1144,
+    "height": 804
+  },
+  "s-acropolis_museum": {
+    "key": "wiki:Acropolis Museum",
+    "file": "File:Acropolis_Museum_Logo_(2011).svg",
+    "author": "Acropolis Museum",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Acropolis_Museum_Logo_(2011).svg",
+    "width": 512,
+    "height": 339
+  },
+  "s-agora": {
+    "key": "wiki:Ancient Agora of Athens|Temple of Hephaestus",
+    "file": "File:Agora_-_Athènes_(GRA1)_-_2022-03-26_-_97.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Agora_-_Ath%C3%A8nes_(GRA1)_-_2022-03-26_-_97.jpg",
+    "width": 4032,
+    "height": 3024
+  },
+  "s-plaka": {
+    "key": "wiki:Plaka|Anafiotika",
+    "file": "File:Carrer_del_barri_de_Plaka,_Atenes.JPG",
+    "author": "Joanbanjo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carrer_del_barri_de_Plaka,_Atenes.JPG",
+    "width": 3664,
+    "height": 2748
+  },
+  "s-lycabettus": {
+    "key": "wiki:Mount Lycabettus",
+    "file": "File:Λυκαβηττός_-_Mount_Lycabettus.jpg",
+    "author": "Apaleutos25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%CE%9B%CF%85%CE%BA%CE%B1%CE%B2%CE%B7%CF%84%CF%84%CF%8C%CF%82_-_Mount_Lycabettus.jpg",
+    "width": 4000,
+    "height": 3000
+  },
+  "s-caldera_hike": {
+    "key": "wiki:Santorini caldera",
+    "file": "File:Santorini_Caldera_ASTER.jpg",
+    "author": "Santorini_Landsat.jpg: NASA derivative work: Giorgostr (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Santorini_Caldera_ASTER.jpg",
+    "width": 1191,
+    "height": 1230
+  },
+  "s-oia": {
+    "key": "wiki:Oia, Greece",
+    "file": "File:Oia_sunset_-_panoramio_(2).jpg",
+    "author": "TomasEE",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oia_sunset_-_panoramio_(2).jpg",
+    "width": 5202,
+    "height": 3465
+  },
+  "s-akrotiri": {
+    "key": "wiki:Akrotiri (prehistoric city)",
+    "file": "File:Ancient_Akrotiri.jpeg",
+    "author": "Rt44",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ancient_Akrotiri.jpeg",
+    "width": 4032,
+    "height": 3024
+  },
+  "s-red_beach": {
+    "key": "wiki:Red Beach (Santorini)",
+    "file": "File:Red_Beach,_Greece_Oct_29,_2018_07-12-47.jpeg",
+    "author": "Rt44",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Beach,_Greece_Oct_29,_2018_07-12-47.jpeg",
+    "width": 4032,
+    "height": 3024
+  },
+  "s-wine": {
+    "key": "wiki:Vinsanto|Santorini (wine)",
+    "file": "File:Asirtiko_Athiri_from_Santorini.JPG",
+    "author": "Agne27",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Asirtiko_Athiri_from_Santorini.JPG",
+    "width": 2592,
+    "height": 1936
+  },
+  "s-british_museum": {
+    "key": "wiki:British Museum",
+    "file": "File:British_Museum_from_NE_2.JPG",
+    "author": "Ham",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:British_Museum_from_NE_2.JPG",
+    "width": 2560,
+    "height": 1836
+  },
+  "s-tower": {
+    "key": "wiki:Tower of London",
+    "file": "File:Tower_of_London_from_the_Shard_(8515883950).jpg",
+    "author": "[Duncan] from Nottingham, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tower_of_London_from_the_Shard_(8515883950).jpg",
+    "width": 4728,
+    "height": 3069
+  },
+  "s-westminster": {
+    "key": "wiki:Big Ben|Palace of Westminster",
+    "file": "File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg",
+    "author": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg",
+    "width": 4347,
+    "height": 7728
+  },
+  "s-eye": {
+    "key": "wiki:London Eye",
+    "file": "File:London-Eye-2009.JPG",
+    "author": "Khamtran",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:London-Eye-2009.JPG",
+    "width": 4272,
+    "height": 2848
+  },
+  "s-west_end": {
+    "key": "wiki:West End theatre",
+    "file": "File:London_(44761485915).jpg",
+    "author": "Pedro Szekely from Los Angeles, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:London_(44761485915).jpg",
+    "width": 4475,
+    "height": 2652
+  },
+  "s-castle_edi": {
+    "key": "wiki:Edinburgh Castle",
+    "file": "File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
+    "author": "Enric",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
+    "width": 2816,
+    "height": 1816
+  },
+  "s-royal_mile": {
+    "key": "wiki:Royal Mile",
+    "file": "File:High_Street,_Edinburgh.JPG",
+    "author": "Kim Traynor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:High_Street,_Edinburgh.JPG",
+    "width": 2560,
+    "height": 1920
+  },
+  "s-arthurs_seat": {
+    "key": "wiki:Arthur's Seat",
+    "file": "File:Arthur's_Seat,_Edinburgh.JPG",
+    "author": "Kim Traynor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arthur%27s_Seat,_Edinburgh.JPG",
+    "width": 3962,
+    "height": 1441
+  },
+  "s-holyrood": {
+    "key": "wiki:Holyrood Palace",
+    "file": "File:Holyrood_Palace_-_aerial_-_2025-04-19_01_(cropped).jpg",
+    "author": "瑞丽江的河水",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Holyrood_Palace_-_aerial_-_2025-04-19_01_(cropped).jpg",
+    "width": 3051,
+    "height": 1909
+  },
+  "s-calton": {
+    "key": "wiki:Calton Hill",
+    "file": "File:Edinburgh_Calton_Hill.jpg",
+    "author": "Saffron Blaze",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Calton_Hill.jpg",
+    "width": 3776,
+    "height": 2366
+  },
+  "s-brandenburg": {
+    "key": "wiki:Reichstag building",
+    "file": "File:Berlin_reichstag_west_panorama_2.jpg",
+    "author": "Mfield, Matthew Field, http://www.photography.mattfield.com; edit by Waugsberg (rotation 0,4°)",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "source": "https://commons.wikimedia.org/wiki/File:Berlin_reichstag_west_panorama_2.jpg",
+    "width": 5980,
+    "height": 2664
+  },
+  "s-museum_island": {
+    "key": "wiki:Museum Island|Altes Museum",
+    "file": "File:Berlin_Museumsinsel_Fernsehturm.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Berlin_Museumsinsel_Fernsehturm.jpg",
+    "width": 5454,
+    "height": 3684
+  },
+  "s-wall_memorial": {
+    "key": "wiki:Berlin Wall Memorial|Berlin Wall",
+    "file": "File:Mauer-Gedenkstätte.jpg",
+    "author": "N-Lange.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mauer-Gedenkst%C3%A4tte.jpg",
+    "width": 3008,
+    "height": 2000
+  },
+  "s-east_side": {
+    "key": "wiki:East Side Gallery",
+    "file": "File:Segment_with_Graffiti_of_the_Berlin_Wall_(3_of_4)_(cropped).jpg",
+    "author": "Lklundin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Segment_with_Graffiti_of_the_Berlin_Wall_(3_of_4)_(cropped).jpg",
+    "width": 1604,
+    "height": 981
+  },
+  "s-kreuzberg": {
+    "key": "wiki:Oberbaum Bridge|Kreuzberg",
+    "file": "File:Oberbaumbrücke_mit_U-Bahn.jpg",
+    "author": "Sarah Jane at Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oberbaumbr%C3%BCcke_mit_U-Bahn.jpg",
+    "width": 3865,
+    "height": 1926
+  },
+  "s-marienplatz": {
+    "key": "wiki:New Town Hall (Munich)",
+    "file": "File:Neues_Rathaus_München_2018.jpg",
+    "author": "Steffen Flor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neues_Rathaus_M%C3%BCnchen_2018.jpg",
+    "width": 4953,
+    "height": 3061
+  },
+  "s-neuschwanstein": {
+    "key": "wiki:Neuschwanstein Castle",
+    "file": "File:Schloss_Neuschwanstein_2013.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Schloss_Neuschwanstein_2013.jpg",
+    "width": 5979,
+    "height": 4468
+  },
+  "s-residenz": {
+    "key": "wiki:Munich Residenz",
+    "file": "File:Grundriss_der_Residenz_München_(Bayerische_Schlösserverwaltung).jpg",
+    "author": "Bayreuth2009",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grundriss_der_Residenz_M%C3%BCnchen_(Bayerische_Schl%C3%B6sserverwaltung).jpg",
+    "width": 1156,
+    "height": 1532
+  },
+  "s-english_garden": {
+    "key": "wiki:Englischer Garten|Eisbach (Isar)",
+    "file": "File:Aerial_image_of_Englischer_Garten_in_Munich_(view_from_the_southwest).jpg",
+    "author": "Carsten Steger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Englischer_Garten_in_Munich_(view_from_the_southwest).jpg",
+    "width": 5400,
+    "height": 3600
+  },
+  "s-hofbrauhaus": {
+    "key": "wiki:Hofbräuhaus am Platzl",
+    "file": "File:Hofbrauhaus.JPG",
+    "author": "Kiban",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hofbrauhaus.JPG",
+    "width": 2124,
+    "height": 1616
+  },
+  "s-schonbrunn": {
+    "key": "wiki:Schönbrunn Palace",
+    "file": "File:Wien_-_Schloss_Schönbrunn.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG",
+    "width": 5650,
+    "height": 3860
+  },
+  "s-belvedere": {
+    "key": "wiki:The Kiss (Klimt)|Belvedere, Vienna",
+    "file": "File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "author": "Gustav Klimt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "width": 7376,
+    "height": 7401
+  },
+  "s-stephansdom": {
+    "key": "wiki:St. Stephen's Cathedral, Vienna",
+    "file": "File:Wien_-_Stephansdom_(1).JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Stephansdom_(1).JPG",
+    "width": 2625,
+    "height": 3937
+  },
+  "s-naschmarkt": {
+    "key": "wiki:Naschmarkt",
+    "file": "File:Wien_-_Naschmarkt.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wien_-_Naschmarkt.JPG",
+    "width": 4961,
+    "height": 2048
+  },
+  "s-opera": {
+    "key": "wiki:Vienna State Opera",
+    "file": "File:Wiener_Staatsoper_Front.jpg",
+    "author": "Wiener Staatsoper GmbH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiener_Staatsoper_Front.jpg",
+    "width": 2362,
+    "height": 1527
+  },
+  "s-fortress": {
+    "key": "wiki:Hohensalzburg Fortress",
+    "file": "File:Salzburg_-_Festung_Hohensalzburg.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Festung_Hohensalzburg.JPG",
+    "width": 5460,
+    "height": 3641
+  },
+  "s-hallstatt": {
+    "key": "wiki:Hallstatt",
+    "file": "File:Hallstatt_-_Zentrum_.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hallstatt_-_Zentrum_.JPG",
+    "width": 3937,
+    "height": 2717
+  },
+  "s-mozart": {
+    "key": "wiki:Mozart's birthplace",
+    "file": "File:Salzburg,_Getreidegasse_9,_Mozarts_Geburtshaus.jpg",
+    "author": "Andreas Stiasny",
+    "license": "CC BY-SA 3.0 at",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg,_Getreidegasse_9,_Mozarts_Geburtshaus.jpg",
+    "width": 3328,
+    "height": 6222
+  },
+  "s-mirabell": {
+    "key": "wiki:Mirabell Palace",
+    "file": "File:Palatul_Mirabell1.jpg",
+    "author": "Cezar Suceveanu",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Palatul_Mirabell1.jpg",
+    "width": 3072,
+    "height": 2304
+  },
+  "s-getreidegasse": {
+    "key": "wiki:Getreidegasse",
+    "file": "File:Getreidegasse_am_Nachmittag,_Salzburg.jpg",
+    "author": "Snotty",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Getreidegasse_am_Nachmittag,_Salzburg.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  "s-belem": {
+    "key": "wiki:Jerónimos Monastery",
+    "file": "File:1502_legte_König_Manuel_I._den_Grundstein_für_das_Hieronymus_Kloster_in_Lissabon._06.jpg",
+    "author": "Holger Uwe Schmitt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg",
+    "width": 5769,
+    "height": 3467
+  },
+  "s-sintra": {
+    "key": "wiki:Pena Palace",
+    "file": "File:Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+    "author": "Singa Hitam",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+    "width": 5184,
+    "height": 3456
+  },
+  "s-sao_jorge": {
+    "key": "wiki:São Jorge Castle",
+    "file": "File:Castelo_Sao_Jorge_Lisboa_1.JPG",
+    "author": "Unknown",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Castelo_Sao_Jorge_Lisboa_1.JPG",
+    "width": 394,
+    "height": 525
+  },
+  "s-fado": {
+    "key": "wiki:Fado",
+    "file": "File:Jose_malhoa_fado.jpg",
+    "author": "José Malhoa",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jose_malhoa_fado.jpg",
+    "width": 1116,
+    "height": 952
+  },
+  "s-port_cellar": {
+    "key": "wiki:Vila Nova de Gaia|Port wine",
+    "file": "File:86922-Porto_(48640131006).jpg",
+    "author": "xiquinhosilva from Cacau",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:86922-Porto_(48640131006).jpg",
+    "width": 3000,
+    "height": 2000
+  },
+  "s-lello": {
+    "key": "wiki:Livraria Lello",
+    "file": "File:Lello_Bookshop_9_April_2026.jpg",
+    "author": "Guinness323",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lello_Bookshop_9_April_2026.jpg",
+    "width": 1445,
+    "height": 1919
+  },
+  "s-clerigos": {
+    "key": "wiki:Clérigos Church",
+    "file": "File:Torre_de_los_Clérigos,_Oporto,_Portugal,_2012-05-09,_DD_01.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Torre_de_los_Cl%C3%A9rigos,_Oporto,_Portugal,_2012-05-09,_DD_01.JPG",
+    "width": 2398,
+    "height": 4701
+  },
+  "s-douro_cruise": {
+    "key": "wiki:Rabelo boat|Douro",
+    "file": "File:Rabelos_en_el_río_Duero,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_10.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rabelos_en_el_r%C3%ADo_Duero,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_10.JPG",
+    "width": 5216,
+    "height": 2805
+  },
+  "s-rijks": {
+    "key": "wiki:Rijksmuseum",
+    "file": "File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg",
+    "author": "Trougnouf (Benoit Brummer)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_Rijksmuseum_Amsterdam_(DSCF0528).jpg",
+    "width": 4291,
+    "height": 3123
+  },
+  "s-van_gogh": {
+    "key": "wiki:Van Gogh Museum",
+    "file": "File:Logo_-_Van_Gogh_Museum.png",
+    "author": "Koeweiden Postma[1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_-_Van_Gogh_Museum.png",
+    "width": 1400,
+    "height": 1080
+  },
+  "s-anne_frank": {
+    "key": "wiki:Anne Frank House",
+    "file": "File:Amsterdam_(NL),_Anne-Frank-Huis_--_2015_--_7185.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Anne-Frank-Huis_--_2015_--_7185.jpg",
+    "width": 4073,
+    "height": 3176
+  },
+  "s-jordaan": {
+    "key": "wiki:Jordaan",
+    "file": "File:Eerste_Leliedwarsstraat.jpg",
+    "author": "Jvhertum",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Eerste_Leliedwarsstraat.jpg",
+    "width": 2000,
+    "height": 1500
+  },
+  "s-canal_cruise": {
+    "key": "wiki:Magere Brug",
+    "file": "File:Amsterdam_Magere_Brug_3.jpg",
+    "author": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_3.jpg",
+    "width": 4592,
+    "height": 3105
+  },
+  "s-dom": {
+    "key": "wiki:Dom Tower of Utrecht",
+    "file": "File:DomTorenUtrechtNederland.jpg",
+    "author": "Massimo Catarinella",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DomTorenUtrechtNederland.jpg",
+    "width": 1763,
+    "height": 3300
+  },
+  "s-kinderdijk": {
+    "key": "wiki:Kinderdijk",
+    "file": "File:KinderdijkMolens02.jpg",
+    "author": "Lucas Hirschegger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:KinderdijkMolens02.jpg",
+    "width": 1480,
+    "height": 1108
+  },
+  "s-rietveld": {
+    "key": "wiki:Rietveld Schröder House",
+    "file": "File:Rietveld_Schröderhuis_HayKranen-20.JPG",
+    "author": "User:Husky",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rietveld_Schr%C3%B6derhuis_HayKranen-20.JPG",
+    "width": 4515,
+    "height": 3010
+  },
+  "s-boat_utrecht": {
+    "key": "wiki:Oudegracht",
+    "file": "File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
+    "author": "Diliff",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
+    "width": 4172,
+    "height": 5553
+  },
+  "s-wharves": {
+    "key": "wiki:Oudegracht",
+    "file": "File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
+    "author": "Diliff",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
+    "width": 4172,
+    "height": 5553
+  },
+  "d-croque-monsieur": {
+    "key": "wiki:Croque monsieur",
+    "file": "File:Croque_monsieur.jpg",
+    "author": "Michael Brewer",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Croque_monsieur.jpg",
+    "width": 3107,
+    "height": 2071
+  },
+  "d-steak-frites": {
+    "key": "wiki:Steak frites",
+    "file": "File:Reel_and_Brand_-_September_2021_-_Sarah_Stierch_05.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reel_and_Brand_-_September_2021_-_Sarah_Stierch_05.jpg",
+    "width": 2723,
+    "height": 2042
+  },
+  "d-crepes": {
+    "key": "wiki:Crêpe",
+    "file": "File:Crepes_dsc07085.jpg",
+    "author": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Crepes_dsc07085.jpg",
+    "width": 2052,
+    "height": 1240
+  },
+  "d-boeuf-bourguignon": {
+    "key": "wiki:Beef bourguignon",
+    "file": "File:Beef_bourguignon_NYT.jpg",
+    "author": "Slayschips",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beef_bourguignon_NYT.jpg",
+    "width": 5376,
+    "height": 3024
+  },
+  "d-socca": {
+    "key": "wiki:Socca|Farinata",
+    "file": "File:Socca_EuroCup_2024_-_Moldova_-_Italy.jpg",
+    "author": "Melange",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Socca_EuroCup_2024_-_Moldova_-_Italy.jpg",
+    "width": 4000,
+    "height": 3000
+  },
+  "d-salade-nicoise": {
+    "key": "wiki:Salade niçoise",
+    "file": "File:Nizza-Salat_an_der_F_Mittelmeerküste.JPG",
+    "author": "Wusel007",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nizza-Salat_an_der_F_Mittelmeerk%C3%BCste.JPG",
+    "width": 3008,
+    "height": 2000
+  },
+  "d-daube-nicoise": {
+    "key": "wiki:fr:Daube niçoise|Daube",
+    "file": "File:Daube_de_boeuf_carottes.jpg",
+    "author": "tpholland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daube_de_boeuf_carottes.jpg",
+    "width": 2108,
+    "height": 2108
+  },
+  "d-pissaladiere": {
+    "key": "wiki:Pissaladière",
+    "file": "File:Pissaladière.jpg",
+    "author": "Cdg83",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pissaladi%C3%A8re.jpg",
+    "width": 3264,
+    "height": 2448
+  },
+  "d-pa-amb-tomaquet": {
+    "key": "wiki:Pa amb tomàquet",
+    "file": "File:Pa_amb_tomaquet.jpg",
+    "author": "Jennifer Woodard Maderazo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pa_amb_tomaquet.jpg",
+    "width": 3888,
+    "height": 2592
+  },
+  "d-paella": {
+    "key": "wiki:Paella",
+    "file": "File:01_Paella_Valenciana_original.jpg",
+    "author": "Jan Harenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg",
+    "width": 1600,
+    "height": 1067
+  },
+  "d-tapas": {
+    "key": "wiki:Tapas",
+    "file": "File:TapasenBarcelona.JPG",
+    "author": "Elemaki",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TapasenBarcelona.JPG",
+    "width": 3363,
+    "height": 2337
+  },
+  "d-crema-catalana": {
+    "key": "wiki:Crema catalana",
+    "file": "File:Creme_catalane.jpg",
+    "author": "Popo le Chien",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Creme_catalane.jpg",
+    "width": 2304,
+    "height": 1728
+  },
+  "d-salmorejo": {
+    "key": "wiki:Salmorejo",
+    "file": "File:Salmorejo_cordouan.JPG",
+    "author": "P.Lechien",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Salmorejo_cordouan.JPG",
+    "width": 2592,
+    "height": 1936
+  },
+  "d-jamon-iberico": {
+    "key": "wiki:Jamón ibérico",
+    "file": "File:Jamon_iberico_de_bellota_2_(cinco_jotas).jpg",
+    "author": "Cantabrucu",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamon_iberico_de_bellota_2_(cinco_jotas).jpg",
+    "width": 4032,
+    "height": 3024
+  },
+  "d-pescaito-frito": {
+    "key": "wiki:es:Pescaíto frito|Fried fish",
+    "file": "File:Frito_gaditano-_2009.jpg",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Frito_gaditano-_2009.jpg",
+    "width": 3888,
+    "height": 2592
+  },
+  "d-carbonara": {
+    "key": "wiki:Carbonara",
+    "file": "File:Espaguetis_carbonara.jpg",
+    "author": "Javier Somoza",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg",
+    "width": 2048,
+    "height": 1365
+  },
+  "d-cacio-e-pepe": {
+    "key": "wiki:Cacio e pepe",
+    "file": "File:Cacio_e_pepe.jpg",
+    "author": "Popo le Chien",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe.jpg",
+    "width": 3794,
+    "height": 2136
+  },
+  "d-suppli": {
+    "key": "wiki:Supplì|it:Supplì",
+    "file": "File:Supplì.jpg",
+    "author": "FrederikBianko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Suppl%C3%AC.jpg",
+    "width": 1152,
+    "height": 864
+  },
+  "d-saltimbocca-alla-romana": {
+    "key": "wiki:Saltimbocca",
+    "file": "File:Saltimbocca_01.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Saltimbocca_01.jpg",
+    "width": 2048,
+    "height": 1536
+  },
+  "d-schiacciata": {
+    "key": "wiki:Schiacciata|it:Schiacciata",
+    "file": "File:Scacce_salsa-ricotta.jpg",
+    "author": "JuliaK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scacce_salsa-ricotta.jpg",
+    "width": 2972,
+    "height": 2044
+  },
+  "d-bistecca-alla-fiorentina": {
+    "key": "wiki:Bistecca alla fiorentina",
+    "file": "File:Bistecca_alla_fiorentina-01.jpg",
+    "author": "mike packard",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bistecca_alla_fiorentina-01.jpg",
+    "width": 875,
+    "height": 678
+  },
+  "d-lampredotto": {
+    "key": "wiki:Lampredotto",
+    "file": "File:Lampredotto_2.jpg",
+    "author": "Lucarelli",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lampredotto_2.jpg",
+    "width": 2440,
+    "height": 2624
+  },
+  "d-ribollita": {
+    "key": "wiki:Ribollita",
+    "file": "File:Ribollita_Siena.jpg",
+    "author": "Ta4e Negodue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ribollita_Siena.jpg",
+    "width": 4032,
+    "height": 1960
+  },
+  "d-balik-ekmek": {
+    "key": "wiki:Balık ekmek",
+    "file": "File:Fish_sandwich,_Istanbul,_Turkey.JPG",
+    "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish_sandwich,_Istanbul,_Turkey.JPG",
+    "width": 640,
+    "height": 480
+  },
+  "d-meze": {
+    "key": "wiki:Meze",
+    "file": "File:Petra_metzes.jpg",
+    "author": "Unai Guerra",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Petra_metzes.jpg",
+    "width": 2048,
+    "height": 1536
+  },
+  "d-baklava": {
+    "key": "wiki:Baklava",
+    "file": "File:Baklava(1).png",
+    "author": "Sakaman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baklava(1).png",
+    "width": 772,
+    "height": 515
+  },
+  "d-iskender-kebap": {
+    "key": "wiki:İskender kebap",
+    "file": "File:İskender_Kebap.jpg",
+    "author": "Garrett Ziegler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%C4%B0skender_Kebap.jpg",
+    "width": 3888,
+    "height": 2592
+  },
+  "d-gozleme": {
+    "key": "wiki:Gözleme",
+    "file": "File:Gözleme.JPG",
+    "author": "Maderibeyza",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:G%C3%B6zleme.JPG",
+    "width": 3072,
+    "height": 2304
+  },
+  "d-testi-kebabi": {
+    "key": "wiki:Testi kebab|tr:Testi kebabı",
+    "file": "File:TestiKebabGoreme.jpg",
+    "author": "Niels Elgaard Larsen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TestiKebabGoreme.jpg",
+    "width": 2576,
+    "height": 1932
+  },
+  "d-manti": {
+    "key": "wiki:Manti (food)",
+    "file": "File:Kayseride_bir_restoranda_Kayseri_mantısı_(cropped).jpg",
+    "author": "Kızılkum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kayseride_bir_restoranda_Kayseri_mant%C4%B1s%C4%B1_(cropped).jpg",
+    "width": 2220,
+    "height": 1322
+  },
+  "d-kabak-tatlisi": {
+    "key": "wiki:tr:Kabak tatlısı|Kabak tatlısı",
+    "file": "File:Baked_pumpkin.jpg",
+    "author": "Biser Todorov",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baked_pumpkin.jpg",
+    "width": 768,
+    "height": 1024
+  },
+  "d-souvlaki": {
+    "key": "wiki:Souvlaki",
+    "file": "File:Ελληνικό_Σουβλάκι_-_panoramio.jpg",
+    "author": "EntaXoyas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8C_%CE%A3%CE%BF%CF%85%CE%B2%CE%BB%CE%AC%CE%BA%CE%B9_-_panoramio.jpg",
+    "width": 3264,
+    "height": 2176
+  },
+  "d-moussaka": {
+    "key": "wiki:Moussaka",
+    "file": "File:MussakasMeMelitsanesKePatates01.JPG",
+    "author": "Robert Kindermann aka RobertK",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:MussakasMeMelitsanesKePatates01.JPG",
+    "width": 1400,
+    "height": 933
+  },
+  "d-horiatiki": {
+    "key": "wiki:Greek salad",
+    "file": "File:Greece_Food_Horiatiki.JPG",
+    "author": "User:Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Greece_Food_Horiatiki.JPG",
+    "width": 3008,
+    "height": 2000
+  },
+  "d-loukoumades": {
+    "key": "wiki:Loukoumades|Lokma",
+    "file": "File:Sam'dan_lokma_tatlisi.jpg",
+    "author": "elif ayse",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam%27dan_lokma_tatlisi.jpg",
+    "width": 860,
+    "height": 646
+  },
+  "d-tomatokeftedes": {
+    "key": "wiki:Tomatokeftedes|el:Ντοματοκεφτέδες",
+    "file": "File:Tomato_fritters_of_Santorini_(Tomatokeftedes).jpg",
+    "author": "Sam Holt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomato_fritters_of_Santorini_(Tomatokeftedes).jpg",
+    "width": 2359,
+    "height": 2630
+  },
+  "d-fava": {
+    "key": "wiki:Fava (Greek dish)|Split pea",
+    "file": "File:Greek_fava.jpg",
+    "author": "I am the photographer and the chef!",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Greek_fava.jpg",
+    "width": 3264,
+    "height": 2448
+  },
+  "d-htapodi-sti-skara": {
+    "key": "wiki:Octopus as food",
+    "file": "File:Octopuses_in_Tsukiji.JPG",
+    "author": "Hu Totya",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Octopuses_in_Tsukiji.JPG",
+    "width": 1600,
+    "height": 1200
+  },
+  "d-assyrtiko": {
+    "key": "wiki:Assyrtiko",
+    "file": "File:ASSYRTIKO.jpg",
+    "author": "ÎµÎ³Ï Original uploader was Elisavetch at el.wikipedia",
+    "license": "Copyrighted free use",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:ASSYRTIKO.jpg",
+    "width": 568,
+    "height": 869
+  },
+  "d-fish-and-chips": {
+    "key": "wiki:Fish and chips",
+    "file": "File:Fish_and_chips_blackpool.jpg",
+    "author": "Matthias Meckel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_blackpool.jpg",
+    "width": 4928,
+    "height": 3264
+  },
+  "d-sunday-roast": {
+    "key": "wiki:Sunday roast",
+    "file": "File:Sunday_roast_lamb_Cock_Inn_Henham_Essex_England_01.jpg",
+    "author": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunday_roast_lamb_Cock_Inn_Henham_Essex_England_01.jpg",
+    "width": 4045,
+    "height": 4045
+  },
+  "d-afternoon-tea": {
+    "key": "wiki:Afternoon tea|Tea (meal)",
+    "file": "File:Afternoon_meal_in_Tiffin.jpg",
+    "author": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Afternoon_meal_in_Tiffin.jpg",
+    "width": 4000,
+    "height": 3000
+  },
+  "d-brick-lane-curry": {
+    "key": "wiki:Chicken tikka masala|Brick Lane",
+    "file": "File:Chicken_tikka_masala_(cropped).jpg",
+    "author": "Michael Hays",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala_(cropped).jpg",
+    "width": 2592,
+    "height": 2684
+  },
+  "d-cullen-skink": {
+    "key": "wiki:Cullen skink",
+    "file": "File:Cullen_Skink.JPG",
+    "author": "Metukkalihis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cullen_Skink.JPG",
+    "width": 5184,
+    "height": 3456
+  },
+  "d-haggis-neeps-tatties": {
+    "key": "wiki:Haggis",
+    "file": "File:Scotland_Haggis.jpg",
+    "author": "Chris Brown",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scotland_Haggis.jpg",
+    "width": 3504,
+    "height": 2336
+  },
+  "d-scotch-pie": {
+    "key": "wiki:Scotch pie",
+    "file": "File:Scotch_pie.jpg",
+    "author": "Delta-NC (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Scotch_pie.jpg",
+    "width": 2878,
+    "height": 2304
+  },
+  "d-cranachan": {
+    "key": "wiki:Cranachan",
+    "file": "File:Cranachan_(4332953688).jpg",
+    "author": "Saskia van de Nieuwenhof from Edinburgh, United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cranachan_(4332953688).jpg",
+    "width": 1536,
+    "height": 2048
+  },
+  "d-currywurst": {
+    "key": "wiki:Currywurst",
+    "file": "File:20220430_currywurst.jpg",
+    "author": "Ziko van Dijk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20220430_currywurst.jpg",
+    "width": 4032,
+    "height": 2268
+  },
+  "d-doner-kebab": {
+    "key": "wiki:Doner kebab",
+    "file": "File:Döner_kebab_slicing.jpg",
+    "author": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebab_slicing.jpg",
+    "width": 300,
+    "height": 422
+  },
+  "d-eisbein": {
+    "key": "wiki:Eisbein",
+    "file": "File:Eisbein-2.jpg",
+    "author": "Rainer Zenz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Eisbein-2.jpg",
+    "width": 2304,
+    "height": 1728
+  },
+  "d-konigsberger-klopse": {
+    "key": "wiki:Königsberger Klopse",
+    "file": "File:Koenigsberger.jpg",
+    "author": "Rainer Zenz at German Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Koenigsberger.jpg",
+    "width": 1200,
+    "height": 1042
+  },
+  "d-weisswurst": {
+    "key": "wiki:Weißwurst",
+    "file": "File:Weißwurst-1.jpg",
+    "author": "Rainer Z ...",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fwurst-1.jpg",
+    "width": 2634,
+    "height": 2007
+  },
+  "d-schweinshaxe": {
+    "key": "wiki:Schweinshaxe",
+    "file": "File:00ane_Haxen.jpg",
+    "author": "Erich Ferdinand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:00ane_Haxen.jpg",
+    "width": 845,
+    "height": 634
+  },
+  "d-obatzda": {
+    "key": "wiki:Obatzda",
+    "file": "File:Obatzter-1.jpg",
+    "author": "Rainer Z ...",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Obatzter-1.jpg",
+    "width": 2583,
+    "height": 1828
+  },
+  "d-apfelstrudel": {
+    "key": "wiki:Apple strudel",
+    "file": "File:Strudel.jpg",
+    "author": "che",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Strudel.jpg",
+    "width": 3456,
+    "height": 2304
+  },
+  "d-kasekrainer": {
+    "key": "wiki:Käsekrainer",
+    "file": "File:Käsekrainer.jpg",
+    "author": "Kobako",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:K%C3%A4sekrainer.jpg",
+    "width": 2568,
+    "height": 1968
+  },
+  "d-wiener-schnitzel": {
+    "key": "wiki:Wiener schnitzel",
+    "file": "File:Wiener-Schnitzel02.jpg",
+    "author": "Kobako",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg",
+    "width": 1298,
+    "height": 952
+  },
+  "d-sachertorte": {
+    "key": "wiki:Sachertorte",
+    "file": "File:Sachertorte_DSC03027.JPG",
+    "author": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Sachertorte_DSC03027.JPG",
+    "width": 2592,
+    "height": 1944
+  },
+  "d-tafelspitz": {
+    "key": "wiki:Tafelspitz",
+    "file": "File:Tafelspitz.jpg",
+    "author": "RobertK",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Tafelspitz.jpg",
+    "width": 1400,
+    "height": 933
+  },
+  "d-kasnocken": {
+    "key": "wiki:Kasnocken|de:Kasnocken",
+    "file": "File:2015_0718_Käsespätzle_Sölden.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_0718_K%C3%A4sesp%C3%A4tzle_S%C3%B6lden.jpg",
+    "width": 2558,
+    "height": 1807
+  },
+  "d-mozartkugel": {
+    "key": "wiki:Mozartkugel",
+    "file": "File:Original_Salzburger_Mozartkugel_Fürst_2009.jpg",
+    "author": "Roberta F.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Original_Salzburger_Mozartkugel_F%C3%BCrst_2009.jpg",
+    "width": 667,
+    "height": 1000
+  },
+  "d-salzburger-nockerl": {
+    "key": "wiki:Salzburger Nockerl",
+    "file": "File:Salzburger_Nockerln_04_gastronomie_001.jpg",
+    "author": "Tourismus Salzburg - original uploader was Salzburg at de.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburger_Nockerln_04_gastronomie_001.jpg",
+    "width": 2598,
+    "height": 1739
+  },
+  "d-pastel-de-nata": {
+    "key": "wiki:Pastel de nata",
+    "file": "File:Pasteis_de_Belem.jpg",
+    "author": "Mon Œil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasteis_de_Belem.jpg",
+    "width": 2652,
+    "height": 2652
+  },
+  "d-bacalhau-a-bras": {
+    "key": "wiki:Bacalhau à Brás|pt:Bacalhau à Brás",
+    "file": "File:Bacalhau_a_Bras.jpg",
+    "author": "Fpenteado at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bacalhau_a_Bras.jpg",
+    "width": 1758,
+    "height": 1080
+  },
+  "d-bifana": {
+    "key": "wiki:Bifana",
+    "file": "File:Porto-style_Bifana_sandwich_with_egg.jpg",
+    "author": "Siliconred",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Porto-style_Bifana_sandwich_with_egg.jpg",
+    "width": 1536,
+    "height": 2048
+  },
+  "d-sardinhas-assadas": {
+    "key": "wiki:pt:Sardinha assada|Sardine",
+    "file": "File:Grilled_Sardines_5.50€_Marisqueira_O_Varino_Nazaré_(3785526688).jpg",
+    "author": "Yusuke Kawasaki from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grilled_Sardines_5.50%E2%82%AC_Marisqueira_O_Varino_Nazar%C3%A9_(3785526688).jpg",
+    "width": 1280,
+    "height": 849
+  },
+  "d-francesinha": {
+    "key": "wiki:Francesinha",
+    "file": "File:Francesinha_Sandwich_(cropped).jpg",
+    "author": "TheRealDapperDan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Francesinha_Sandwich_(cropped).jpg",
+    "width": 3244,
+    "height": 1858
+  },
+  "d-tripas-a-moda-do-porto": {
+    "key": "wiki:Tripas à moda do Porto",
+    "file": "File:Tripas_(8907365960).jpg",
+    "author": "Jeremy Keith from Brighton &amp; Hove, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tripas_(8907365960).jpg",
+    "width": 2592,
+    "height": 1936
+  },
+  "d-bolinhos-de-bacalhau": {
+    "key": "wiki:Pastéis de bacalhau|Bolinhos de bacalhau",
+    "file": "File:Bolinho_de_bacalhau.jpg",
+    "author": "GostinhoDeBrasil",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bolinho_de_bacalhau.jpg",
+    "width": 599,
+    "height": 374
+  },
+  "d-vinho-do-porto": {
+    "key": "wiki:Port wine",
+    "file": "File:Port_wine.jpg",
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_wine.jpg",
+    "width": 1024,
+    "height": 768
+  },
+  "d-haring": {
+    "key": "wiki:Soused herring",
+    "file": "File:Haring_04.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Haring_04.jpg",
+    "width": 2560,
+    "height": 1920
+  },
+  "d-bitterballen": {
+    "key": "wiki:Bitterballen",
+    "file": "File:Bitterballen_mosterd_mayo.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bitterballen_mosterd_mayo.jpg",
+    "width": 1920,
+    "height": 1920
+  },
+  "d-stroopwafel": {
+    "key": "wiki:Stroopwafel",
+    "file": "File:Stroopwafels_01.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stroopwafels_01.jpg",
+    "width": 2500,
+    "height": 2500
+  },
+  "d-stamppot": {
+    "key": "wiki:Stamppot",
+    "file": "File:Boerenkool_stamppot.jpg",
+    "author": "M.Minderhoud",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Boerenkool_stamppot.jpg",
+    "width": 1996,
+    "height": 1338
+  },
+  "d-uitsmijter": {
+    "key": "wiki:Uitsmijter",
+    "file": "File:Uitsmijter2.JPG",
+    "author": "Hortensja Bukietowa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Uitsmijter2.JPG",
+    "width": 3504,
+    "height": 2336
+  },
+  "d-kibbeling": {
+    "key": "wiki:Kibbeling",
+    "file": "File:2021-10-13-Kibbeling-4943.jpg",
+    "author": "Superbass",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021-10-13-Kibbeling-4943.jpg",
+    "width": 5122,
+    "height": 3415
+  },
+  "d-poffertjes": {
+    "key": "wiki:Poffertjes",
+    "file": "File:Poffertjes-Melkhuis_(cropped).jpg",
+    "author": "Illustratedjc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Poffertjes-Melkhuis_(cropped).jpg",
+    "width": 4928,
+    "height": 3136
+  },
+  "d-appeltaart": {
+    "key": "wiki:Dutch apple pie|Apple pie",
+    "file": "File:Apple_pie_14.jpg",
+    "author": "Shisma",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_pie_14.jpg",
+    "width": 4032,
+    "height": 3024
   }
 }
