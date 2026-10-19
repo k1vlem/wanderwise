@@ -302,4 +302,9 @@ export const tr: Dict = {
 
   'notFound.title': 'Sayfa bulunamadı',
   'notFound.back': 'Ana sayfaya git',
+  'viewer.close': 'Kapat',
+  'viewer.prev': 'Önceki fotoğraf',
+  'viewer.next': 'Sonraki fotoğraf',
+  'viewer.open': 'Fotoğrafı aç: {title}',
+  'viewer.hint': 'Büyük görmek için bir fotoğrafa dokunun.',
 };

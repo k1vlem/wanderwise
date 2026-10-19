@@ -1,5 +1,6 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { PhotoViewerProvider } from './components/PhotoViewer';
 import { I18nProvider } from './i18n';
 import { StoreProvider } from './lib/store';
 import { Auth } from './pages/Auth';
@@ -18,23 +19,25 @@ export function App() {
   return (
     <I18nProvider>
       <StoreProvider>
-        <HashRouter>
-          <Routes>
-            <Route element={<Layout />}>
-              <Route index element={<Home />} />
-              <Route path="country/:id" element={<Country />} />
-              <Route path="plan" element={<PlanPage />} />
-              <Route path="build" element={<Build />} />
-              <Route path="signin" element={<Auth mode="signin" />} />
-              <Route path="signup" element={<Auth mode="signup" />} />
-              <Route path="trips" element={<Trips />} />
-              <Route path="trips/:id" element={<TripDetail />} />
-              <Route path="checkout/:id" element={<Checkout />} />
-              <Route path="credits" element={<Credits />} />
-              <Route path="*" element={<NotFound />} />
-            </Route>
-          </Routes>
-        </HashRouter>
+        <PhotoViewerProvider>
+          <HashRouter>
+            <Routes>
+              <Route element={<Layout />}>
+                <Route index element={<Home />} />
+                <Route path="country/:id" element={<Country />} />
+                <Route path="plan" element={<PlanPage />} />
+                <Route path="build" element={<Build />} />
+                <Route path="signin" element={<Auth mode="signin" />} />
+                <Route path="signup" element={<Auth mode="signup" />} />
+                <Route path="trips" element={<Trips />} />
+                <Route path="trips/:id" element={<TripDetail />} />
+                <Route path="checkout/:id" element={<Checkout />} />
+                <Route path="credits" element={<Credits />} />
+                <Route path="*" element={<NotFound />} />
+              </Route>
+            </Routes>
+          </HashRouter>
+        </PhotoViewerProvider>
       </StoreProvider>
     </I18nProvider>
   );

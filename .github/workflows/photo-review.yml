@@ -1,0 +1,39 @@
+name: Photo candidates
+
+# Searches Wikimedia Commons for the keys in photo-candidates.json and pushes small previews
+# to the photo-review branch, so the main branch stays free of review images.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - photo-candidates.json
+      - scripts/photo-candidates.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photo-review
+  cancel-in-progress: true
+
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/photo-candidates.mjs
+      - name: Push previews to the photo-review branch
+        working-directory: review
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q -b photo-review
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Photo candidates for ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" photo-review

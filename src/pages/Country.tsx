@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Photo } from '../components/Photo';
-import { cityById, countryById } from '../data';
+import { PhotoButton, type ViewerItem } from '../components/PhotoViewer';
+import { cityById, countryById, dishPhoto, sightPhoto } from '../data';
 import { useI18n } from '../i18n';
 import { weekFromPerPerson } from '../lib/planner';
 import { NotFound } from './NotFound';
@@ -48,50 +49,68 @@ export function Country() {
         </span>
       </div>
 
-      <h2 className="mt-12 font-display text-2xl font-semibold sm:text-3xl">{t('country.cities')}</h2>
-      <div className="mt-5 grid gap-5 md:grid-cols-2">
-        {cities.map((city) => (
-          <article key={city.id} className="overflow-hidden rounded-3xl border border-line bg-white">
-            <div className="h-64 overflow-hidden">
-              <Photo id={city.id} alt={pick(city.n)} className="h-full w-full" />
-            </div>
-            <div className="space-y-5 p-6">
-              <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="font-display text-2xl font-semibold">{pick(city.n)}</h3>
-                <span className="text-[15px] text-muted">{t('country.weekFrom', { price: money(weekFromPerPerson(city)) })}</span>
+      <p className="mt-10 flex items-center gap-2 text-sm text-muted">
+        <Icon name="expand" size={14} />
+        {t('viewer.hint')}
+      </p>
+      <div className="mt-4 space-y-16">
+        {cities.map((city) => {
+          const sightItems: ViewerItem[] = city.sights.map((s) => ({
+            id: sightPhoto(s),
+            title: pick(s.n),
+            note: `${s.fullDay ? `${t('item.dayTrip')} · ` : ''}${duration(s.hours * 60)}`,
+            meta: s.pp ? money(s.pp) : t('item.free0'),
+          }));
+          const dishItems: ViewerItem[] = city.dishes.map((d) => ({ id: dishPhoto(d), title: d.n, note: pick(d.d), meta: `~${money(d.pp)}` }));
+          return (
+            <section key={city.id} aria-labelledby={`city-${city.id}`}>
+              <div className="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+                <div className="relative min-h-[260px] overflow-hidden rounded-3xl">
+                  <Photo id={city.id} size="lg" alt={pick(city.n)} className="absolute inset-0 h-full w-full" />
+                </div>
+                <div className="flex flex-col justify-center gap-4 rounded-3xl bg-white p-6 sm:p-8">
+                  <h2 id={`city-${city.id}`} className="font-display text-3xl font-semibold tracking-tight">{pick(city.n)}</h2>
+                  <p className="text-[16px] text-muted">{t('country.weekFrom', { price: money(weekFromPerPerson(city)) })}</p>
+                  <div className="flex flex-wrap gap-3">
+                    <Link to={`/build?country=${country.id}&city=${city.id}`} className="inline-flex items-center gap-2 rounded-full bg-sunset px-5 py-2.5 font-bold text-white hover:bg-sunset-dark">
+                      {t('country.planManual')}
+                      <Icon name="arrow" size={16} />
+                    </Link>
+                  </div>
+                </div>
               </div>
-              <div>
-                <h4 className="text-sm font-bold uppercase tracking-wider text-muted">{t('country.sights')}</h4>
-                <ul className="mt-2 divide-y divide-line">
-                  {city.sights.map((s) => (
-                    <li key={s.id} className="flex items-center justify-between gap-3 py-2.5 text-[15px]">
-                      <span className="min-w-0">{pick(s.n)}</span>
-                      <span className="shrink-0 font-semibold tabular-nums">{s.pp ? money(s.pp) : t('item.free0')}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div>
-                <h4 className="text-sm font-bold uppercase tracking-wider text-muted">{t('country.food')}</h4>
-                <ul className="mt-2 grid gap-2 sm:grid-cols-2">
-                  {city.dishes.map((d) => (
-                    <li key={d.n} className="rounded-2xl bg-shell p-3">
+
+              <h3 className="mt-8 font-display text-xl font-semibold">{t('country.sights')}</h3>
+              <ul className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+                {city.sights.map((s, i) => (
+                  <li key={s.id} className="min-w-0">
+                    <PhotoButton items={sightItems} index={i} className="aspect-[4/3] w-full rounded-2xl" />
+                    <p className="mt-2 text-[15px] font-semibold leading-snug">{pick(s.n)}</p>
+                    <p className="text-sm text-muted">
+                      {sightItems[i].note} · <span className="font-semibold text-ink">{sightItems[i].meta}</span>
+                    </p>
+                  </li>
+                ))}
+              </ul>
+
+              <h3 className="mt-10 font-display text-xl font-semibold">{t('country.food')}</h3>
+              <ul className="mt-4 grid grid-cols-2 gap-4 lg:grid-cols-4">
+                {city.dishes.map((d, i) => (
+                  <li key={d.id} className="min-w-0 overflow-hidden rounded-3xl border border-line bg-white">
+                    <PhotoButton items={dishItems} index={i} className="aspect-[4/3] w-full" />
+                    <div className="p-4">
                       <p className="flex items-baseline justify-between gap-2 font-semibold">
-                        {d.n}
-                        <span className="text-sm tabular-nums text-lagoon-dark">~{money(d.pp)}</span>
+                        <span className="min-w-0">{d.n}</span>
+                        <span className="shrink-0 text-sm tabular-nums text-lagoon-dark">~{money(d.pp)}</span>
                       </p>
-                      <p className="mt-0.5 text-sm text-muted">{pick(d.d)}</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <Link to={`/build?country=${country.id}&city=${city.id}`} className="inline-flex items-center gap-2 font-bold text-sunset hover:text-sunset-dark">
-                {t('country.planManual')}
-                <Icon name="arrow" size={16} />
-              </Link>
-            </div>
-          </article>
-        ))}
+                      <p className="mt-1 text-sm text-muted">{pick(d.d)}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })}
       </div>
     </div>
   );

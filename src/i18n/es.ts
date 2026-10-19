@@ -301,4 +301,9 @@ export const es: Dict = {
 
   'notFound.title': 'Página no encontrada',
   'notFound.back': 'Ir a la página de inicio',
+  'viewer.close': 'Cerrar',
+  'viewer.prev': 'Foto anterior',
+  'viewer.next': 'Foto siguiente',
+  'viewer.open': 'Abrir foto: {title}',
+  'viewer.hint': 'Toca cualquier foto para verla en grande.',
 };

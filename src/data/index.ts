@@ -1,6 +1,6 @@
 import { CITIES } from './cities';
 import { COUNTRIES, ORIGINS } from './countries';
-import type { City, Country, Origin } from './types';
+import type { City, Country, Dish, Origin, Sight } from './types';
 
 export * from './types';
 export { CITIES, COUNTRIES, ORIGINS };
@@ -24,3 +24,5 @@ export const photoUrl = (id: string, size: 'sm' | 'lg' = 'sm') =>
 
 /** The photo used for a country card. */
 export const countryPhoto = (c: Country) => c.cities[0];
+export const sightPhoto = (s: Sight) => `s-${s.id}`;
+export const dishPhoto = (d: Dish) => `d-${d.id}`;

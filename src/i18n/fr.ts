@@ -301,4 +301,9 @@ export const fr: Dict = {
 
   'notFound.title': 'Page introuvable',
   'notFound.back': 'Retour à l’accueil',
+  'viewer.close': 'Fermer',
+  'viewer.prev': 'Photo précédente',
+  'viewer.next': 'Photo suivante',
+  'viewer.open': 'Ouvrir la photo : {title}',
+  'viewer.hint': 'Touchez une photo pour l’agrandir.',
 };

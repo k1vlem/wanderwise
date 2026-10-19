@@ -1,4 +1,4 @@
-import { cityById, countryById } from '../data';
+import { cityById, countryById, dishPhoto, sightPhoto } from '../data';
 import type { I18n } from '../i18n';
 import type { Day, Item, Plan } from './planner';
 
@@ -10,6 +10,8 @@ export interface ItemText {
   note: string;
   flags: string[];
   cost: string;
+  /** Photo of the sight or dish, if the item has one */
+  photo?: string;
 }
 
 const CATEGORY: Record<Item['kind'], Category> = {
@@ -71,6 +73,7 @@ export function describeItem(item: Item, plan: Plan, i18n: I18n): ItemText {
       if (sight.dress) out.flags.push(t('item.dress'));
       if (sight.closed?.length) out.flags.push(t('item.closed', { days: sight.closed.map(weekday).join(', ') }));
       if (item.cost === 0) out.cost = t('item.free0');
+      out.photo = sightPhoto(sight);
       break;
     }
     case 'lunch':
@@ -78,6 +81,7 @@ export function describeItem(item: Item, plan: Plan, i18n: I18n): ItemText {
       const dish = city.dishes[Number(item.ref)];
       out.title = t(item.kind === 'lunch' ? 'item.lunch' : 'item.dinner', { dish: dish.n });
       out.note = pick(dish.d);
+      out.photo = dishPhoto(dish);
       break;
     }
     case 'free':
@@ -105,6 +109,11 @@ export function dayTitle(day: Day, i18n: I18n): string {
       return sight ? pick(sight.n) : pick(city.n);
     }
   }
+}
+
+/** The day's main sight, or the city for travel and free days. */
+export function dayPhoto(day: Day): string {
+  return (day.kind === 'explore' || day.kind === 'dayTrip') && day.ref ? `s-${day.ref}` : day.city;
 }
 
 export const dayCost = (day: Day) => day.items.reduce((n, i) => n + i.cost, 0);

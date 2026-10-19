@@ -301,4 +301,9 @@ export const ru: Dict = {
 
   'notFound.title': 'Страница не найдена',
   'notFound.back': 'На главную',
+  'viewer.close': 'Закрыть',
+  'viewer.prev': 'Предыдущее фото',
+  'viewer.next': 'Следующее фото',
+  'viewer.open': 'Открыть фото: {title}',
+  'viewer.hint': 'Нажмите на фото, чтобы посмотреть его крупно.',
 };

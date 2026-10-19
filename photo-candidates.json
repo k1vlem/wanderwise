@@ -1,0 +1,506 @@
+{
+ "istanbul": {
+  "queries": [
+   "Istanbul skyline Golden Horn",
+   "Galata Tower Istanbul",
+   "Istanbul panorama sunset"
+  ],
+  "wiki": [
+   "Golden Horn",
+   "fr:Tour de Galata",
+   "de:Galataturm"
+  ]
+ },
+ "s-eiffel": {
+  "queries": [
+   "Eiffel Tower from Trocadéro",
+   "Eiffel Tower Champ de Mars",
+   "Tour Eiffel Paris"
+  ],
+  "wiki": [
+   "fr:Tour Eiffel",
+   "de:Eiffelturm",
+   "Champ de Mars"
+  ]
+ },
+ "s-orsay": {
+  "queries": [
+   "Musée d'Orsay clock",
+   "Musée d'Orsay nave interior",
+   "Musée d'Orsay"
+  ],
+  "wiki": [
+   "fr:Musée d'Orsay",
+   "de:Musée d’Orsay",
+   "it:Museo d'Orsay"
+  ]
+ },
+ "s-old_nice": {
+  "queries": [
+   "Cours Saleya Nice",
+   "Vieux Nice street",
+   "Old town Nice"
+  ],
+  "wiki": [
+   "fr:Cours Saleya",
+   "fr:Vieux-Nice"
+  ]
+ },
+ "s-castle_hill": {
+  "queries": [
+   "Colline du Château Nice view",
+   "Nice view from Castle Hill",
+   "Nice panorama"
+  ],
+  "wiki": [
+   "fr:Colline du Château (Nice)"
+  ]
+ },
+ "s-sagrada": {
+  "queries": [
+   "Sagrada Família interior",
+   "Sagrada Familia nave",
+   "Sagrada Família facade"
+  ],
+  "wiki": [
+   "ca:Temple Expiatori de la Sagrada Família",
+   "es:Templo Expiatorio de la Sagrada Familia",
+   "de:Sagrada Família"
+  ]
+ },
+ "s-gothic": {
+  "queries": [
+   "Barri Gòtic Barcelona",
+   "Pont del Bisbe Barcelona",
+   "Plaça del Rei Barcelona"
+  ],
+  "wiki": [
+   "ca:Barri Gòtic",
+   "es:Barrio Gótico (Barcelona)"
+  ]
+ },
+ "s-barceloneta": {
+  "queries": [
+   "Barceloneta beach",
+   "Platja de la Barceloneta",
+   "Barcelona beach summer"
+  ],
+  "wiki": [
+   "ca:Platja de la Barceloneta",
+   "es:Playa de la Barceloneta"
+  ]
+ },
+ "s-bunkers": {
+  "queries": [
+   "Bunkers del Carmel Barcelona",
+   "Turó de la Rovira view",
+   "Barcelona view from Turó de la Rovira"
+  ],
+  "wiki": [
+   "ca:Turó de la Rovira"
+  ]
+ },
+ "s-flamenco": {
+  "queries": [
+   "flamenco dancer",
+   "flamenco Sevilla",
+   "flamenco dance performance"
+  ],
+  "wiki": [
+   "es:Flamenco",
+   "de:Flamenco"
+  ]
+ },
+ "s-borghese": {
+  "queries": [
+   "Galleria Borghese Rome",
+   "Villa Borghese Casino Borghese",
+   "Apollo and Daphne Bernini"
+  ],
+  "wiki": [
+   "it:Galleria Borghese",
+   "Apollo and Daphne (Bernini)",
+   "de:Galleria Borghese"
+  ]
+ },
+ "s-michelangelo": {
+  "queries": [
+   "Piazzale Michelangelo Florence",
+   "Florence from Piazzale Michelangelo",
+   "Florence panorama sunset"
+  ],
+  "wiki": [
+   "it:Piazzale Michelangelo",
+   "de:Piazzale Michelangelo"
+  ]
+ },
+ "s-bosphorus": {
+  "queries": [
+   "Bosphorus Istanbul",
+   "Bosphorus Bridge sunset",
+   "Bosphorus ferry Istanbul"
+  ],
+  "wiki": [
+   "Bosphorus Bridge",
+   "tr:İstanbul Boğazı",
+   "de:Bosporus"
+  ]
+ },
+ "s-goreme_museum": {
+  "queries": [
+   "Göreme Open Air Museum",
+   "Goreme open air museum church",
+   "Dark Church Göreme fresco"
+  ],
+  "wiki": [
+   "tr:Göreme Açık Hava Müzesi",
+   "de:Freilichtmuseum Göreme"
+  ]
+ },
+ "s-rose_valley": {
+  "queries": [
+   "Rose Valley Cappadocia",
+   "Red Valley Cappadocia",
+   "Cappadocia valley fairy chimneys"
+  ],
+  "wiki": [
+   "tr:Güllüdere Vadisi",
+   "Pasabag",
+   "de:Kappadokien"
+  ]
+ },
+ "s-acropolis_museum": {
+  "queries": [
+   "Acropolis Museum Athens",
+   "Acropolis Museum interior",
+   "Caryatids Acropolis Museum"
+  ],
+  "wiki": [
+   "el:Νέο Μουσείο Ακρόπολης",
+   "de:Akropolismuseum",
+   "fr:Musée de l'Acropole"
+  ]
+ },
+ "s-lycabettus": {
+  "queries": [
+   "Lycabettus hill Athens",
+   "Mount Lycabettus",
+   "Athens view from Lycabettus"
+  ],
+  "wiki": [
+   "el:Λυκαβηττός",
+   "de:Lykabettus"
+  ]
+ },
+ "s-caldera_hike": {
+  "queries": [
+   "Santorini caldera Fira",
+   "Imerovigli Santorini",
+   "Santorini caldera view"
+  ],
+  "wiki": [
+   "Imerovigli",
+   "Fira",
+   "de:Santorin"
+  ]
+ },
+ "s-wine": {
+  "queries": [
+   "Santorini vineyard",
+   "Santorini winery",
+   "Santorini kouloura vines"
+  ],
+  "wiki": []
+ },
+ "s-castle_edi": {
+  "queries": [
+   "Edinburgh Castle from Princes Street Gardens",
+   "Edinburgh Castle Grassmarket",
+   "Edinburgh Castle"
+  ],
+  "wiki": [
+   "de:Edinburgh Castle",
+   "fr:Château d'Édimbourg"
+  ]
+ },
+ "s-wall_memorial": {
+  "queries": [
+   "Berlin Wall Memorial Bernauer Strasse",
+   "Gedenkstätte Berliner Mauer",
+   "Bernauer Straße Mauer"
+  ],
+  "wiki": [
+   "de:Gedenkstätte Berliner Mauer"
+  ]
+ },
+ "s-residenz": {
+  "queries": [
+   "Munich Residenz Antiquarium",
+   "Residenz München Antiquarium",
+   "Munich Residenz courtyard"
+  ],
+  "wiki": [
+   "de:Münchner Residenz",
+   "Antiquarium (Munich)"
+  ]
+ },
+ "s-english_garden": {
+  "queries": [
+   "Eisbach surfer Munich",
+   "Englischer Garten Munich Monopteros",
+   "Englischer Garten"
+  ],
+  "wiki": [
+   "de:Englischer Garten (München)",
+   "Eisbach (Isar)",
+   "Monopteros (Munich)"
+  ]
+ },
+ "s-topkapi": {
+  "queries": [
+   "Topkapı Palace gate",
+   "Topkapı Palace Harem",
+   "Topkapi palace courtyard"
+  ],
+  "wiki": [
+   "tr:Topkapı Sarayı",
+   "de:Topkapı-Palast"
+  ]
+ },
+ "s-sao_jorge": {
+  "queries": [
+   "São Jorge Castle Lisbon",
+   "Castelo de São Jorge",
+   "Lisbon castle view"
+  ],
+  "wiki": [
+   "pt:Castelo de São Jorge",
+   "de:Castelo de São Jorge"
+  ]
+ },
+ "s-tram28": {
+  "queries": [
+   "Lisbon tram 28",
+   "Lisbon tram Alfama",
+   "Eléctrico 28 Lisboa"
+  ],
+  "wiki": [
+   "pt:Carreira 28 da Carris",
+   "de:Straßenbahn Lissabon"
+  ]
+ },
+ "s-ribeira": {
+  "queries": [
+   "Ribeira Porto",
+   "Cais da Ribeira Porto",
+   "Porto riverside Ribeira"
+  ],
+  "wiki": [
+   "pt:Ribeira (Porto)",
+   "pt:Cais da Ribeira"
+  ]
+ },
+ "s-port_cellar": {
+  "queries": [
+   "port wine cellar barrels",
+   "port wine cellar Vila Nova de Gaia",
+   "Porto wine cellar"
+  ],
+  "wiki": [
+   "pt:Caves do Vinho do Porto"
+  ]
+ },
+ "s-van_gogh": {
+  "queries": [
+   "Van Gogh Museum Amsterdam",
+   "Almond Blossoms Van Gogh"
+  ],
+  "wiki": [
+   "Almond Blossoms",
+   "Sunflowers (Van Gogh series)",
+   "The Potato Eaters"
+  ]
+ },
+ "s-boat_utrecht": {
+  "queries": [
+   "Oudegracht Utrecht",
+   "Utrecht canal boat",
+   "Utrecht gracht"
+  ],
+  "wiki": [
+   "nl:Oudegracht (Utrecht)",
+   "nl:Nieuwegracht (Utrecht)"
+  ]
+ },
+ "s-wharves": {
+  "queries": [
+   "Oudegracht werf",
+   "Utrecht werfkelders",
+   "Oudegracht terras"
+  ],
+  "wiki": [
+   "nl:Werf (Utrecht)"
+  ]
+ },
+ "d-socca": {
+  "queries": [
+   "socca Nice",
+   "socca niçoise",
+   "farinata di ceci"
+  ],
+  "wiki": [
+   "fr:Socca",
+   "it:Farinata di ceci"
+  ],
+  "minWidth": 1000
+ },
+ "d-espinacas-con-garbanzos": {
+  "queries": [
+   "espinacas con garbanzos",
+   "spinach chickpeas tapa",
+   "garbanzos con espinacas"
+  ],
+  "wiki": [],
+  "minWidth": 1000
+ },
+ "d-lampredotto": {
+  "queries": [
+   "lampredotto panino",
+   "lampredotto sandwich",
+   "lampredotto Firenze"
+  ],
+  "wiki": [
+   "it:Lampredotto"
+  ],
+  "minWidth": 1000
+ },
+ "d-balik-ekmek": {
+  "queries": [
+   "balık ekmek",
+   "fish sandwich Istanbul",
+   "balik ekmek Eminönü"
+  ],
+  "wiki": [
+   "tr:Balık ekmek"
+  ],
+  "minWidth": 1000
+ },
+ "d-htapodi-sti-skara": {
+  "queries": [
+   "grilled octopus Greece",
+   "grilled octopus plate",
+   "octopus grill taverna"
+  ],
+  "wiki": [],
+  "minWidth": 1000
+ },
+ "d-assyrtiko": {
+  "queries": [
+   "Assyrtiko wine",
+   "Santorini white wine glass",
+   "Greek white wine glass"
+  ],
+  "wiki": [],
+  "minWidth": 1000
+ },
+ "d-haggis-neeps-tatties": {
+  "queries": [
+   "haggis neeps and tatties",
+   "haggis dish plate",
+   "haggis served"
+  ],
+  "wiki": [
+   "de:Haggis"
+  ],
+  "minWidth": 1000
+ },
+ "d-cranachan": {
+  "queries": [
+   "cranachan",
+   "cranachan dessert",
+   "raspberry cranachan"
+  ],
+  "wiki": [],
+  "minWidth": 900
+ },
+ "d-doner-kebab": {
+  "queries": [
+   "döner kebab Berlin",
+   "döner sandwich",
+   "Döner im Brot"
+  ],
+  "wiki": [
+   "de:Döner Kebab",
+   "tr:Döner"
+  ],
+  "minWidth": 1000
+ },
+ "d-bosna": {
+  "queries": [
+   "Bosna Salzburg",
+   "Bosna Würstel",
+   "Bosna hot dog"
+  ],
+  "wiki": [
+   "de:Bosna (Speise)"
+  ],
+  "minWidth": 800
+ },
+ "d-bolinhos-de-bacalhau": {
+  "queries": [
+   "pastéis de bacalhau",
+   "bolinhos de bacalhau",
+   "codfish cakes Portugal"
+  ],
+  "wiki": [
+   "pt:Pastel de bacalhau"
+  ],
+  "minWidth": 1000
+ },
+ "d-baklava": {
+  "queries": [
+   "baklava pistachio",
+   "baklava Gaziantep",
+   "baklava tray"
+  ],
+  "wiki": [
+   "tr:Baklava",
+   "de:Baklava"
+  ],
+  "minWidth": 1200
+ },
+ "d-bistecca-alla-fiorentina": {
+  "queries": [
+   "bistecca alla fiorentina",
+   "Florentine steak",
+   "bistecca fiorentina Firenze"
+  ],
+  "wiki": [
+   "it:Bistecca alla fiorentina"
+  ],
+  "minWidth": 1200
+ },
+ "d-schiacciata": {
+  "queries": [
+   "schiacciata sandwich Florence",
+   "schiacciata fiorentina",
+   "Antico Vinaio panino"
+  ],
+  "wiki": [
+   "it:Schiacciata"
+  ],
+  "minWidth": 1000
+ },
+ "d-mozartkugel": {
+  "queries": [
+   "Mozartkugel",
+   "Mozartkugeln",
+   "Mozartkugel Fürst"
+  ],
+  "wiki": [
+   "de:Mozartkugel"
+  ],
+  "minWidth": 1000,
+  "portrait": true
+ }
+}

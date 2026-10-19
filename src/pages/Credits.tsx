@@ -1,25 +1,10 @@
-import { useEffect, useState } from 'react';
 import { Photo } from '../components/Photo';
 import { useI18n } from '../i18n';
-
-interface Credit {
-  file: string;
-  author: string;
-  license: string;
-  licenseUrl: string;
-  source: string;
-}
+import { usePhotoCredits } from '../lib/credits';
 
 export function Credits() {
   const { t } = useI18n();
-  const [credits, setCredits] = useState<Record<string, Credit> | null>(null);
-
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}photos/credits.json`)
-      .then((r) => (r.ok ? r.json() : {}))
-      .then(setCredits)
-      .catch(() => setCredits({}));
-  }, []);
+  const credits = usePhotoCredits();
 
   const list = Object.entries(credits ?? {});
   return (

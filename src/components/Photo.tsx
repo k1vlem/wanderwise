@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { photoUrl } from '../data';
 
 // Where to anchor the crop for photos whose subject is off-centre.
@@ -16,11 +16,14 @@ interface Props {
   size?: 'sm' | 'lg';
   className?: string;
   eager?: boolean;
+  /** Show the whole picture instead of filling the box */
+  contain?: boolean;
 }
 
 /** A photo from public/photos. If it fails to load, a warm gradient takes its place. */
-export function Photo({ id, alt, size = 'sm', className = '', eager }: Props) {
+export function Photo({ id, alt, size = 'sm', className = '', eager, contain }: Props) {
   const [failed, setFailed] = useState(false);
+  useEffect(() => setFailed(false), [id]);
   if (failed) {
     return <div role="img" aria-label={alt} className={`bg-gradient-to-br from-sand via-sunset/60 to-ink-soft ${className}`} />;
   }
@@ -32,7 +35,7 @@ export function Photo({ id, alt, size = 'sm', className = '', eager }: Props) {
       decoding="async"
       onError={() => setFailed(true)}
       style={{ objectPosition: FOCUS[id] ?? '50% 50%' }}
-      className={`object-cover ${className}`}
+      className={`${contain ? 'object-contain' : 'object-cover'} ${className}`}
     />
   );
 }

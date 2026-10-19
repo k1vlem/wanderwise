@@ -2,9 +2,10 @@ import { useMemo, useState, type ReactNode } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Photo } from '../components/Photo';
+import { PhotoButton, type ViewerItem } from '../components/PhotoViewer';
 import { CostBar, Stamp } from '../components/PlanParts';
 import { TripFields } from '../components/TripFields';
-import { COUNTRIES, cityById, citiesOf, originById, type City } from '../data';
+import { COUNTRIES, cityById, citiesOf, dishPhoto, originById, sightPhoto, type City } from '../data';
 import { useI18n } from '../i18n';
 import { buildPlan, flightPerPerson, rooms, type FlightOpt, type FoodLevel, type Tier, type TripInput } from '../lib/planner';
 import { inputFromQuery, queryFromInput } from '../lib/query';
@@ -55,6 +56,20 @@ export function Build() {
 
   const city = cityById(cityId);
   const cities = citiesOf(trip.country);
+  const sightItems: ViewerItem[] = city.sights.map((s) => ({
+    id: sightPhoto(s),
+    title: pick(s.n),
+    note: [
+      s.fullDay ? t('item.dayTrip') : '',
+      duration(s.hours * 60),
+      s.book ? t('item.book') : '',
+      s.closed?.length ? t('item.closed', { days: s.closed.map(weekday).join(', ') }) : '',
+    ]
+      .filter(Boolean)
+      .join(' · '),
+    meta: s.pp ? money(s.pp) : t('item.free0'),
+  }));
+  const dishItems: ViewerItem[] = city.dishes.map((d) => ({ id: dishPhoto(d), title: d.n, note: pick(d.d), meta: `~${money(d.pp)}` }));
 
   const chooseCountry = (id: string) => {
     const first = citiesOf(id)[0];
@@ -222,35 +237,44 @@ export function Build() {
           </Section>
 
           <Section title={t('build.sights')} sub={t('build.sightsSub')}>
-            <div className="overflow-hidden rounded-3xl border border-line bg-white">
-              {city.sights.map((s) => {
+            <p className="-mt-2 flex items-center gap-2 text-sm text-muted">
+              <Icon name="expand" size={14} />
+              {t('viewer.hint')}
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {city.sights.map((s, i) => {
                 const on = sights.includes(s.id);
                 return (
-                  <button
-                    key={s.id}
-                    type="button"
-                    role="checkbox"
-                    aria-checked={on}
-                    onClick={() => setSights(on ? sights.filter((x) => x !== s.id) : [...sights, s.id])}
-                    className="flex w-full items-center gap-4 border-t border-line px-5 py-4 text-left first:border-t-0 hover:bg-paper"
-                  >
-                    <span aria-hidden="true" className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border-2 ${on ? 'border-sunset bg-sunset text-white' : 'border-[#CDBDB5]'}`}>
-                      {on && <Icon name="check" size={15} strokeWidth={3} />}
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-[16px] font-semibold">{pick(s.n)}</span>
-                      <span className="block text-sm text-muted">
-                        {s.fullDay ? `${t('item.dayTrip')} · ` : ''}
-                        {duration(s.hours * 60)}
-                        {s.book ? ` · ${t('item.book')}` : ''}
-                        {s.closed?.length ? ` · ${t('item.closed', { days: s.closed.map(weekday).join(', ') })}` : ''}
+                  <div key={s.id} className={`overflow-hidden rounded-3xl border-2 bg-white transition ${on ? 'border-sunset shadow-card' : 'border-line'}`}>
+                    <div className="relative">
+                      <PhotoButton items={sightItems} index={i} className="aspect-[16/10] w-full" />
+                      {on && (
+                        <span className="pointer-events-none absolute left-3 top-3 flex items-center gap-1.5 rounded-full bg-sunset px-3 py-1 text-xs font-bold text-white shadow">
+                          <Icon name="check" size={13} strokeWidth={3} />
+                          {t('build.selected')}
+                        </span>
+                      )}
+                    </div>
+                    <button
+                      type="button"
+                      role="checkbox"
+                      aria-checked={on}
+                      onClick={() => setSights(on ? sights.filter((x) => x !== s.id) : [...sights, s.id])}
+                      className="flex w-full items-start gap-3 p-4 text-left hover:bg-paper"
+                    >
+                      <span aria-hidden="true" className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border-2 ${on ? 'border-sunset bg-sunset text-white' : 'border-[#CDBDB5]'}`}>
+                        {on && <Icon name="check" size={15} strokeWidth={3} />}
                       </span>
-                    </span>
-                    <span className="text-right">
-                      <span className="block font-bold tabular-nums">{s.pp ? money(s.pp) : t('item.free0')}</span>
-                      {s.pp > 0 && <span className="block text-sm tabular-nums text-muted">{money(s.pp * trip.travelers)}</span>}
-                    </span>
-                  </button>
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-[16px] font-semibold leading-snug">{pick(s.n)}</span>
+                        <span className="mt-0.5 block text-sm text-muted">{sightItems[i].note}</span>
+                      </span>
+                      <span className="text-right">
+                        <span className="block font-bold tabular-nums">{s.pp ? money(s.pp) : t('item.free0')}</span>
+                        {s.pp > 0 && <span className="block text-sm tabular-nums text-muted">{money(s.pp * trip.travelers)}</span>}
+                      </span>
+                    </button>
+                  </div>
                 );
               })}
             </div>
@@ -279,14 +303,17 @@ export function Build() {
               })}
             </div>
             <h3 className="pt-2 text-lg font-bold">{t('build.mustTry', { city: pick(city.n) })}</h3>
-            <div className="grid gap-3 sm:grid-cols-2">
-              {city.dishes.map((d) => (
-                <div key={d.n} className="rounded-2xl border border-line bg-white p-4">
-                  <p className="flex items-baseline justify-between gap-3 font-bold">
-                    {d.n}
-                    <span className="rounded-full bg-lagoon-light px-2.5 py-0.5 text-sm tabular-nums text-lagoon-dark">~{money(d.pp)}</span>
-                  </p>
-                  <p className="mt-1 text-sm text-muted">{pick(d.d)}</p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {city.dishes.map((d, i) => (
+                <div key={d.id} className="overflow-hidden rounded-3xl border border-line bg-white">
+                  <PhotoButton items={dishItems} index={i} className="aspect-[4/3] w-full" />
+                  <div className="p-4">
+                    <p className="flex items-baseline justify-between gap-3 font-bold">
+                      {d.n}
+                      <span className="shrink-0 rounded-full bg-lagoon-light px-2.5 py-0.5 text-sm tabular-nums text-lagoon-dark">~{money(d.pp)}</span>
+                    </p>
+                    <p className="mt-1 text-sm text-muted">{pick(d.d)}</p>
+                  </div>
                 </div>
               ))}
             </div>

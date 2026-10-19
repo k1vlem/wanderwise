@@ -302,6 +302,11 @@ export const en = {
 
   'notFound.title': 'Page not found',
   'notFound.back': 'Go to the home page',
+  'viewer.close': 'Close',
+  'viewer.prev': 'Previous photo',
+  'viewer.next': 'Next photo',
+  'viewer.open': 'Open photo: {title}',
+  'viewer.hint': 'Tap any photo to see it full size.',
 } satisfies Record<string, Msg>;
 
 export type Key = keyof typeof en;

@@ -1,9 +1,10 @@
 import { Fragment, useState, type ReactNode } from 'react';
 import { cityById, countryById, originById } from '../data';
 import { useI18n } from '../i18n';
-import { dayCost, dayTitle, describeItem, type Category } from '../lib/describe';
+import { dayCost, dayPhoto, dayTitle, describeItem, type Category } from '../lib/describe';
 import type { Costs, Plan } from '../lib/planner';
 import { Icon, type IconName } from './Icon';
+import { PhotoButton, type ViewerItem } from './PhotoViewer';
 
 export const COST_PARTS: { key: Exclude<keyof Costs, 'total'>; color: string }[] = [
   { key: 'flights', color: '#2B1E2F' },
@@ -95,6 +96,13 @@ export function Schedule({ plan, tickets = false }: { plan: Plan; tickets?: bool
   const { t, money, date, pick } = i18n;
   const [sel, setSel] = useState(0);
   const day = plan.days[Math.min(sel, plan.days.length - 1)];
+  const texts = day.items.map((item) => ({ item, d: describeItem(item, plan, i18n) }));
+  // The day's banner first, then every sight and dish of the day, each photo once.
+  const banner: ViewerItem = { id: dayPhoto(day), title: dayTitle(day, i18n), note: pick(cityById(day.city).n) };
+  const viewItems: ViewerItem[] = [banner];
+  for (const { d } of texts) {
+    if (d.photo && !viewItems.some((v) => v.id === d.photo)) viewItems.push({ id: d.photo, title: d.title, note: d.note, meta: d.cost });
+  }
 
   return (
     <div className="grid gap-6 lg:grid-cols-[300px_minmax(0,1fr)]">
@@ -124,56 +132,66 @@ export function Schedule({ plan, tickets = false }: { plan: Plan; tickets?: bool
         })}
       </div>
 
-      <section aria-live="polite" className="rounded-3xl border border-line bg-white p-5 sm:p-7">
-        <div className="flex flex-wrap items-end justify-between gap-3 pb-4">
-          <div>
-            <p className="text-sm font-semibold text-muted">
-              {t('day.label', { n: sel + 1 })} · {date(day.date, { weekday: 'long', day: 'numeric', month: 'long' })} · {pick(cityById(day.city).n)}
-            </p>
-            <h3 className="mt-1 font-display text-2xl font-semibold tracking-tight sm:text-[28px]">{dayTitle(day, i18n)}</h3>
-          </div>
-          <span className="rounded-full bg-shell px-3 py-1.5 text-sm font-bold tabular-nums">
-            {t('result.dayTotal')}: {money(dayCost(day))}
+      <section aria-live="polite" className="min-w-0 overflow-hidden rounded-3xl border border-line bg-white">
+        <div className="relative">
+          <PhotoButton key={banner.id} items={viewItems} index={0} size="lg" className="aspect-[16/9] w-full sm:aspect-[21/8]" />
+          <span className="pointer-events-none absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1.5 text-sm font-bold text-ink shadow backdrop-blur">
+            {t('day.label', { n: sel + 1 })} · {date(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}
           </span>
         </div>
-        <ol>
-          {day.items.map((item, i) => {
-            const d = describeItem(item, plan, i18n);
-            const style = CATEGORY_STYLE[d.category];
-            const showTicket = tickets && item.kind === 'sight' && cityById(item.city).sights.find((s) => s.id === item.ref)?.book;
-            return (
-              <li key={i} className="grid grid-cols-[52px_40px_minmax(0,1fr)] gap-3 border-t border-line py-4 sm:grid-cols-[60px_44px_minmax(0,1fr)_auto] sm:gap-4">
-                <span className="pt-2 text-[15px] font-bold tabular-nums">{item.time}</span>
-                <span className={`mt-0.5 flex h-10 w-10 items-center justify-center rounded-full ${style.chip}`} title={t(`kind.${d.category}`)}>
-                  <Icon name={style.icon} size={18} />
-                </span>
-                <div className="min-w-0 pt-0.5">
-                  <p className="text-[16px] font-semibold leading-snug">{d.title}</p>
-                  <p className="mt-0.5 text-[15px] leading-relaxed text-muted">{d.note}</p>
-                  {d.flags.length > 0 && (
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {d.flags.map((f) => (
-                        <span key={f} className="rounded-full bg-shell px-2.5 py-1 text-xs font-semibold text-ink-soft">
-                          {f}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  <p className="mt-1.5 text-sm font-bold tabular-nums sm:hidden">{d.cost}</p>
-                </div>
-                <div className="hidden flex-col items-end gap-2 pt-2 sm:flex">
-                  <span className="text-[15px] font-bold tabular-nums">{d.cost}</span>
-                  {showTicket && (
-                    <span className="flex items-center gap-1 rounded-full bg-lagoon-light px-2.5 py-1 text-xs font-bold text-lagoon-dark">
-                      <Icon name="ticket" size={14} />
-                      {t('item.ticket')}
-                    </span>
-                  )}
-                </div>
-              </li>
-            );
-          })}
-        </ol>
+        <div className="p-5 sm:p-7">
+          <div className="flex flex-wrap items-end justify-between gap-3 pb-4">
+            <div className="min-w-0">
+              <p className="text-sm font-semibold text-muted">
+                {date(day.date, { weekday: 'long', day: 'numeric', month: 'long' })} · {pick(cityById(day.city).n)}
+              </p>
+              <h3 className="mt-1 font-display text-2xl font-semibold tracking-tight sm:text-[28px]">{dayTitle(day, i18n)}</h3>
+            </div>
+            <span className="rounded-full bg-shell px-3 py-1.5 text-sm font-bold tabular-nums">
+              {t('result.dayTotal')}: {money(dayCost(day))}
+            </span>
+          </div>
+          <ol>
+            {texts.map(({ item, d }, i) => {
+              const style = CATEGORY_STYLE[d.category];
+              const showTicket = tickets && item.kind === 'sight' && cityById(item.city).sights.find((s) => s.id === item.ref)?.book;
+              const photoIndex = d.photo ? viewItems.findIndex((v) => v.id === d.photo) : -1;
+              return (
+                <li key={i} className="grid grid-cols-[52px_40px_minmax(0,1fr)] gap-3 border-t border-line py-4 sm:grid-cols-[60px_44px_minmax(0,1fr)_148px] sm:gap-4">
+                  <span className="pt-2 text-[15px] font-bold tabular-nums">{item.time}</span>
+                  <span className={`mt-0.5 flex h-10 w-10 items-center justify-center rounded-full ${style.chip}`} title={t(`kind.${d.category}`)}>
+                    <Icon name={style.icon} size={18} />
+                  </span>
+                  <div className="min-w-0 pt-0.5">
+                    <p className="text-[16px] font-semibold leading-snug">{d.title}</p>
+                    <p className="mt-0.5 text-[15px] leading-relaxed text-muted">{d.note}</p>
+                    {d.flags.length > 0 && (
+                      <div className="mt-2 flex flex-wrap gap-1.5">
+                        {d.flags.map((f) => (
+                          <span key={f} className="rounded-full bg-shell px-2.5 py-1 text-xs font-semibold text-ink-soft">
+                            {f}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                    {photoIndex > 0 && <PhotoButton items={viewItems} index={photoIndex} className="mt-3 aspect-[16/10] w-full rounded-2xl sm:hidden" />}
+                    <p className="mt-2 text-sm font-bold tabular-nums sm:hidden">{d.cost}</p>
+                  </div>
+                  <div className="hidden flex-col items-end gap-2 sm:flex">
+                    {photoIndex > 0 && <PhotoButton items={viewItems} index={photoIndex} className="h-[100px] w-[148px] rounded-2xl" />}
+                    <span className="text-[15px] font-bold tabular-nums">{d.cost}</span>
+                    {showTicket && (
+                      <span className="flex items-center gap-1 rounded-full bg-lagoon-light px-2.5 py-1 text-xs font-bold text-lagoon-dark">
+                        <Icon name="ticket" size={14} />
+                        {t('item.ticket')}
+                      </span>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
       </section>
     </div>
   );
