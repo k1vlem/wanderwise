@@ -116,6 +116,9 @@ function Deals() {
   );
 }
 
+// Long single words, like the Russian name for the UK, need a smaller size to fit a phone-width card.
+const longestWord = (text: string) => Math.max(...text.split(/\s+/).map((w) => w.length));
+
 function Destinations() {
   const { t, pick, money } = useI18n();
   const [region, setRegion] = useState<Region | 'all'>('all');
@@ -140,18 +143,18 @@ function Destinations() {
           );
         })}
       </div>
-      <div className="mt-6 grid grid-cols-1 gap-4 min-[480px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+      <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-5">
         {shown.map((c) => {
           const from = Math.min(...c.cities.map((id) => weekFromPerPerson(cityById(id))));
           return (
-            <Link key={c.id} to={`/country/${c.id}`} className="group overflow-hidden rounded-3xl border border-line bg-white transition hover:-translate-y-0.5 hover:shadow-lift">
-              <div className="h-40 overflow-hidden">
+            <Link key={c.id} to={`/country/${c.id}`} className="group flex flex-col overflow-hidden rounded-3xl border border-line bg-white transition hover:-translate-y-0.5 hover:shadow-lift">
+              <div className="h-28 overflow-hidden sm:h-40">
                 <Photo id={countryPhoto(c)} alt={pick(c.n)} className="h-full w-full transition duration-500 group-hover:scale-105" />
               </div>
-              <div className="space-y-2 p-4">
-                <h3 className="font-display text-lg font-semibold leading-snug [hyphens:auto]">{pick(c.n)}</h3>
-                <p className="text-sm text-muted">{c.cities.map((id) => pick(cityById(id).n)).join(' · ')}</p>
-                <div className="flex items-baseline justify-between gap-2 border-t border-line pt-3">
+              <div className="flex flex-1 flex-col gap-2 p-3 sm:p-4">
+                <h3 className={`break-words font-display font-semibold leading-snug [hyphens:auto] sm:text-lg ${longestWord(pick(c.n)) > 11 ? 'text-[13px]' : 'text-[15px]'}`}>{pick(c.n)}</h3>
+                <p className="text-[13px] text-muted sm:text-sm">{c.cities.map((id) => pick(cityById(id).n)).join(' · ')}</p>
+                <div className="mt-auto flex flex-wrap items-baseline justify-between gap-x-2 gap-y-1 border-t border-line pt-3">
                   <span className="text-sm text-muted">
                     {t('dest.from')} <b className="text-[16px] tabular-nums text-ink">{money(from)}</b>
                   </span>
