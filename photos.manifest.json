@@ -2,15 +2,15 @@
   "note": "Each photo is the lead image of an English Wikipedia article, downloaded from Wikimedia Commons by scripts/fetch-photos.mjs. To replace a photo, set \"file\" to a Commons file name (\"File:Example.jpg\").",
   "photos": [
     { "id": "hero", "wiki": "Positano" },
-    { "id": "paris", "file": "File:Tour Eiffel Wikimedia Commons.jpg" },
+    { "id": "paris", "file": "File:Paris - Eiffelturm und Marsfeld2.jpg" },
     { "id": "nice", "wiki": "Promenade des Anglais" },
-    { "id": "barcelona", "wiki": "Sagrada Família" },
+    { "id": "barcelona", "wiki": ["Park Güell", "Casa Batlló"] },
     { "id": "seville", "wiki": "Plaza de España (Seville)" },
     { "id": "rome", "wiki": "Colosseum" },
     { "id": "florence", "wiki": "Florence Cathedral" },
     { "id": "istanbul", "wiki": "Hagia Sophia" },
-    { "id": "cappadocia", "wiki": "Göreme" },
-    { "id": "athens", "wiki": "Parthenon" },
+    { "id": "cappadocia", "wiki": ["Cappadocia", "Göreme"] },
+    { "id": "athens", "wiki": "Acropolis of Athens" },
     { "id": "santorini", "wiki": "Oia, Greece" },
     { "id": "london", "wiki": "Tower Bridge" },
     { "id": "edinburgh", "wiki": "Edinburgh Castle" },
@@ -20,7 +20,7 @@
     { "id": "salzburg", "wiki": "Hohensalzburg Fortress" },
     { "id": "lisbon", "wiki": "Belém Tower" },
     { "id": "porto", "wiki": "Dom Luís I Bridge" },
-    { "id": "amsterdam", "wiki": "Prinsengracht" },
-    { "id": "utrecht", "wiki": "Dom Tower of Utrecht" }
+    { "id": "amsterdam", "wiki": ["Keizersgracht", "Magere Brug", "Rijksmuseum"] },
+    { "id": "utrecht", "wiki": ["Oudegracht", "Utrecht"] }
   ]
 }

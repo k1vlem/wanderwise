@@ -79,12 +79,25 @@ const say = (line) => {
   console.log(line);
 };
 for (const p of manifest.photos) {
-  const key = p.file ?? `wiki:${p.wiki}`;
+  const key = p.file ?? `wiki:${[].concat(p.wiki).join('|')}`;
   const big = path.join(OUT, `${p.id}.jpg`);
   const small = path.join(OUT, `${p.id}-sm.jpg`);
   if (credits[p.id]?.key === key && (await exists(big)) && (await exists(small))) continue;
   try {
-    const file = p.file ?? (await leadImageFile(p.wiki));
+    let file = p.file;
+    if (!file) {
+      // "wiki" can list several articles; the first one with a usable lead image wins.
+      const articles = Array.isArray(p.wiki) ? p.wiki : [p.wiki];
+      for (const article of articles) {
+        try {
+          file = await leadImageFile(article);
+          break;
+        } catch (err) {
+          say(`skip ${p.id.padEnd(12)} ${err.message}`);
+        }
+      }
+      if (!file) throw new Error('No usable lead image');
+    }
     const info = await fileInfo(file);
     const buf = await get(info.url, 'buffer');
     const image = sharp(buf).rotate();
