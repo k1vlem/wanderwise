@@ -149,7 +149,7 @@ function Destinations() {
                 <Photo id={countryPhoto(c)} alt={pick(c.n)} className="h-full w-full transition duration-500 group-hover:scale-105" />
               </div>
               <div className="space-y-2 p-4">
-                <h3 className="font-display text-lg font-semibold">{pick(c.n)}</h3>
+                <h3 className="font-display text-lg font-semibold leading-snug [hyphens:auto]">{pick(c.n)}</h3>
                 <p className="text-sm text-muted">{c.cities.map((id) => pick(cityById(id).n)).join(' · ')}</p>
                 <div className="flex items-baseline justify-between gap-2 border-t border-line pt-3">
                   <span className="text-sm text-muted">
