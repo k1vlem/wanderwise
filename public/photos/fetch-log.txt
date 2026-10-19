@@ -1,7 +1,4 @@
-ok   paris        File:Paris - Eiffelturm und Marsfeld2.jpg (4114x4235, CC BY 3.0)
-ok   barcelona    File:Parc_guell_-_panoramio.jpg (2048x1536, CC BY 3.0)
-ok   cappadocia   File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg (5184x3456, CC BY 2.0)
-ok   athens       File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg (8640x5760, CC BY-SA 4.0)
-ok   amsterdam    File:Keizersgracht_Jul_2019.jpg (2048x1536, CC BY-SA 4.0)
+skip utrecht      404 https://en.wikipedia.org/api/rest_v1/page/summary/Nieuwegracht
+skip utrecht      404 https://en.wikipedia.org/api/rest_v1/page/summary/Domplein
 ok   utrecht      File:Utrecht_Canals_Aerial_View_-_July_2006.jpg (4172x5553, CC BY 2.5)
-Done: 6 fetched, 0 failed.
+Done: 1 fetched, 0 failed.
