@@ -1,10 +1,1 @@
-{
- "s-universal": {"queries": ["Universal Studios Hollywood globe", "Universal Studios Hollywood entrance", "Wizarding World of Harry Potter Hollywood", "Universal CityWalk Hollywood", "Universal Studios Hollywood tram tour"], "minWidth": 1400},
- "s-grand_mosque": {"queries": ["Sheikh Zayed Mosque", "Grand Mosque Abu Dhabi", "Sheikh Zayed Grand Mosque Center", "Sheikh Zayed Mosque night", "Sheikh Zayed Mosque courtyard"], "minWidth": 1600},
- "s-qasr_watan": {"queries": ["Qasr Al Watan Great Hall", "Qasr Al Watan dome", "Qasr Al Watan interior", "Presidential Palace Abu Dhabi", "Qasr Al-Watan"], "minWidth": 1400},
- "d-banh-mi": {"queries": ["Bánh mì Hội An", "banh mi Phuong", "Vietnamese baguette sandwich", "bánh mì thịt"], "wiki": ["vi:Bánh mì", "fr:Bánh mì", "de:Bánh mì"], "minWidth": 1000, "portrait": true},
- "d-com-ga": {"queries": ["cơm gà", "com ga Hoi An", "Hainanese chicken rice Vietnam", "cơm gà Tam Kỳ"], "wiki": ["vi:Cơm gà Hội An", "vi:Cơm gà"], "minWidth": 1000, "portrait": true},
- "d-pastilla": {"queries": ["bastilla Morocco", "pastilla marocaine", "Moroccan pastilla pigeon", "b'stilla"], "wiki": ["fr:Pastilla", "ar:بسطيلة", "de:Pastilla"], "minWidth": 1000, "portrait": true},
- "d-arabic-mezze": {"queries": ["hummus plate", "Lebanese mezze hummus", "mezze platter hummus moutabal"], "wiki": ["Hummus"], "minWidth": 1200, "portrait": true},
- "d-shakshuka": {"queries": ["shakshuka pan", "shakshouka", "shakshuka eggs tomato"], "wiki": ["Shakshouka"], "minWidth": 1200, "portrait": true}
-}
+{}

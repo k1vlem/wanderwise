@@ -974,9 +974,7 @@
   {
    "id": "s-universal",
    "kind": "detail",
-   "wiki": [
-    "Universal Studios Hollywood"
-   ]
+   "file": "File:Universal Studios Hollywood (4) (7962961388).jpg"
   },
   {
    "id": "s-great_wall",
@@ -1238,7 +1236,7 @@
   {
    "id": "s-kata_beach",
    "kind": "detail",
-   "file": "File:Phuket - Kata Beach 001.jpg"
+   "file": "File:Kata Beach1.jpg"
   },
   {
    "id": "s-promthep",
@@ -1280,9 +1278,7 @@
   {
    "id": "s-grand_mosque",
    "kind": "detail",
-   "wiki": [
-    "Sheikh Zayed Grand Mosque"
-   ]
+   "file": "File:Sheikh Zayed Mosque Silhouette.jpg"
   },
   {
    "id": "s-louvre_ad",
@@ -1290,10 +1286,10 @@
    "file": "File:Terrace (250155753).jpeg"
   },
   {
-   "id": "s-qasr_watan",
+   "id": "s-qasr_hosn",
    "kind": "detail",
    "wiki": [
-    "Qasr Al Watan"
+    "Qasr al-Hosn"
    ]
   },
   {
@@ -2551,15 +2547,13 @@
   {
    "id": "d-banh-mi",
    "kind": "detail",
-   "wiki": [
-    "Bánh mì"
-   ]
+   "file": "File:Bánh Mì Phượng (2024) - img 04.jpg"
   },
   {
-   "id": "d-com-ga",
+   "id": "d-banh-xeo",
    "kind": "detail",
    "wiki": [
-    "Cơm gà"
+    "Bánh xèo"
    ]
   },
   {
@@ -2608,9 +2602,7 @@
   {
    "id": "d-pastilla",
    "kind": "detail",
-   "wiki": [
-    "Pastilla"
-   ]
+   "file": "File:Dy10.jpg"
   },
   {
    "id": "d-couscous",

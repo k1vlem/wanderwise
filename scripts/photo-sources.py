@@ -207,7 +207,7 @@ SIGHTS = {
     'jbr': ['Jumeirah Beach Residence'],
     'grand_mosque': ['Sheikh Zayed Grand Mosque'],
     'louvre_ad': ['Louvre Abu Dhabi'],
-    'qasr_watan': ['Qasr Al Watan'],
+    'qasr_hosn': ['Qasr al-Hosn'],
     'corniche': ['Abu Dhabi Corniche', 'Corniche (Abu Dhabi)'],
     'mangroves': ['Mangrove National Park (Abu Dhabi)', 'Eastern Mangroves'],
     'diriyah': ['At-Turaif', 'Diriyah'],
@@ -403,7 +403,7 @@ DISHES = {
     'nem-ran': ['Chả giò'],
     'cao-lau': ['Cao lầu'],
     'banh-mi': ['Bánh mì'],
-    'com-ga': ['Cơm gà'],
+    'banh-xeo': ['Bánh xèo'],
     'mi-quang': ['Mì Quảng'],
     'harira': ['Harira'],
     'mechoui': ['Mechoui'],
@@ -418,6 +418,10 @@ DISHES = {
 # Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
 # article lead image was a map, a logo, too small or simply not the best shot.
 PINNED = {
+    's-universal': 'File:Universal Studios Hollywood (4) (7962961388).jpg',
+    's-grand_mosque': 'File:Sheikh Zayed Mosque Silhouette.jpg',
+    'd-banh-mi': 'File:Bánh Mì Phượng (2024) - img 04.jpg',
+    'd-pastilla': 'File:Dy10.jpg',
     'hoian': 'File:Hội An, Ancient Town, 2020-01 CN-11.jpg',
     'kualalumpur': 'File:Kuala Lumpur Skyline at dusk 1.jpg',
     'phuket': 'File:Phuket Aerial.jpg',
@@ -439,7 +443,7 @@ PINNED = {
     's-big_buddha': 'File:Big Buddha Phuket, Thailand.jpg',
     's-promthep': 'File:Beautiful Sunset on Promthep Cape, Phuket island, Thailand.jpg',
     's-old_town_phuket': 'File:Soi Rommanee 1.jpg',
-    's-kata_beach': 'File:Phuket - Kata Beach 001.jpg',
+    's-kata_beach': 'File:Kata Beach1.jpg',
     's-burj_khalifa': 'File:Dubai Skyline mit Burj Khalifa (cropped).jpg',
     's-desert_safari': 'File:A car on Dubai Dune bashing.jpg',
     's-louvre_ad': 'File:Terrace (250155753).jpeg',
