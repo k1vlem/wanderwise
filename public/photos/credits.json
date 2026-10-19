@@ -2610,14 +2610,14 @@
     "height": 2100
   },
   "s-kata_beach": {
-    "key": "File:Phuket - Kata Beach 001.jpg",
-    "file": "File:Phuket - Kata Beach 001.jpg",
-    "author": "ADwarf",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Phuket_-_Kata_Beach_001.jpg",
-    "width": 4416,
-    "height": 3312
+    "key": "File:Kata Beach1.jpg",
+    "file": "File:Kata Beach1.jpg",
+    "author": "Radek Kucharski",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kata_Beach1.jpg",
+    "width": 7892,
+    "height": 4439
   },
   "s-burj_khalifa": {
     "key": "File:Dubai Skyline mit Burj Khalifa (cropped).jpg",
@@ -3660,14 +3660,14 @@
     "height": 3023
   },
   "d-banh-mi": {
-    "key": "wiki:Bánh mì",
-    "file": "File:Bánh_mì_thịt_nướng.png",
-    "author": "nsaum75¡שיחת!‎",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png",
-    "width": 834,
-    "height": 788
+    "key": "File:Bánh Mì Phượng (2024) - img 04.jpg",
+    "file": "File:Bánh Mì Phượng (2024) - img 04.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_M%C3%AC_Ph%C6%B0%E1%BB%A3ng_(2024)_-_img_04.jpg",
+    "width": 3024,
+    "height": 4032
   },
   "d-mi-quang": {
     "key": "wiki:Mì Quảng",
@@ -3740,14 +3740,14 @@
     "height": 1704
   },
   "d-pastilla": {
-    "key": "wiki:Pastilla",
-    "file": "File:Bisteeya.jpg",
-    "author": "Krista",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Bisteeya.jpg",
-    "width": 500,
-    "height": 375
+    "key": "File:Dy10.jpg",
+    "file": "File:Dy10.jpg",
+    "author": "Dahbi youssef",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dy10.jpg",
+    "width": 4608,
+    "height": 2592
   },
   "d-couscous": {
     "key": "wiki:Couscous",
@@ -3968,5 +3968,45 @@
     "source": "https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg",
     "width": 3984,
     "height": 2988
+  },
+  "s-universal": {
+    "key": "File:Universal Studios Hollywood (4) (7962961388).jpg",
+    "file": "File:Universal Studios Hollywood (4) (7962961388).jpg",
+    "author": "Daniel from Glasgow, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Universal_Studios_Hollywood_(4)_(7962961388).jpg",
+    "width": 3264,
+    "height": 2448
+  },
+  "s-grand_mosque": {
+    "key": "File:Sheikh Zayed Mosque Silhouette.jpg",
+    "file": "File:Sheikh Zayed Mosque Silhouette.jpg",
+    "author": "PotatoWitch",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Mosque_Silhouette.jpg",
+    "width": 4032,
+    "height": 2268
+  },
+  "s-qasr_hosn": {
+    "key": "wiki:Qasr al-Hosn",
+    "file": "File:Qasr_al_Hosn_in_2019.jpg",
+    "author": "Peturrunar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Qasr_al_Hosn_in_2019.jpg",
+    "width": 4032,
+    "height": 3024
+  },
+  "d-banh-xeo": {
+    "key": "wiki:Bánh xèo",
+    "file": "File:Banh_Xeo_with_fish_sauce_and_vegetables.jpg",
+    "author": "HungryHuy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Banh_Xeo_with_fish_sauce_and_vegetables.jpg",
+    "width": 600,
+    "height": 400
   }
 }
