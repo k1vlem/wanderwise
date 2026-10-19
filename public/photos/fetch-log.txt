@@ -1,239 +1,75 @@
-ok   newyork                      File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_(cropped).jpg (8207x4616, CC BY-SA 4.0)
-ok   losangeles                   File:Skyline_of_Los_Angeles,_Downtown_Los_Angeles,_California_13.jpg (6016x3862, CC BY-SA 4.0)
-ok   beijing                      File:20200110_Tiananmen-3.jpg (5760x3840, CC0)
-ok   shanghai                     File:Huangpu_Park_20124-Shanghai_(32208802494).jpg (3000x2003, CC BY 2.0)
-ok   mexicocity                   File:Bellas_Artes_01.jpg (4140x2760, CC BY-SA 3.0)
-ok   cancun                       File:Cancun_Strand_Luftbild_(22143397586).jpg (3992x2242, CC BY 2.0)
-ok   tokyo                        File:Tokyo_Tower_2023.jpg (3456x4608, CC BY-SA 4.0)
-skip kyoto                        404 https://en.wikipedia.org/api/rest_v1/page/summary/H%C5%8Dkan-ji
-ok   kyoto                        File:Kiyomizu.jpg (1452x969, CC BY-SA 3.0)
-ok   bangkok                      File:Chao_Phraya_River_-_Bangkok_-_northwards_-_from_King_Taksin_Bridge_-_2021.jpg (7066x3974, CC BY 4.0)
-ok   phuket                       File:Patong_Beach.jpg (1600x1200, CC BY-SA 3.0)
-ok   dubai                        File:Dubai_Marina_Skyline.jpg (6000x4000, CC BY 2.0)
-ok   abudhabi                     File:Emirates_Palace.jpg (5874x3839, CC BY 4.0)
-ok   riyadh                       File:All_Faisaliah_Tower_Riyadh,_2023.jpeg (2803x3737, CC BY-SA 4.0)
-ok   alula                        File:Al_Ula_(6748577917).jpg (4608x3072, CC BY 2.0)
-skip kualalumpur                  Lead image of "Kuala Lumpur Tower" is not on Commons
-ok   kualalumpur                  File:Bukit_Bintang_junction_in_2024_2.jpg (4000x2252, CC0)
-ok   penang                       File:Skyline_of_George_Town,_Penang_at_night_Nov2024-29-17.jpg (7994x4496, CC BY-SA 4.0)
-ok   hanoi                        File:Hanoi_Opera_House,_24_December_2016.jpg (3000x2006, CC BY 2.0)
-skip hoian                        No lead image for "Hội An"
-fail hoian                        No usable lead image
-ok   marrakech                    File:Marokko0112_(retouched).jpg (2304x3072, CC BY-SA 4.0)
-ok   fes                          File:Bab_Bou_Jeloud_(Fes,_Marocco).jpg (6000x6469, CC BY-SA 4.0)
-ok   s-top_rock                   File:30_Rockefeller_Plaza_view_from_Empire_State_Building,_around_1_pm.jpg (1469x2443, CC BY-SA 4.0)
-ok   s-central_park               File:Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_(15351915006).jpg (5369x3579, CC BY 2.0)
-ok   s-met                        File:Metropolitan_Museum_of_Art_(The_Met)_-_Central_Park,_NYC.jpg (2666x1488, CC BY-SA 2.0)
-ok   s-liberty                    File:Front_view_of_Statue_of_Liberty_(cropped).jpg (2498x3828, CC0)
-ok   s-broadway                   File:Various_Pictures_from_New_York_City_-_September,_2025.jpg (4000x6000, CC BY-SA 4.0)
-ok   s-griffith                   File:Griffith_observatory_2006.jpg (2000x970, CC BY 2.5)
-skip s-walk_of_fame               Lead image of "Hollywood Walk of Fame" is not on Commons
-fail s-walk_of_fame               No usable lead image
-ok   s-santa_monica               File:Santa_monica_pier_entrance_evening.jpg (2827x2199, CC BY-SA 2.0)
-ok   s-getty                      File:Aerial_Getty_Museum.jpg (1731x1227, Public domain)
+ok   losangeles                   File:Los Angeles with Mount Baldy.jpg (8267x3873, CC BY-SA 4.0)
+ok   kyoto                        File:Yasaka-dori early morning with street lanterns and the Tower of Yasaka (Hokan-ji Temple), Kyoto, Japan.jpg (5550x3700, CC BY-SA 4.0)
+ok   bangkok                      File:Silom Sunset by Don Ramey Logan.jpg (16320x7612, CC BY 4.0)
+ok   phuket                       File:Phuket Aerial.jpg (4536x3025, CC BY-SA 4.0)
+ok   riyadh                       File:Riyadh Skyline showing the King Abdullah Financial District (KAFD) and the famous Kingdom Tower .jpg (6000x4000, CC BY-SA 4.0)
+ok   kualalumpur                  File:Kuala Lumpur Skyline at dusk 1.jpg (1920x1109, CC0)
+ok   hoian                        File:Hội An, Ancient Town, 2020-01 CN-11.jpg (3578x2935, CC BY-SA 4.0)
+ok   s-top_rock                   File:Empire State Building viewed from Top of the Rock 201403 3.jpg (3668x2751, CC BY 2.0)
+ok   s-broadway                   File:Times Square (7181802138).jpg (4288x2848, CC BY 2.0)
+ok   s-walk_of_fame               File:Los Angeles (California, USA), Hollywood Boulevard, Gregory Peck -- 2012 -- 4975.jpg (4803x3075, CC BY-SA 4.0)
 skip s-universal                  Lead image of "Universal Studios Hollywood" is not on Commons
 fail s-universal                  No usable lead image
-ok   s-great_wall                 File:Great_Wall_of_China_July_2006.JPG (2288x1712, CC0)
-ok   s-forbidden_city             File:The_Forbidden_City_-_View_from_Coal_Hill.jpg (4092x2046, CC BY-SA 3.0)
-ok   s-temple_heaven              File:Temple_of_Heaven_20160323_01.jpg (2400x1597, CC BY-SA 4.0)
-ok   s-summer_palace              File:Longevity_Hill_of_the_Summer_Palace.jpg (2560x1702, CC BY 2.0)
-ok   s-hutongs                    File:Beijing_hutong_area_3.jpg (3888x2592, CC BY-SA 2.0)
-ok   s-bund                       File:The_Bund_2.jpg (4000x3000, CC BY-SA 4.0)
-ok   s-yu_garden                  File:Shanghai_-_Yu_Garden_-_0035.jpg (4990x2930, CC BY-SA 3.0)
-skip s-shanghai_tower             Lead image of "Shanghai Tower" is not on Commons
-fail s-shanghai_tower             No usable lead image
-skip s-french_concession          Lead image of "Shanghai French Concession" is not on Commons
-fail s-french_concession          No usable lead image
-ok   s-zhujiajiao                 File:1_zhujiajiao_2023_aerial.jpg (8064x4536, CC BY-SA 4.0)
-ok   s-teotihuacan                File:ZA77_Teotihuacán_edo_de_mex_Herberto_de_la_rosa.jpg (3008x2000, CC BY-SA 4.0)
-ok   s-anthropology               File:Musee_National_Anthropologie-Entree.jpg (800x600, CC BY-SA 3.0)
-ok   s-frida                      File:Museo_Frida_Kahlo.JPG (1590x2213, CC BY-SA 3.0)
-ok   s-zocalo                     File:Zócalo,_Ciudad_de_México_(32846556446)_(cropped).jpg (2393x1697, CC BY-SA 2.0)
-ok   s-xochimilco                 File:Trajinera_en_canal_Nativitas.jpg (2896x1944, CC BY-SA 4.0)
-ok   s-chichen_itza               File:Chichen_Itza_3.jpg (9771x5197, CC BY-SA 4.0)
-ok   s-isla_mujeres               File:Birds_eye_view_of_Isla_Mujeres_(4257542920).jpg (1024x770, CC BY-SA 2.0)
-ok   s-cenote                     File:Cenote-ik-kil.png (2816x2112, CC BY-SA 3.0)
-skip s-playa_delfines             404 https://es.wikipedia.org/api/rest_v1/page/summary/Playa_Delfines
-fail s-playa_delfines             No usable lead image
-ok   s-musa                       File:DSCN0626_(14108251890).jpg (4608x3456, CC BY 2.0)
-ok   s-sensoji                    File:Sensoji_2023.jpg (3466x2476, CC0)
-ok   s-shibuya                    File:Shibuya_Crossing,_Aerial.jpg (3840x2160, CC BY 4.0)
-ok   s-meiji                      File:Meiji_Jingu_2023-3.jpg (4032x2268, CC BY-SA 4.0)
-skip s-teamlab                    404 https://en.wikipedia.org/api/rest_v1/page/summary/TeamLab_Planets
-skip s-teamlab                    No lead image for "TeamLab"
-fail s-teamlab                    No usable lead image
-ok   s-fuji                       File:View_of_Mount_Fuji_from_Ōwakudani_20211202.jpg (4231x2068, CC BY-SA 4.0)
-ok   s-fushimi_inari              File:Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg (5765x3843, CC BY-SA 4.0)
-ok   s-kinkakuji                  File:Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg (4000x6000, CC BY-SA 4.0)
-ok   s-arashiyama                 File:Bamboo_Grove,_Arashiyama,_Kyoto,_Japan.jpg (4051x6076, CC BY-SA 4.0)
-ok   s-gion                       File:150124_Gion_Kyoto_Japan01s3.jpg (6000x4000, CC BY 2.5)
-ok   s-nara                       File:Tōdai-ji_Kon-dō.jpg (2500x2000, CC BY-SA 3.0)
-ok   s-grand_palace               File:0005574_-_Wat_Phra_Kaew_006.jpg (4256x2832, CC BY-SA 4.0)
-ok   s-wat_pho                    File:พระพุทธไสยาสวัดพระเชตุพน.jpg (3612x5418, CC BY-SA 4.0)
-ok   s-wat_arun                   File:เจดีย์ประธานทรงปรางค์วัดอรุณ2.jpg (8192x5464, CC BY-SA 4.0)
-ok   s-chatuchak                  File:Bangkok_-_Jatujak_Market_02.JPG (3776x2520, CC BY-SA 3.0)
-ok   s-floating_market            File:Understanding_the_"floating_market"_(15801439261).jpg (3264x2448, CC BY-SA 2.0)
-ok   s-phi_phi                    File:KohPhiPhi.JPG (4928x3264, CC BY 3.0 au)
-skip s-big_buddha                 404 https://en.wikipedia.org/api/rest_v1/page/summary/Big_Buddha_(Phuket)
-fail s-big_buddha                 No usable lead image
-ok   s-old_town_phuket            File:Phuket_City.jpg (4320x3240, CC0)
-ok   s-kata_beach                 File:Kata_beach_morning_2.jpg (3264x2448, CC BY-SA 4.0)
-skip s-promthep                   404 https://en.wikipedia.org/api/rest_v1/page/summary/Laem_Phromthep
-fail s-promthep                   No usable lead image
-ok   s-burj_khalifa               File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg (5496x3670, CC BY 2.0)
-ok   s-dubai_fountain             File:Dubai_Fountain.jpg (4928x3264, CC BY-SA 4.0)
-ok   s-desert_safari              File:Landy4no.jpg (795x576, Public domain)
-ok   s-old_dubai                  File:Dubai_creek-2011_(5).JPG (4288x2848, CC BY-SA 3.0)
-ok   s-jbr                        File:Dubai_Jumeirah_Beach.JPG (3888x2592, CC BY 3.0)
+ok   s-bund                       File:The Bund at Night.png (5407x3605, CC BY-SA 4.0)
+ok   s-shanghai_tower             File:Shanghai skyscrapers 5166285.jpg (4608x3456, CC0)
+ok   s-french_concession          File:Hengshan lu-b.jpg (2048x1536, CC BY-SA 3.0)
+ok   s-anthropology               File:2019-02-24 - Museo Nacional de Antropología - 070.jpg (4032x3024, CC BY-SA 4.0)
+ok   s-isla_mujeres               File:Hermosa Caleta beach Isla Mujeres QR 01.jpg (5025x2921, CC BY-SA 2.0)
+ok   s-playa_delfines             File:Cancun-beach-Mexico-2016-Luka-Peternel.jpg (5472x3648, CC BY-SA 4.0)
+ok   s-teamlab                    File:Photos at teamlab planets tokyo.jpg (4032x2268, CC BY-SA 4.0)
+ok   s-chatuchak                  File:Chatuchak Weekend Market Soi.jpg (2500x1649, CC BY-SA 3.0)
+ok   s-big_buddha                 File:Big Buddha Phuket, Thailand.jpg (6000x4000, CC BY-SA 4.0)
+ok   s-old_town_phuket            File:Soi Rommanee 1.jpg (3733x2100, CC0)
+ok   s-kata_beach                 File:Phuket - Kata Beach 001.jpg (4416x3312, Public domain)
+ok   s-promthep                   File:Beautiful Sunset on Promthep Cape, Phuket island, Thailand.jpg (5545x3697, CC BY 2.0)
+ok   s-burj_khalifa               File:Dubai Skyline mit Burj Khalifa (cropped).jpg (5289x2187, CC BY-SA 3.0)
+ok   s-desert_safari              File:A car on Dubai Dune bashing.jpg (6000x4000, CC BY-SA 4.0)
 skip s-grand_mosque               Lead image of "Sheikh Zayed Grand Mosque" is not on Commons
 fail s-grand_mosque               No usable lead image
-skip s-louvre_ad                  Lead image of "Louvre Abu Dhabi" is not on Commons
-fail s-louvre_ad                  No usable lead image
+ok   s-louvre_ad                  File:Terrace (250155753).jpeg (2048x1362, CC BY 3.0)
 skip s-qasr_watan                 Lead image of "Qasr Al Watan" is not on Commons
 fail s-qasr_watan                 No usable lead image
-skip s-corniche                   404 https://en.wikipedia.org/api/rest_v1/page/summary/Abu_Dhabi_Corniche
-ok   s-corniche                   File:Abu_Dhabi_Corniche.jpg (320x240, Public domain)
-skip s-mangroves                  404 https://en.wikipedia.org/api/rest_v1/page/summary/Mangrove_National_Park_(Abu_Dhabi)
-skip s-mangroves                  404 https://en.wikipedia.org/api/rest_v1/page/summary/Eastern_Mangroves
-fail s-mangroves                  No usable lead image
-skip s-diriyah                    404 https://en.wikipedia.org/api/rest_v1/page/summary/At-Turaif
-ok   s-diriyah                    File:Riyadh_Region_-_Ad_Diriyah.svg (1278x1759, CC BY-SA 4.0)
-skip s-edge_world                 404 https://en.wikipedia.org/api/rest_v1/page/summary/Edge_of_the_World_(Saudi_Arabia)
-skip s-edge_world                 404 https://en.wikipedia.org/api/rest_v1/page/summary/Jebel_Fihrayn
-fail s-edge_world                 No usable lead image
-ok   s-kingdom_centre             File:Kingdom_Centre_Riyadh_2024.jpeg (2892x3909, CC BY-SA 4.0)
-ok   s-masmak                     File:Masmak_Fort_(12753717253).jpg (6016x4000, CC BY 2.0)
-skip s-national_museum_sa         Lead image of "National Museum of Saudi Arabia" is not on Commons
-fail s-national_museum_sa         No usable lead image
-skip s-hegra                      No lead image for "Hegra (Mada'in Salih)"
-skip s-hegra                      No lead image for "Hegra"
-fail s-hegra                      No usable lead image
-ok   s-elephant_rock              File:Elephant_rock,_Al-'Ula.jpg (5184x3888, CC BY-SA 4.0)
-skip s-old_town_alula             404 https://en.wikipedia.org/api/rest_v1/page/summary/AlUla_Old_Town
-skip s-old_town_alula             404 https://en.wikipedia.org/api/rest_v1/page/summary/Old_Town_of_AlUla
-fail s-old_town_alula             No usable lead image
-skip s-maraya                     "Maraya (building)" uses File:Al_Ula_(6748577917).jpg, already used by alula
-skip s-maraya                     No lead image for "Maraya"
-fail s-maraya                     No usable lead image
-ok   s-alula_balloon              File:2006_Ojiya_balloon_festival_011.jpg (1896x2852, CC BY-SA 3.0)
-ok   s-petronas                   File:Petronas_Towers_Logo.svg (512x292, Public domain)
-ok   s-batu_caves                 File:Batu_Caves_stairs_2022-05.jpg (4032x3024, CC BY-SA 4.0)
-ok   s-jalan_alor                 File:Jalan_Tun_Razak,_Kuala_Lumpur_20230828_151721.jpg (2448x3264, CC0)
-ok   s-merdeka                    File:Dataran_Merdeka_2.jpg (5395x3518, CC BY-SA 3.0)
-ok   s-melaka                     File:Firstchurchmelaka.JPG (1200x1600, Public domain)
-ok   s-george_town                File:Armenian_street-penang-095749145.jpg (4000x3000, CC BY 4.0)
-ok   s-kek_lok_si                 File:Kek_Lok_Si_at_dusk.jpg (4000x3000, CC BY-SA 4.0)
-ok   s-penang_hill                File:Penang_Hil,_George_Town,_Penang_2023.jpg (6248x4686, CC BY-SA 4.0)
-skip s-clan_jetties               404 https://en.wikipedia.org/api/rest_v1/page/summary/Chew_Jetty
-ok   s-clan_jetties               File:Lim_Jetty_in_George_Town,_Penang.jpg (6792x5094, CC BY-SA 4.0)
-ok   s-batu_ferringhi             File:Batu_Ferringhi,_George_Town,_Penang_2023.jpg (8064x6048, CC BY-SA 4.0)
-ok   s-halong                     File:Ha_Long_Bay_in_2019.jpg (3251x2280, CC BY-SA 4.0)
-ok   s-old_quarter                File:Thap_Rua.jpg (1536x1320, CC BY-SA 2.0)
-ok   s-temple_literature          File:Hanoi_Temple_of_Literature_(cropped).jpg (2592x1209, CC BY-SA 3.0)
-ok   s-train_street               File:Hanoi_Train_Street_(20231225b)_(53489076293).jpg (7703x5135, CC BY-SA 2.0)
-ok   s-water_puppets              File:Thang_Long_Water_Puppet_Theatre2.JPG (2816x2112, CC BY-SA 3.0)
-ok   s-hoian_old_town             File:2024_Hội_An_-_Japanese_Covered_Bridge_(Chùa_Cầu)_after_renovation_-_img_11.jpg (3287x2465, CC BY 4.0)
-ok   s-lantern_night              File:Le_pont_japonais_(Hoi_An)_(4411157440).jpg (1536x1024, CC BY 2.0)
-ok   s-my_son                     File:Xã_Mỹ_Sơn,_Ninh_Sơn.jpg (4080x2861, CC0)
-skip s-an_bang                    404 https://en.wikipedia.org/api/rest_v1/page/summary/An_Bang_Beach
-fail s-an_bang                    No usable lead image
-ok   s-ba_na                      File:Golden_Bridge_at_Ba_Na_Hills_20250718.jpg (4096x2649, CC0)
-ok   s-jemaa                      File:Djemaa_el_Fna.jpg (5472x3648, CC BY-SA 3.0)
-ok   s-majorelle                  File:Le_jardin_des_majorelle_40.JPG (3216x2136, CC BY-SA 3.0)
-ok   s-bahia                      File:Bahia_Palace_large_court.jpg (4873x3253, CC BY-SA 4.0)
-ok   s-souks                      File:Pavillon_Menaragärten.jpg (1024x680, CC BY-SA 3.0)
-ok   s-atlas                      File:Ourika_Valley.jpg (3264x2448, CC BY 2.0)
-ok   s-chouara                    File:Chouara_Tannery_-_154_-_Marokko_Handybilder_2018_-_Fes_(27347707917).jpg (7100x3942, CC BY-SA 2.0)
-ok   s-medina_fes                 File:Fes_Bab_Bou_Jeloud_2011.jpg (3088x2468, CC BY-SA 3.0)
-skip s-bou_inania                 404 https://en.wikipedia.org/api/rest_v1/page/summary/Bou_Inania_Madrasa_(Fez)
-fail s-bou_inania                 No usable lead image
-ok   s-merenid_tombs              File:Marinid_Tombs_in_April_2016_1.jpg (2592x1944, CC0)
-ok   s-chefchaouen                File:Chefchaouen-the-blue-city-of-morocco-with-palm-trees-and-the-mountain-view-in-the-backrgound.jpg (6048x4024, CC BY-SA 4.0)
-ok   d-ny-pizza                   File:NYPizzaPie.jpg (1024x685, CC BY 2.0)
-ok   d-bagel-lox                  File:Lox_on_Bagel,_Atlanta_GA.jpg (4288x2848, CC BY 2.0)
-ok   d-pastrami-on-rye            File:Pastrami-Sandwich.JPG (3872x2592, CC BY 3.0)
-ok   d-ny-strip-steak             File:BeefCutShortLoin.svg (521x311, Public domain)
-ok   d-fish-tacos                 File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg (4799x3600, CC BY-SA 2.0)
-ok   d-french-dip                 File:Roast_Beef_Dip_lunch.JPG (4320x3240, CC BY-SA 3.0)
-ok   d-korean-bbq                 File:Korean_BBQ_Seoul.jpg (5100x3400, CC BY-SA 4.0)
-ok   d-cobb-salad                 File:Cobb_salad,_15_October_2010.jpg (3008x2000, CC BY-SA 2.0)
-ok   d-jiaozi                     File:台灣南投草屯水餃Nantou,_Taiwan_Caotun_dumplings.jpg (828x1104, CC BY-SA 4.0)
-ok   d-zhajiangmian               File:Billyzhajiang1.jpg (2304x3456, CC BY-SA 3.0)
-ok   d-peking-duck                File:Peking_Duck,_2014_(02).jpg (3512x2461, CC BY 2.0)
-ok   d-shuan-yangrou              File:Instant-boiled_mutton_hot_pot_at_Yangfang_Shengli_(20200111153612).jpg (4032x2688, CC BY-SA 4.0)
-ok   d-xiaolongbao                File:A_Xiaolongbao_from_The_Modern_Shanghai.jpg (5184x3888, CC BY-SA 4.0)
-ok   d-shengjianbao               File:Sheng_Jian_Bao_on_a_pan.jpg (1280x960, CC BY-SA 2.0)
-ok   d-hong-shao-rou              File:紅燒肉_Braised_pork_in_brown_sauce.jpg (950x685, CC BY 2.0)
-ok   d-lions-head                 File:狮子楼狮子头.jpg (5120x3296, CC BY-SA 4.0)
-ok   d-tacos-al-pastor            File:Tacos-al-Pastor.jpg (1171x1732, CC BY-SA 3.0)
-ok   d-chilaquiles                File:Chilaquiles_at_the_Grand_Cantina,_Windsor,_Ontario,_2025-09-01_04.jpg (4825x3446, CC BY-SA 4.0)
-ok   d-mole-poblano               File:ChickRedMole.JPG (3872x1754, CC BY-SA 4.0)
-ok   d-pozole                     File:Green_pozole,_dressed_(29161841908)_(cropped).jpg (3212x3024, CC BY 2.0)
-ok   d-cochinita-pibil            File:Cochinita_pibil_2.jpg (4160x2340, CC BY-SA 3.0)
-ok   d-ceviche                    File:Cebiche_de_corvina.JPG (2560x1920, CC BY-SA 4.0)
-ok   d-sopa-de-lima               File:Sopa_de_lima.jpg (618x400, CC BY-SA 3.0)
-ok   d-camarones-al-mojo-de-ajo   File:Camaronesalmojo.jpg (420x280, CC BY-SA 3.0)
-ok   d-ramen                      File:Shoyu_Ramen（Tokyo_Ramen）_-_01.jpg (3299x2474, CC BY-SA 4.0)
-ok   d-tempura                    File:Tempura_01.jpg (2304x3072, CC BY 2.0)
-ok   d-sushi                      File:Sushi_platter.jpg (1614x1614, CC BY-SA 2.0)
-ok   d-yakitori                   File:Cooking_yakitori.jpg (1112x1590, CC BY-SA 3.0)
-skip d-yudofu                     404 https://en.wikipedia.org/api/rest_v1/page/summary/Yud%C5%8Dfu
-fail d-yudofu                     No usable lead image
-ok   d-okonomiyaki                File:Okonomiyaki_001.jpg (6000x4000, CC BY 2.0)
-ok   d-kaiseki                    File:Jisaku_Kaiseki_Ryori_01.jpg (2540x1473, CC BY-SA 3.0)
-ok   d-sukiyaki                   File:Sukiyaki_01.jpg (2048x1360, CC BY 2.0)
-ok   d-pad-thai                   File:Phat_Thai_kung_Chang_Khien_street_stall.jpg (2500x2500, CC BY-SA 3.0)
-ok   d-som-tam                    File:2013_Tam_Lao.jpg (2880x2138, CC BY-SA 3.0)
-ok   d-tom-yum                    File:Tom_yam_kung_maenam.jpg (1920x1272, CC BY-SA 3.0)
-ok   d-green-curry                File:Thai_green_chicken_curry_and_roti.jpg (1920x1285, CC BY-SA 3.0)
-ok   d-mee-hokkien                File:Newton_HokkienMee.JPG (3008x2000, CC BY-SA 4.0)
-ok   d-khao-pad                   File:Thaifriedrice.jpg (2361x2196, CC BY 2.5)
-ok   d-massaman-curry             File:Kaeng_matsaman_kai.JPG (1920x1920, CC BY-SA 3.0)
-skip d-pla-neung-manao            404 https://th.wikipedia.org/api/rest_v1/page/summary/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%A7
-ok   d-pla-neung-manao            File:Steaming_rice.jpg (3648x2736, CC BY 2.0)
-ok   d-shawarma                   File:Shawarma_2.jpg (1934x2532, CC BY-SA 4.0)
-ok   d-manakish                   File:Zaatar_Mankousheh.jpg (2953x1969, CC BY-SA 4.0)
-ok   d-machboos                   File:Machboos_(cropped).JPG (1838x1838, CC0)
-ok   d-arabic-mixed-grill         File:PinchosAmericanos.jpg (800x600, CC BY-SA 2.0)
-ok   d-falafel                    File:Falafels_2.jpg (4160x2340, CC BY-SA 3.0)
-ok   d-harees                     File:Armenian_Harisa.JPG (3648x2736, CC BY-SA 4.0)
-ok   d-grilled-hammour            File:Baltimore_Aquarium_-_Mycteroperca_microlepis_-_05.jpg (3369x1670, CC BY 4.0)
-ok   d-ouzi                       File:Iraqi_Qoozi_.jpg (1280x1280, CC0)
-skip d-jareesh                    404 https://en.wikipedia.org/api/rest_v1/page/summary/Jareesh
-fail d-jareesh                    No usable lead image
-ok   d-mutabbaq                   File:Murtabak.jpg (3264x2448, CC BY-SA 4.0)
-dup  d-kabsa                      File:Machboos_(cropped).JPG is also used by d-machboos
-ok   d-kabsa                      File:Machboos_(cropped).JPG (1838x1838, CC0)
-ok   d-mandi                      File:Mandi_pit_from_inside.jpg (719x508, CC BY-SA 4.0)
-ok   d-sambusa                    File:Samosas,_snack_food_at_Wikipedia's_16th_Birthday_celebration_in_Chittagong_(01).jpg (4000x4000, CC BY-SA 4.0)
-ok   d-ful-medames                File:Ful_medames_(arabic_meal).jpg (342x454, CC BY-SA 3.0)
-ok   d-saleeg                     File:The_Hijazi_Saleeg.jpg (1920x1080, CC BY-SA 4.0)
-ok   d-haneeth                    File:Overhead_view,_haneeth,_Marib_restaurant,_Springfield,_Virginia.jpg (2116x2195, CC BY-SA 4.0)
-ok   d-nasi-lemak                 File:Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas,_di_Penang_Summer_Restaurant.jpg (2448x3108, CC BY-SA 4.0)
-ok   d-roti-canai                 File:YosriRotiCanai.jpg (2048x1536, GFDL)
-ok   d-satay                      File:Sate_Udang.JPG (2268x1938, CC BY-SA 4.0)
-ok   d-bak-kut-teh                File:Song_Fa_Bak_Kut_Teh,_New_Bridge_Rd,_Singapore_(2023)_06.jpg (4032x3024, CC BY 4.0)
-ok   d-char-kway-teow             File:Char_kway_teow.jpg (500x375, Public domain)
-ok   d-assam-laksa                File:Nyonya_Laksa.jpg (1280x1280, CC BY-SA 4.0)
-ok   d-nasi-kandar                File:A_plate_of_Nasi_Kandar.jpg (2448x3264, CC BY-SA 4.0)
-skip d-prawn-mee                  "Hae mee" uses File:Newton_HokkienMee.JPG, already used by d-mee-hokkien
-dup  d-prawn-mee                  File:Newton_HokkienMee.JPG is also used by d-mee-hokkien
-ok   d-prawn-mee                  File:Newton_HokkienMee.JPG (3008x2000, CC BY-SA 4.0)
-ok   d-pho                        File:Bowl_of_Meatball_pho.jpg (4032x3024, CC BY 4.0)
-ok   d-bun-cha                    File:Bún_chả_Vietnamese_food.jpg (3008x2000, CC BY 2.0)
-ok   d-cha-ca                     File:Chả_cá_Lã_Vọng_Hà_Nội.jpg (3120x3078, Public domain)
-ok   d-nem-ran                    File:Cha_gio.jpg (533x800, CC BY 2.0)
-ok   d-cao-lau                    File:Cao_lầu_Hội_An_(2024).jpg (4030x3023, CC BY 4.0)
-ok   d-banh-mi                    File:Bánh_mì_thịt_nướng.png (834x788, CC BY-SA 3.0)
+ok   s-corniche                   File:Beach @ Corniche @ Abu Dhabi (16018369376).jpg (3968x2976, CC BY 2.0)
+ok   s-mangroves                  File:A white heron in the mangroves of Abu Dhabi.jpg (2048x1250, CC BY-SA 4.0)
+ok   s-diriyah                    File:At-Turaif District in ad-Dir'iyah (6).jpg (4000x3000, CC BY 3.0 pl)
+ok   s-edge_world                 File:Edge of the World.jpg (2992x2000, CC BY-SA 4.0)
+ok   s-kingdom_centre             File:Riyadh Skyline.jpg (4109x2311, CC BY-SA 4.0)
+ok   s-national_museum_sa         File:National Museum Riyadh (6329577420).jpg (4608x3072, CC BY 2.0)
+ok   s-hegra                      File:Madain Saleh 2017 02.jpg (7360x4912, CC BY-SA 4.0)
+ok   s-old_town_alula             File:Old Town, Al-'Ula (4).jpg (4000x3000, CC BY 3.0 pl)
+ok   s-maraya                     File:Maraya Concert Hall 20260130 5.jpg (4000x2252, CC BY 4.0)
+ok   s-alula_balloon              File:AlUla Hot Air Balloon (2023).jpg (4240x2828, CC BY-SA 4.0)
+ok   s-petronas                   File:Petronas Twin Towers (230715-1406).jpg (3000x4000, CC BY-SA 4.0)
+ok   s-jalan_alor                 File:Jalan Alor - Kuala Lumpur.jpg (3872x2581, CC BY-SA 2.0)
+ok   s-merdeka                    File:2016 Kuala Lumpur, Budynek Sułtana Abdula Samada (06).jpg (5418x3612, CC BY-SA 4.0)
+ok   s-george_town                File:Penang - Little Children on a Bicycle.JPG (3776x2520, CC BY-SA 3.0)
+ok   s-penang_hill                File:Penang Hill Funicular Railway - panoramio.jpg (2400x1600, CC BY-SA 3.0)
+ok   s-lantern_night              File:Lanterns in Hoi An 6.jpg (5184x3888, CC BY-SA 4.0)
+ok   s-my_son                     File:2024 - Mỹ Sơn Group B, C and D - img 23.jpg (4032x3024, CC BY 4.0)
+ok   s-an_bang                    File:Playa An Bang, Hoi An, Vietnam (39510560665).jpg (4608x3456, CC BY 2.0)
+ok   s-souks                      File:Lámparas, Djemaa el Fna -- 2014 -- Marrakech, Marruecos.jpg (2100x1391, CC BY-SA 3.0)
+ok   s-medina_fes                 File:Looking Upon The Medina in Fes, Morocco.jpg (3264x2448, CC BY-SA 2.0)
+ok   s-bou_inania                 File:Bou Inania Madrasa 2011.jpg (3456x2592, CC BY-SA 3.0)
+ok   d-ny-pizza                   File:Piazza pizza slice.JPG (2048x1536, CC BY 3.0)
+ok   d-ny-strip-steak             File:Hickory Grilled NY Strip (6523198789).jpg (4288x2848, CC BY 2.0)
+ok   d-sopa-de-lima               File:Sopa de lima yucateca en Mercado Santa Anita de Mérida 04.jpg (3645x2670, CC BY-SA 4.0)
+ok   d-camarones-al-mojo-de-ajo   File:Camarones al mojo de ajo.JPG (3264x2448, CC BY-SA 3.0)
+ok   d-yudofu                     File:Yudōfu 001.jpg (3008x2000, CC BY 2.0)
+ok   d-pla-neung-manao            File:Thai steamed fish with lime juice.jpg (2816x2112, Public domain)
+ok   d-arabic-mixed-grill         File:Chicken Çöp Kebab Platter - Lavash 2025-12-26.jpg (8160x6144, CC0)
+ok   d-arabic-mezze               File:Lebanese_style_hummus.jpg (2848x1602, CC BY 3.0)
+ok   d-jareesh                    File:Jarish SaudiCuisine.JPG (3264x2448, CC BY-SA 4.0)
+ok   d-kabsa                      File:Machboos (cropped).JPG (1838x1838, CC0)
+ok   d-mandi                      File:Mandi Lamb Shank, Lepak @ Sultan, 62 Bussorah St, Singapore (02).jpg (4000x2250, CC BY-SA 4.0)
+ok   d-shakshuka                  File:Shakshuka_by_Calliopejen1.jpg (3984x2988, CC BY-SA 3.0)
+ok   d-char-kway-teow             File:Char kway teow in parit buntar.jpg (3264x2448, CC BY 2.0)
+ok   d-prawn-mee                  File:Malaysian prawn noodles.jpg (4032x3024, CC BY-SA 4.0)
+ok   d-nem-ran                    File:Chả giò SG (nem rán giòn) ở quán bún riêu Bà Ti ng26th7n2023 (3).jpg (3024x4032, CC BY-SA 4.0)
 skip d-com-ga                     404 https://en.wikipedia.org/api/rest_v1/page/summary/C%C6%A1m_g%C3%A0
 fail d-com-ga                     No usable lead image
-ok   d-mi-quang                   File:Mì_Quảng,_Da_Nang,_Vietnam.jpg (4896x3264, CC BY-SA 4.0)
-ok   d-harira                     File:Harira.png (501x343, Public domain)
-ok   d-mechoui                    File:Mechoui.jpg (1722x844, CC BY 3.0)
-ok   d-tagine                     File:Tajine-marocain-un-plat-varie-et-sain_(cropped).jpg (737x800, CC BY-SA 4.0)
-ok   d-tanjia                     File:Tanjia-959.jpg (413x409, Public domain)
-ok   d-bissara                    File:Bissara_Moroccan_split_pea_and_fava_bean_soup.jpg (1200x1800, CC BY-SA 4.0)
-ok   d-kefta                      File:Koofteh_tabrizi.jpg (2272x1704, CC BY-SA 2.5)
-ok   d-pastilla                   File:Bisteeya.jpg (500x375, CC BY 2.0)
-ok   d-couscous                   File:Moroccan_cuscus,_from_Casablanca,_September_2018.jpg (1080x1191, CC BY-SA 4.0)
-Done: 177 fetched, 23 failed.
+ok   d-harira                     File:Harira vegetarisch.jpg (2960x2054, FAL)
+ok   d-tagine                     File:Tagine au poisson.jpeg (3831x2709, CC BY-SA 4.0)
+ok   d-tanjia                     File:Tangia in Marrakech 07.jpg (5862x3908, CC BY-SA 4.0)
+del  d-grilled-hammour
+del  d-ful-medames
+Done: 64 fetched, 4 failed.
