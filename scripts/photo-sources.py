@@ -218,6 +218,7 @@ DISHES = {
 # Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
 # article lead image was a map, a logo, too small or simply not the best shot.
 PINNED = {
+    'd-scottish-salmon': 'File:Salmon dish at Restauracja Ratuszowa, Warka, Poland.jpg',
     's-balloon': 'File:Hot air balloon ride at sunrise in Cappadocia 2.JPG',
     's-acropolis': 'File:Parthenon east side Acropolis Athens, Greece.jpg',
     's-dom': 'File:Dom Quarter 7082.jpg',
