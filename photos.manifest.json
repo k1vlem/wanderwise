@@ -52,9 +52,7 @@
   {
    "id": "istanbul",
    "kind": "place",
-   "wiki": [
-    "Galata Tower"
-   ]
+   "file": "File:Istanbul skyline 03.jpg"
   },
   {
    "id": "cappadocia",
@@ -155,7 +153,7 @@
   {
    "id": "s-eiffel",
    "kind": "detail",
-   "file": "File:Tour Eiffel Wikimedia Commons.jpg"
+   "file": "File:Eiffel tower from trocadero.jpg"
   },
   {
    "id": "s-louvre",
@@ -168,9 +166,7 @@
   {
    "id": "s-orsay",
    "kind": "detail",
-   "wiki": [
-    "Musée d'Orsay"
-   ]
+   "file": "File:Paris - Musée d'Orsay 8369.jpg"
   },
   {
    "id": "s-montmartre",
@@ -199,17 +195,12 @@
   {
    "id": "s-old_nice",
    "kind": "detail",
-   "wiki": [
-    "Cours Saleya",
-    "Vieux Nice"
-   ]
+   "file": "File:Nice - Cours Saleya - Rue Louis Gassin - View NE.jpg"
   },
   {
    "id": "s-castle_hill",
    "kind": "detail",
-   "wiki": [
-    "Colline du Château"
-   ]
+   "file": "File:View from Colline du Château Nice IMG 1278.jpg"
   },
   {
    "id": "s-matisse",
@@ -228,9 +219,7 @@
   {
    "id": "s-sagrada",
    "kind": "detail",
-   "wiki": [
-    "Sagrada Família"
-   ]
+   "file": "File:Interiors of the Sagrada Família 20171225-1.jpg"
   },
   {
    "id": "s-guell",
@@ -242,24 +231,17 @@
   {
    "id": "s-gothic",
    "kind": "detail",
-   "wiki": [
-    "Gothic Quarter, Barcelona"
-   ]
+   "file": "File:Barrio gótico 13.jpg"
   },
   {
    "id": "s-barceloneta",
    "kind": "detail",
-   "wiki": [
-    "Platja de la Barceloneta",
-    "La Barceloneta, Barcelona"
-   ]
+   "file": "File:Platja de la Barceloneta 2018.jpg"
   },
   {
    "id": "s-bunkers",
    "kind": "detail",
-   "wiki": [
-    "Turó de la Rovira"
-   ]
+   "file": "File:Bunkers del Carmel Barcelona.jpg"
   },
   {
    "id": "s-alcazar",
@@ -294,9 +276,7 @@
   {
    "id": "s-flamenco",
    "kind": "detail",
-   "wiki": [
-    "Flamenco"
-   ]
+   "file": "File:Flamenco en el Palacio Andaluz, Sevilla, España, 2015-12-06, DD 02.JPG"
   },
   {
    "id": "s-colosseum",
@@ -323,9 +303,7 @@
   {
    "id": "s-borghese",
    "kind": "detail",
-   "wiki": [
-    "Galleria Borghese"
-   ]
+   "file": "File:Roma, galleria borghese, sala del sole, col david di bernini 02.jpg"
   },
   {
    "id": "s-trastevere",
@@ -358,9 +336,7 @@
   {
    "id": "s-michelangelo",
    "kind": "detail",
-   "wiki": [
-    "Piazzale Michelangelo"
-   ]
+   "file": "File:Florence Cathedral seen from Piazzale Michelangelo night dllu.jpg"
   },
   {
    "id": "s-boboli",
@@ -379,9 +355,7 @@
   {
    "id": "s-topkapi",
    "kind": "detail",
-   "wiki": [
-    "Topkapı Palace"
-   ]
+   "file": "File:Gate of Salutation (Topkapı Palace)-.jpg"
   },
   {
    "id": "s-bluemosque",
@@ -401,9 +375,7 @@
   {
    "id": "s-bosphorus",
    "kind": "detail",
-   "wiki": [
-    "Bosphorus"
-   ]
+   "file": "File:Bosphorus, Istanbul (P1100293).jpg"
   },
   {
    "id": "s-balloon",
@@ -415,17 +387,12 @@
   {
    "id": "s-goreme_museum",
    "kind": "detail",
-   "wiki": [
-    "Göreme Open Air Museum"
-   ]
+   "file": "File:Pasabag, Capadocia, Turquía, 2024-10-01, DD 23.jpg"
   },
   {
    "id": "s-rose_valley",
    "kind": "detail",
-   "wiki": [
-    "Fairy chimney",
-    "Love Valley"
-   ]
+   "file": "File:Cappadocia Aktepe Panorama.JPG"
   },
   {
    "id": "s-derinkuyu",
@@ -451,9 +418,7 @@
   {
    "id": "s-acropolis_museum",
    "kind": "detail",
-   "wiki": [
-    "Acropolis Museum"
-   ]
+   "file": "File:Acropolis Museum in Athens with Acropolis View.jpg"
   },
   {
    "id": "s-agora",
@@ -474,16 +439,12 @@
   {
    "id": "s-lycabettus",
    "kind": "detail",
-   "wiki": [
-    "Mount Lycabettus"
-   ]
+   "file": "File:View of Lycabettus Hill from the Areopagus, Athens, 20240531 1216 9596.jpg"
   },
   {
    "id": "s-caldera_hike",
    "kind": "detail",
-   "wiki": [
-    "Santorini caldera"
-   ]
+   "file": "File:Fira at Santorini (from north).jpg"
   },
   {
    "id": "s-oia",
@@ -509,10 +470,7 @@
   {
    "id": "s-wine",
    "kind": "detail",
-   "wiki": [
-    "Vinsanto",
-    "Santorini (wine)"
-   ]
+   "file": "File:Santorini 103.jpg"
   },
   {
    "id": "s-british_museum",
@@ -553,9 +511,7 @@
   {
    "id": "s-castle_edi",
    "kind": "detail",
-   "wiki": [
-    "Edinburgh Castle"
-   ]
+   "file": "File:Edinburgh Castle, from Princes Street Gardens - geograph.org.uk - 5417710.jpg"
   },
   {
    "id": "s-royal_mile",
@@ -603,10 +559,7 @@
   {
    "id": "s-wall_memorial",
    "kind": "detail",
-   "wiki": [
-    "Berlin Wall Memorial",
-    "Berlin Wall"
-   ]
+   "file": "File:Mur de Berlin et mirador (Berlin).jpg"
   },
   {
    "id": "s-east_side",
@@ -640,17 +593,12 @@
   {
    "id": "s-residenz",
    "kind": "detail",
-   "wiki": [
-    "Munich Residenz"
-   ]
+   "file": "File:Antiquarium, Münchner Residenz.jpg"
   },
   {
    "id": "s-english_garden",
    "kind": "detail",
-   "wiki": [
-    "Englischer Garten",
-    "Eisbach (Isar)"
-   ]
+   "file": "File:Urban Surfer1.JPG"
   },
   {
    "id": "s-hofbrauhaus",
@@ -740,10 +688,7 @@
   {
    "id": "s-tram28",
    "kind": "detail",
-   "wiki": [
-    "Lisbon tramway network",
-    "Tram 28 (Lisbon)"
-   ]
+   "file": "File:Tram 28; Lisbon (5282021178).jpg"
   },
   {
    "id": "s-sintra",
@@ -755,9 +700,7 @@
   {
    "id": "s-sao_jorge",
    "kind": "detail",
-   "wiki": [
-    "São Jorge Castle"
-   ]
+   "file": "File:LisbonCastle.jpg"
   },
   {
    "id": "s-fado",
@@ -769,18 +712,12 @@
   {
    "id": "s-ribeira",
    "kind": "detail",
-   "wiki": [
-    "Ribeira (Porto)",
-    "Cais da Ribeira"
-   ]
+   "file": "File:Rabelo boats and Ribeira seen from Cais de Gaia, 20250605 1623 9879.jpg"
   },
   {
    "id": "s-port_cellar",
    "kind": "detail",
-   "wiki": [
-    "Vila Nova de Gaia",
-    "Port wine"
-   ]
+   "file": "File:Wine cellars of taylor´s.jpg"
   },
   {
    "id": "s-lello",
@@ -814,9 +751,7 @@
   {
    "id": "s-van_gogh",
    "kind": "detail",
-   "wiki": [
-    "Van Gogh Museum"
-   ]
+   "file": "File:Vincent van Gogh - The yellow house ('The street').jpg"
   },
   {
    "id": "s-anne_frank",
@@ -863,16 +798,12 @@
   {
    "id": "s-boat_utrecht",
    "kind": "detail",
-   "wiki": [
-    "Oudegracht"
-   ]
+   "file": "File:Oudegracht 7103.jpg"
   },
   {
    "id": "s-wharves",
    "kind": "detail",
-   "wiki": [
-    "Oudegracht"
-   ]
+   "file": "File:Utrecht Oudegracht aan de Werf next to Jansbrug seen from the southwest.jpg"
   },
   {
    "id": "d-croque-monsieur",
@@ -905,10 +836,7 @@
   {
    "id": "d-socca",
    "kind": "detail",
-   "wiki": [
-    "Socca",
-    "Farinata"
-   ]
+   "file": "File:Socca a Nice.jpg"
   },
   {
    "id": "d-salade-nicoise",
@@ -977,9 +905,7 @@
   {
    "id": "d-espinacas-con-garbanzos",
    "kind": "detail",
-   "wiki": [
-    "es:Espinacas con garbanzos"
-   ]
+   "file": "File:Potaje de vigilia.jpg"
   },
   {
    "id": "d-pescaito-frito",
@@ -1021,24 +947,17 @@
   {
    "id": "d-schiacciata",
    "kind": "detail",
-   "wiki": [
-    "Schiacciata",
-    "it:Schiacciata"
-   ]
+   "file": "File:Schiacciata alla fiorentina loaves in Florence bakery.jpg"
   },
   {
    "id": "d-bistecca-alla-fiorentina",
    "kind": "detail",
-   "wiki": [
-    "Bistecca alla fiorentina"
-   ]
+   "file": "File:BisteccaFiorentina.jpg"
   },
   {
    "id": "d-lampredotto",
    "kind": "detail",
-   "wiki": [
-    "Lampredotto"
-   ]
+   "file": "File:Panino lampredotto.jpg"
   },
   {
    "id": "d-ribollita",
@@ -1050,9 +969,7 @@
   {
    "id": "d-balik-ekmek",
    "kind": "detail",
-   "wiki": [
-    "Balık ekmek"
-   ]
+   "file": "File:Balik ekmek Galata Bridge.JPG"
   },
   {
    "id": "d-meze",
@@ -1064,9 +981,7 @@
   {
    "id": "d-baklava",
    "kind": "detail",
-   "wiki": [
-    "Baklava"
-   ]
+   "file": "File:Fıstıklı Baklava.jpg"
   },
   {
    "id": "d-iskender-kebap",
@@ -1153,16 +1068,12 @@
   {
    "id": "d-htapodi-sti-skara",
    "kind": "detail",
-   "wiki": [
-    "Octopus as food"
-   ]
+   "file": "File:Grilled octopus2.jpg"
   },
   {
    "id": "d-assyrtiko",
    "kind": "detail",
-   "wiki": [
-    "Assyrtiko"
-   ]
+   "file": "File:Wild ferment Assyrtiko.jpg"
   },
   {
    "id": "d-fish-and-chips",
@@ -1204,9 +1115,7 @@
   {
    "id": "d-haggis-neeps-tatties",
    "kind": "detail",
-   "wiki": [
-    "Haggis"
-   ]
+   "file": "File:Haggis, Neeps and Tatties.JPG"
   },
   {
    "id": "d-scotch-pie",
@@ -1232,9 +1141,7 @@
   {
    "id": "d-doner-kebab",
    "kind": "detail",
-   "wiki": [
-    "Doner kebab"
-   ]
+   "file": "File:Hahnchen Doner mit Gemuse at Mustafas Gemusekebap.jpg"
   },
   {
    "id": "d-eisbein",
@@ -1309,10 +1216,7 @@
   {
    "id": "d-bosna",
    "kind": "detail",
-   "wiki": [
-    "Bosna (food)",
-    "de:Bosna (Wurst)"
-   ]
+   "file": "File:Bosna Wien Dr Karl Renner Ring.jpg"
   },
   {
    "id": "d-kasnocken",
@@ -1325,9 +1229,7 @@
   {
    "id": "d-mozartkugel",
    "kind": "detail",
-   "wiki": [
-    "Mozartkugel"
-   ]
+   "file": "File:Die ursprüngliche Echte Salzburger Mozartkugel - Rudolf Baumann.jpg"
   },
   {
    "id": "d-salzburger-nockerl",
@@ -1383,10 +1285,7 @@
   {
    "id": "d-bolinhos-de-bacalhau",
    "kind": "detail",
-   "wiki": [
-    "Pastéis de bacalhau",
-    "Bolinhos de bacalhau"
-   ]
+   "file": "File:Bolinhos de bacalhau.jpg"
   },
   {
    "id": "d-vinho-do-porto",

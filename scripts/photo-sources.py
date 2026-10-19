@@ -215,10 +215,62 @@ DISHES = {
     'appeltaart': ['Dutch apple pie', 'Apple pie'],
 }
 
+# Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
+# article lead image was a map, a logo, too small or simply not the best shot.
+PINNED = {
+    'istanbul': 'File:Istanbul skyline 03.jpg',
+    's-eiffel': 'File:Eiffel tower from trocadero.jpg',
+    's-orsay': "File:Paris - Musée d'Orsay 8369.jpg",
+    's-old_nice': 'File:Nice - Cours Saleya - Rue Louis Gassin - View NE.jpg',
+    's-castle_hill': 'File:View from Colline du Château Nice IMG 1278.jpg',
+    's-sagrada': 'File:Interiors of the Sagrada Família 20171225-1.jpg',
+    's-gothic': 'File:Barrio gótico 13.jpg',
+    's-barceloneta': 'File:Platja de la Barceloneta 2018.jpg',
+    's-bunkers': 'File:Bunkers del Carmel Barcelona.jpg',
+    's-flamenco': 'File:Flamenco en el Palacio Andaluz, Sevilla, España, 2015-12-06, DD 02.JPG',
+    's-borghese': 'File:Roma, galleria borghese, sala del sole, col david di bernini 02.jpg',
+    's-michelangelo': 'File:Florence Cathedral seen from Piazzale Michelangelo night dllu.jpg',
+    's-bosphorus': 'File:Bosphorus, Istanbul (P1100293).jpg',
+    's-goreme_museum': 'File:Pasabag, Capadocia, Turquía, 2024-10-01, DD 23.jpg',
+    's-rose_valley': 'File:Cappadocia Aktepe Panorama.JPG',
+    's-acropolis_museum': 'File:Acropolis Museum in Athens with Acropolis View.jpg',
+    's-lycabettus': 'File:View of Lycabettus Hill from the Areopagus, Athens, 20240531 1216 9596.jpg',
+    's-caldera_hike': 'File:Fira at Santorini (from north).jpg',
+    's-wine': 'File:Santorini 103.jpg',
+    's-castle_edi': 'File:Edinburgh Castle, from Princes Street Gardens - geograph.org.uk - 5417710.jpg',
+    's-wall_memorial': 'File:Mur de Berlin et mirador (Berlin).jpg',
+    's-residenz': 'File:Antiquarium, Münchner Residenz.jpg',
+    's-english_garden': 'File:Urban Surfer1.JPG',
+    's-topkapi': 'File:Gate of Salutation (Topkapı Palace)-.jpg',
+    's-sao_jorge': 'File:LisbonCastle.jpg',
+    's-tram28': 'File:Tram 28; Lisbon (5282021178).jpg',
+    's-ribeira': 'File:Rabelo boats and Ribeira seen from Cais de Gaia, 20250605 1623 9879.jpg',
+    's-port_cellar': 'File:Wine cellars of taylor´s.jpg',
+    's-van_gogh': "File:Vincent van Gogh - The yellow house ('The street').jpg",
+    's-boat_utrecht': 'File:Oudegracht 7103.jpg',
+    's-wharves': 'File:Utrecht Oudegracht aan de Werf next to Jansbrug seen from the southwest.jpg',
+    'd-socca': 'File:Socca a Nice.jpg',
+    'd-espinacas-con-garbanzos': 'File:Potaje de vigilia.jpg',
+    'd-lampredotto': 'File:Panino lampredotto.jpg',
+    'd-balik-ekmek': 'File:Balik ekmek Galata Bridge.JPG',
+    'd-htapodi-sti-skara': 'File:Grilled octopus2.jpg',
+    'd-assyrtiko': 'File:Wild ferment Assyrtiko.jpg',
+    'd-haggis-neeps-tatties': 'File:Haggis, Neeps and Tatties.JPG',
+    'd-doner-kebab': 'File:Hahnchen Doner mit Gemuse at Mustafas Gemusekebap.jpg',
+    'd-bosna': 'File:Bosna Wien Dr Karl Renner Ring.jpg',
+    'd-bolinhos-de-bacalhau': 'File:Bolinhos de bacalhau.jpg',
+    'd-baklava': 'File:Fıstıklı Baklava.jpg',
+    'd-bistecca-alla-fiorentina': 'File:BisteccaFiorentina.jpg',
+    'd-schiacciata': 'File:Schiacciata alla fiorentina loaves in Florence bakery.jpg',
+    'd-mozartkugel': 'File:Die ursprüngliche Echte Salzburger Mozartkugel - Rudolf Baumann.jpg',
+}
+
 
 def entry(pid, src, kind):
     e = {'id': pid, 'kind': kind}
-    if isinstance(src, dict):
+    if pid in PINNED:
+        e['file'] = PINNED[pid]
+    elif isinstance(src, dict):
         e.update(src)
     else:
         e['wiki'] = src
