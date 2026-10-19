@@ -30,14 +30,14 @@
     "height": 5108
   },
   "barcelona": {
-    "key": "wiki:Casa Batlló|Passeig de Gràcia",
-    "file": "File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
-    "author": "ChristianSchd",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
-    "width": 2244,
-    "height": 2765
+    "key": "File:Barcelona, airport approach (27733825928).jpg",
+    "file": "File:Barcelona, airport approach (27733825928).jpg",
+    "author": "Mike McBey",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barcelona,_airport_approach_(27733825928).jpg",
+    "width": 9355,
+    "height": 4960
   },
   "seville": {
     "key": "wiki:Plaza de España (Seville)",
@@ -100,14 +100,14 @@
     "height": 5760
   },
   "santorini": {
-    "key": "wiki:Santorini|Fira",
-    "file": "File:2011_Dimos_Thiras.png",
-    "author": "Pitichinaccio",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2011_Dimos_Thiras.png",
-    "width": 2000,
-    "height": 1253
+    "key": "File:1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg",
+    "file": "File:1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg",
+    "width": 8640,
+    "height": 5760
   },
   "london": {
     "key": "wiki:Tower Bridge",
@@ -160,14 +160,14 @@
     "height": 2220
   },
   "salzburg": {
-    "key": "wiki:Historic Centre of the City of Salzburg|Salzburg Cathedral",
-    "file": "File:SalzburgerAltstadt02b.jpg",
-    "author": "Thomas Pintaric (= Pintaric)",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:SalzburgerAltstadt02b.jpg",
-    "width": 1200,
-    "height": 800
+    "key": "File:Salzburg - Festung Hohensalzburg 15 - 2018-08-20.jpg",
+    "file": "File:Salzburg - Festung Hohensalzburg 15 - 2018-08-20.jpg",
+    "author": "Rafa Esteve",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Festung_Hohensalzburg_15_-_2018-08-20.jpg",
+    "width": 5158,
+    "height": 3439
   },
   "lisbon": {
     "key": "wiki:Belém Tower",
@@ -200,14 +200,14 @@
     "height": 1536
   },
   "utrecht": {
-    "key": "wiki:Oudegracht|Utrecht",
-    "file": "File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
-    "author": "Diliff",
-    "license": "CC BY 2.5",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-    "source": "https://commons.wikimedia.org/wiki/File:Utrecht_Canals_Aerial_View_-_July_2006.jpg",
-    "width": 4172,
-    "height": 5553
+    "key": "File:Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56.jpg",
+    "file": "File:Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56.jpg",
+    "author": "Michielverbeek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Utrecht,_de_Domtoren_(RM36075)_vanaf_de_Oudegracht_230_ongeveer_foto5_2015-11-01_08.56.jpg",
+    "width": 4201,
+    "height": 3008
   },
   "s-eiffel": {
     "key": "File:Eiffel tower from trocadero.jpg",
