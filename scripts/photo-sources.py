@@ -218,6 +218,11 @@ DISHES = {
 # Files picked by hand from the candidates that scripts/photo-candidates.mjs found, where the
 # article lead image was a map, a logo, too small or simply not the best shot.
 PINNED = {
+    'santorini': 'File:1000 Three domes of Oia in Santorini Photo by Giles Laurent.jpg',
+    'salzburg': 'File:Salzburg - Festung Hohensalzburg 15 - 2018-08-20.jpg',
+    'utrecht': 'File:Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56.jpg',
+    'barcelona': 'File:Barcelona, airport approach (27733825928).jpg',
+    's-wine': 'File:Santorini wines.jpg',
     'istanbul': 'File:Istanbul skyline 03.jpg',
     's-eiffel': 'File:Eiffel tower from trocadero.jpg',
     's-orsay': "File:Paris - Musée d'Orsay 8369.jpg",
