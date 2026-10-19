@@ -1,1 +1,7 @@
-{}
+{
+ "d-jiaozi": {"queries": ["jiaozi dumplings plate", "boiled dumplings Beijing", "饺子", "Chinese dumplings jiaozi"], "minWidth": 1500, "portrait": true},
+ "d-hong-shao-rou": {"queries": ["hong shao rou", "红烧肉", "red braised pork belly", "braised pork belly Shanghai"], "minWidth": 1500, "portrait": true},
+ "d-couscous": {"queries": ["Moroccan couscous vegetables", "couscous seven vegetables", "couscous marocain légumes", "couscous Morocco tagine dish"], "minWidth": 1500, "portrait": true},
+ "d-yakitori": {"queries": ["yakitori skewers", "yakitori grill", "焼き鳥", "yakitori izakaya"], "minWidth": 1500, "portrait": true},
+ "d-tacos-al-pastor": {"queries": ["tacos al pastor", "al pastor tacos pineapple", "tacos de pastor Mexico City", "trompo al pastor"], "minWidth": 1500, "portrait": true}
+}
