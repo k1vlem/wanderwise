@@ -69,6 +69,11 @@ const credits = (await exists(CREDITS)) ? JSON.parse(await fs.readFile(CREDITS, 
 
 let fetched = 0;
 let failed = 0;
+const log = [];
+const say = (line) => {
+  log.push(line);
+  console.log(line);
+};
 for (const p of manifest.photos) {
   const key = p.file ?? `wiki:${p.wiki}`;
   const big = path.join(OUT, `${p.id}.jpg`);
@@ -83,10 +88,10 @@ for (const p of manifest.photos) {
     await image.clone().resize({ width: 800, withoutEnlargement: true }).jpeg({ quality: 80, progressive: true, mozjpeg: true }).toFile(small);
     credits[p.id] = { key, file, author: info.author, license: info.license, licenseUrl: info.licenseUrl, source: info.source, width: info.width, height: info.height };
     fetched += 1;
-    console.log(`ok   ${p.id.padEnd(12)} ${file} (${info.width}x${info.height}, ${info.license})`);
+    say(`ok   ${p.id.padEnd(12)} ${file} (${info.width}x${info.height}, ${info.license})`);
   } catch (err) {
     failed += 1;
-    console.log(`fail ${p.id.padEnd(12)} ${err.message}`);
+    say(`fail ${p.id.padEnd(12)} ${err.message}`);
   }
   await sleep(400);
 }
@@ -96,4 +101,5 @@ for (const id of Object.keys(credits)) {
   if (!manifest.photos.some((p) => p.id === id)) delete credits[id];
 }
 await fs.writeFile(CREDITS, `${JSON.stringify(credits, null, 2)}\n`);
-console.log(`Done: ${fetched} fetched, ${failed} failed.`);
+say(`Done: ${fetched} fetched, ${failed} failed.`);
+await fs.writeFile(path.join(OUT, 'fetch-log.txt'), `${log.join('\n')}\n`);
