@@ -1,11 +1,672 @@
 {
- "d-scottish-salmon": {
-  "queries": ["Salmon dish", "Grilled salmon", "Seared salmon", "Lachsfilet", "Saumon grillé", "Salmon steak", "salmon fillet"],
+ "hoian": {
+  "queries": [
+   "Hoi An ancient town lanterns river",
+   "Hoi An Thu Bon river evening",
+   "Hội An old town"
+  ],
+  "wiki": [
+   "vi:Hội An",
+   "fr:Hội An",
+   "de:Hội An"
+  ],
+  "minWidth": 1800
+ },
+ "kualalumpur": {
+  "queries": [
+   "Kuala Lumpur skyline night",
+   "Kuala Lumpur skyline Petronas",
+   "Kuala Lumpur cityscape"
+  ],
+  "wiki": [
+   "ms:Kuala Lumpur",
+   "de:Kuala Lumpur"
+  ],
+  "minWidth": 1800
+ },
+ "phuket": {
+  "queries": [
+   "Phuket beach aerial",
+   "Karon Beach Phuket",
+   "Phuket viewpoint Kata Karon",
+   "Phang Nga Bay"
+  ],
+  "wiki": [
+   "de:Phuket",
+   "fr:Phuket"
+  ],
+  "minWidth": 1800
+ },
+ "riyadh": {
+  "queries": [
+   "Riyadh skyline night",
+   "Riyadh skyline Kingdom Centre",
+   "Riyadh panorama"
+  ],
+  "wiki": [
+   "ar:الرياض",
+   "de:Riad"
+  ],
+  "minWidth": 1800
+ },
+ "bangkok": {
+  "queries": [
+   "Bangkok skyline Chao Phraya night",
+   "Bangkok skyline sunset",
+   "Bangkok cityscape"
+  ],
+  "wiki": [
+   "de:Bangkok",
+   "fr:Bangkok"
+  ],
+  "minWidth": 1800
+ },
+ "losangeles": {
+  "queries": [
+   "Los Angeles skyline mountains",
+   "Los Angeles skyline sunset",
+   "Los Angeles from Griffith Observatory"
+  ],
+  "wiki": [
+   "de:Los Angeles",
+   "fr:Los Angeles"
+  ],
+  "minWidth": 1800
+ },
+ "kyoto": {
+  "queries": [
+   "Yasaka Pagoda Kyoto",
+   "Hokan-ji Kyoto street",
+   "Kyoto Higashiyama pagoda"
+  ],
+  "wiki": [
+   "ja:法観寺",
+   "de:Kyōto"
+  ],
+  "minWidth": 1800
+ },
+ "s-top_rock": {
+  "queries": [
+   "view from Top of the Rock Empire State",
+   "Top of the Rock observation deck view",
+   "Manhattan from Rockefeller Center"
+  ],
+  "minWidth": 1600
+ },
+ "s-broadway": {
+  "queries": [
+   "Broadway theatre district night",
+   "Times Square night",
+   "Broadway theater marquee night"
+  ],
+  "wiki": [
+   "Times Square"
+  ],
+  "minWidth": 1600
+ },
+ "s-walk_of_fame": {
+  "queries": [
+   "Hollywood Walk of Fame star",
+   "Hollywood Boulevard Walk of Fame"
+  ],
+  "wiki": [
+   "de:Hollywood Walk of Fame"
+  ],
+  "minWidth": 1400
+ },
+ "s-universal": {
+  "queries": [
+   "Universal Studios Hollywood",
+   "Universal Studios Hollywood entrance globe"
+  ],
+  "wiki": [
+   "de:Universal Studios Hollywood"
+  ],
+  "minWidth": 1400
+ },
+ "s-shanghai_tower": {
+  "queries": [
+   "Shanghai Tower",
+   "Shanghai Tower Lujiazui"
+  ],
+  "wiki": [
+   "zh:上海中心大厦",
+   "de:Shanghai Tower"
+  ],
+  "minWidth": 1400
+ },
+ "s-french_concession": {
+  "queries": [
+   "Shanghai French Concession street",
+   "Wukang Mansion Shanghai",
+   "Shanghai Former French Concession plane trees"
+  ],
+  "wiki": [
+   "zh:上海法租界"
+  ],
+  "minWidth": 1400
+ },
+ "s-bund": {
+  "queries": [
+   "The Bund Shanghai night",
+   "Bund Shanghai skyline night"
+  ],
+  "minWidth": 1600
+ },
+ "s-anthropology": {
+  "queries": [
+   "Museo Nacional de Antropología umbrella fountain",
+   "National Museum of Anthropology Mexico City",
+   "Museo Nacional de Antropologia patio"
+  ],
+  "wiki": [
+   "es:Museo Nacional de Antropología (México)"
+  ],
+  "minWidth": 1400
+ },
+ "s-isla_mujeres": {
+  "queries": [
+   "Isla Mujeres beach",
+   "Playa Norte Isla Mujeres"
+  ],
+  "wiki": [
+   "es:Isla Mujeres"
+  ],
+  "minWidth": 1400
+ },
+ "s-playa_delfines": {
+  "queries": [
+   "Playa Delfines Cancún",
+   "Cancún beach turquoise",
+   "Cancun hotel zone beach"
+  ],
+  "minWidth": 1400
+ },
+ "s-teamlab": {
+  "queries": [
+   "teamLab Planets Tokyo",
+   "teamLab Borderless",
+   "teamLab digital art"
+  ],
+  "wiki": [
+   "ja:チームラボ"
+  ],
   "minWidth": 1200
  },
- "d-scottish-salmon-2": {
-  "queries": ["Smoked salmon", "Scottish smoked salmon", "salmon plate restaurant", "Salmon with vegetables"],
-  "wiki": ["Smoked salmon", "Salmon as food", "de:Lachs"],
+ "s-chatuchak": {
+  "queries": [
+   "Chatuchak market",
+   "Chatuchak Weekend Market Bangkok"
+  ],
+  "minWidth": 1400
+ },
+ "s-big_buddha": {
+  "queries": [
+   "Big Buddha Phuket",
+   "Phuket Big Buddha statue"
+  ],
+  "wiki": [
+   "th:พระพุทธมิ่งมงคลเอกนาคคีรี"
+  ],
+  "minWidth": 1400
+ },
+ "s-promthep": {
+  "queries": [
+   "Promthep Cape sunset",
+   "Phromthep Cape Phuket"
+  ],
+  "wiki": [
+   "th:แหลมพรหมเทพ",
+   "de:Laem Phrom Thep"
+  ],
+  "minWidth": 1400
+ },
+ "s-old_town_phuket": {
+  "queries": [
+   "Phuket Old Town Thalang Road",
+   "Phuket Town Sino-Portuguese shophouses",
+   "Soi Romanee Phuket"
+  ],
+  "minWidth": 1400
+ },
+ "s-kata_beach": {
+  "queries": [
+   "Kata Beach Phuket",
+   "Kata Noi beach",
+   "Karon beach Phuket"
+  ],
+  "minWidth": 1400
+ },
+ "s-burj_khalifa": {
+  "queries": [
+   "Burj Khalifa",
+   "Burj Khalifa from Dubai Mall",
+   "Burj Khalifa blue sky"
+  ],
+  "minWidth": 1400,
+  "portrait": true
+ },
+ "s-desert_safari": {
+  "queries": [
+   "Dubai desert safari dunes",
+   "Dubai desert dune bashing",
+   "Arabian desert dunes camels Dubai"
+  ],
+  "minWidth": 1400
+ },
+ "s-grand_mosque": {
+  "queries": [
+   "Sheikh Zayed Grand Mosque",
+   "Sheikh Zayed Mosque Abu Dhabi courtyard"
+  ],
+  "wiki": [
+   "de:Scheich-Zayid-Moschee",
+   "fr:Mosquée Cheikh Zayed"
+  ],
+  "minWidth": 1600
+ },
+ "s-louvre_ad": {
+  "queries": [
+   "Louvre Abu Dhabi dome",
+   "Louvre Abu Dhabi rain of light"
+  ],
+  "wiki": [
+   "fr:Louvre Abou Dabi",
+   "de:Louvre Abu Dhabi"
+  ],
+  "minWidth": 1400
+ },
+ "s-qasr_watan": {
+  "queries": [
+   "Qasr Al Watan",
+   "Qasr Al Watan Abu Dhabi interior"
+  ],
+  "minWidth": 1400
+ },
+ "s-corniche": {
+  "queries": [
+   "Abu Dhabi Corniche beach",
+   "Abu Dhabi Corniche"
+  ],
+  "minWidth": 1400
+ },
+ "s-mangroves": {
+  "queries": [
+   "Abu Dhabi mangroves kayak",
+   "Eastern Mangroves Abu Dhabi",
+   "Jubail Mangrove Park"
+  ],
   "minWidth": 1200
+ },
+ "s-diriyah": {
+  "queries": [
+   "At-Turaif Diriyah",
+   "Diriyah Salwa Palace",
+   "Diriyah mud brick"
+  ],
+  "wiki": [
+   "ar:حي الطريف",
+   "de:Diriyya"
+  ],
+  "minWidth": 1400
+ },
+ "s-edge_world": {
+  "queries": [
+   "Edge of the World Riyadh",
+   "Jebel Fihrayn",
+   "Tuwaiq escarpment cliffs"
+  ],
+  "wiki": [
+   "de:Tuwaiq-Gebirge"
+  ],
+  "minWidth": 1400
+ },
+ "s-kingdom_centre": {
+  "queries": [
+   "Kingdom Centre Riyadh",
+   "Kingdom Tower Riyadh skyline"
+  ],
+  "wiki": [
+   "de:Kingdom Centre"
+  ],
+  "minWidth": 1400,
+  "portrait": true
+ },
+ "s-national_museum_sa": {
+  "queries": [
+   "National Museum Riyadh",
+   "National Museum of Saudi Arabia",
+   "King Abdulaziz Historical Center Riyadh"
+  ],
+  "minWidth": 1200
+ },
+ "s-hegra": {
+  "queries": [
+   "Hegra tomb",
+   "Mada'in Salih tomb",
+   "Qasr al-Farid Hegra",
+   "Madain Saleh"
+  ],
+  "wiki": [
+   "de:Hegra (Arabien)",
+   "fr:Hégra"
+  ],
+  "minWidth": 1400
+ },
+ "s-old_town_alula": {
+  "queries": [
+   "AlUla old town",
+   "Al-Ula old town mud houses",
+   "AlUla heritage village"
+  ],
+  "minWidth": 1200
+ },
+ "s-maraya": {
+  "queries": [
+   "Maraya AlUla mirror",
+   "Maraya concert hall AlUla"
+  ],
+  "minWidth": 1200
+ },
+ "s-alula_balloon": {
+  "queries": [
+   "AlUla hot air balloon",
+   "hot air balloon desert Saudi Arabia",
+   "AlUla balloon festival"
+  ],
+  "minWidth": 1200
+ },
+ "s-petronas": {
+  "queries": [
+   "Petronas Twin Towers",
+   "Petronas Towers night",
+   "Petronas Towers skybridge"
+  ],
+  "wiki": [
+   "de:Petronas Towers",
+   "fr:Tours Petronas"
+  ],
+  "minWidth": 1400,
+  "portrait": true
+ },
+ "s-jalan_alor": {
+  "queries": [
+   "Jalan Alor night",
+   "Jalan Alor food street",
+   "Jalan Alor Kuala Lumpur"
+  ],
+  "minWidth": 1200
+ },
+ "s-merdeka": {
+  "queries": [
+   "Sultan Abdul Samad Building",
+   "Merdeka Square Kuala Lumpur Sultan Abdul Samad"
+  ],
+  "minWidth": 1400
+ },
+ "s-george_town": {
+  "queries": [
+   "George Town Penang street art mural",
+   "Penang mural Ernest Zacharevic",
+   "Kids on Bicycle mural Penang"
+  ],
+  "minWidth": 1200
+ },
+ "s-penang_hill": {
+  "queries": [
+   "Penang Hill funicular",
+   "Penang Hill view George Town",
+   "Bukit Bendera"
+  ],
+  "minWidth": 1400
+ },
+ "s-my_son": {
+  "queries": [
+   "My Son sanctuary temples",
+   "Mỹ Sơn Champa temple",
+   "My Son Hoi An towers"
+  ],
+  "wiki": [
+   "vi:Thánh địa Mỹ Sơn",
+   "fr:Mỹ Sơn"
+  ],
+  "minWidth": 1400
+ },
+ "s-lantern_night": {
+  "queries": [
+   "Hoi An lanterns night",
+   "Hoi An lantern boat river",
+   "Hội An đèn lồng"
+  ],
+  "minWidth": 1200
+ },
+ "s-an_bang": {
+  "queries": [
+   "An Bang beach Hoi An",
+   "An Bang beach",
+   "Cua Dai beach Hoi An"
+  ],
+  "minWidth": 1200
+ },
+ "s-souks": {
+  "queries": [
+   "Marrakech souk",
+   "souk Marrakesh lamps",
+   "Medina Marrakech market"
+  ],
+  "minWidth": 1200
+ },
+ "s-medina_fes": {
+  "queries": [
+   "Fes medina alley",
+   "Fes el Bali street",
+   "Fez medina panorama"
+  ],
+  "minWidth": 1400
+ },
+ "s-bou_inania": {
+  "queries": [
+   "Bou Inania Madrasa Fes",
+   "Medersa Bou Inania courtyard"
+  ],
+  "wiki": [
+   "fr:Médersa Bou Inania",
+   "de:Medersa Bou Inania (Fès)"
+  ],
+  "minWidth": 1200
+ },
+ "d-ny-strip-steak": {
+  "queries": [
+   "strip steak plate",
+   "grilled steak creamed spinach",
+   "New York strip steak",
+   "steakhouse steak dinner"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-ny-pizza": {
+  "queries": [
+   "New York pizza slice",
+   "NY style pizza slice",
+   "pizza slice New York"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-sopa-de-lima": {
+  "queries": [
+   "sopa de lima",
+   "Yucatan lime soup",
+   "sopa de lima yucateca"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-camarones-al-mojo-de-ajo": {
+  "queries": [
+   "camarones al mojo de ajo",
+   "garlic shrimp plate",
+   "shrimp garlic butter"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-yudofu": {
+  "queries": [
+   "yudofu",
+   "yudofu Kyoto",
+   "hot tofu Kyoto Nanzenji",
+   "湯豆腐"
+  ],
+  "wiki": [
+   "ja:湯豆腐"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-pla-neung-manao": {
+  "queries": [
+   "steamed fish lime Thai",
+   "pla kapong neung manao",
+   "Thai steamed sea bass"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-grilled-hammour": {
+  "queries": [
+   "grilled hammour",
+   "grilled grouper fish plate",
+   "grilled fish lemon Arabic"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-arabic-mixed-grill": {
+  "queries": [
+   "Arabic mixed grill plate",
+   "Lebanese mixed grill",
+   "mixed grill kebab platter"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-jareesh": {
+  "queries": [
+   "jareesh",
+   "jarish Saudi",
+   "harees wheat Saudi jareesh"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-kabsa": {
+  "queries": [
+   "kabsa",
+   "kabsa rice chicken Saudi",
+   "kabsa lamb"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-mandi": {
+  "queries": [
+   "mandi rice",
+   "chicken mandi",
+   "lamb mandi Yemeni"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-ful-medames": {
+  "queries": [
+   "ful medames",
+   "foul medames bowl",
+   "ful mudammas"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-prawn-mee": {
+  "queries": [
+   "Penang prawn mee",
+   "hae mee",
+   "prawn noodle soup Penang"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-char-kway-teow": {
+  "queries": [
+   "char kway teow",
+   "Penang char kway teow",
+   "char koay teow"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-nem-ran": {
+  "queries": [
+   "nem rán",
+   "chả giò",
+   "Vietnamese fried spring rolls"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-banh-mi": {
+  "queries": [
+   "bánh mì",
+   "banh mi sandwich",
+   "Banh mi Hoi An"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-com-ga": {
+  "queries": [
+   "cơm gà Hội An",
+   "com ga Hoi An chicken rice",
+   "Vietnamese chicken rice turmeric"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-harira": {
+  "queries": [
+   "harira",
+   "harira soup Morocco",
+   "Moroccan harira"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-tagine": {
+  "queries": [
+   "lamb tagine prunes",
+   "Moroccan tagine",
+   "tajine Marrakech"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-tanjia": {
+  "queries": [
+   "tanjia",
+   "tangia Marrakech",
+   "tanjia marrakchia"
+  ],
+  "minWidth": 1100,
+  "portrait": true
+ },
+ "d-pastilla": {
+  "queries": [
+   "pastilla",
+   "bastilla Morocco",
+   "pastilla Fes"
+  ],
+  "minWidth": 1100,
+  "portrait": true
  }
 }
