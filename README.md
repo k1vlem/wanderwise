@@ -42,7 +42,7 @@ npm run build    # сборка в папку dist
 | `src/components/` | Шапка, подвал, фото, расписание, шкала бюджета |
 | `public/photos/` | Фотографии и список авторов (`credits.json`) |
 
-Стек: React 18, TypeScript, Vite, Tailwind CSS. Сайт публикуется на GitHub Pages автоматически при каждом пуше в `main` (`.github/workflows/deploy.yml`).
+Стек: React 18, TypeScript, Vite, Tailwind CSS. Сайт публикуется на GitHub Pages автоматически при каждом пуше в `main`: задача `.github/workflows/deploy.yml` собирает сайт и кладёт его в ветку `gh-pages`, откуда его раздаёт GitHub Pages.
 
 ## Фотографии
 
