@@ -1,0 +1,22 @@
+fail hero         No Commons info for File:3840px-Positano_Sunset.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail paris        Lead image of "Eiffel Tower" is not on Commons
+fail nice         No Commons info for File:3840px-CollineDuChateau_NiceFrance2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail barcelona    No Commons info for File:SF_maig_2_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail seville      No Commons info for File:3840px-Plaza_de_España_(Sevilla)_-_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail rome         No Commons info for File:3840px-Colosseo_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail florence     No Commons info for File:3840px-Cattedrale_di_Santa_Maria_del_Fiore_–_Il_Duomo_di_Firenze.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail istanbul     No Commons info for File:Hagia_Sophia_(228968325).jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail cappadocia   No Commons info for File:3840px-Göreme_town_and_valley_2015.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail athens       No Commons info for File:The_Parthenon_in_Athens.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail santorini    No Commons info for File:3840px-Oia_sunset_-_panoramio_(2).jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail london       No Commons info for File:3840px-Tower_Bridge_at_Dawn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail edinburgh    No Commons info for File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail berlin       No Commons info for File:Brandenburger_Tor_abends.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail munich       No Commons info for File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail vienna       No Commons info for File:3840px-Wien_-_Schloss_Schönbrunn.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail salzburg     No Commons info for File:3840px-Salzburg_-_Festung_Hohensalzburg.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail lisbon       No Commons info for File:3840px-Torre_Belém_April_2009-4a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail porto        No Commons info for File:3840px-Dom_Luís_I_Bridge_(36961760686).jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fail amsterdam    No Commons info for File:Imagen_de_los_canales_concéntricos_en_Ámsterdam.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+fail utrecht      No Commons info for File:DomTorenUtrechtNederland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+Done: 0 fetched, 21 failed.
