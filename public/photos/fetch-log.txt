@@ -1,14 +1,2 @@
-ok   munich                       File:Munich skyline.jpg (3495x2355, CC BY-SA 3.0)
-ok   s-balloon                    File:Hot air balloon ride at sunrise in Cappadocia 2.JPG (7360x4912, CC BY-SA 3.0)
-ok   s-acropolis                  File:Parthenon east side Acropolis Athens, Greece.jpg (5951x4417, CC0)
-ok   s-wine                       File:Santorini wines.jpg (2592x1944, CC BY 2.0)
-ok   s-mirabell                   File:Schloss Mirabell-Festung Hohensalzburg-Salzburg.jpg (3264x2448, CC BY-SA 3.0)
-ok   s-dom                        File:Dom Quarter 7082.jpg (4255x3192, CC BY-SA 4.0)
-ok   d-suppli                     File:Alice Pizza Piola 3.jpg (3648x2736, CC BY 4.0)
-ok   d-kabak-tatlisi              File:Kabak dessert.jpg (2560x1920, CC BY-SA 4.0)
-ok   d-loukoumades                File:2019 Marin Greek Festival - Sarah Stierch 11.jpg (4032x3024, CC BY 4.0)
-ok   d-scottish-salmon            File:Sashimi_-_Maguro_Restaurant,_Bangna,_Bangkok_(44856596864).jpg (6000x4000, CC BY 2.0)
-ok   d-schweinshaxe               File:Schweinshaxe at Der Landgraf, Fangzhuang (20211001174341).jpg (3997x2664, CC BY-SA 4.0)
-ok   d-vinho-do-porto             File:Portugal - DSC0763 (24701077667).jpg (4912x3264, CC BY 2.0)
-del  d-cranachan
-Done: 12 fetched, 0 failed.
+ok   d-scottish-salmon            File:Salmon dish at Restauracja Ratuszowa, Warka, Poland.jpg (4032x3024, CC BY-SA 4.0)
+Done: 1 fetched, 0 failed.
