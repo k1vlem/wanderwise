@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const fr: Dict = {
-  'meta.title': 'Wanderwise · Des voyages en Europe adaptés à votre budget',
+  'meta.title': 'Wanderwise · Des voyages partout dans le monde adaptés à votre budget',
   'nav.destinations': 'Destinations',
   'nav.deals': 'Bons plans',
   'nav.plan': 'Planifier',
@@ -13,8 +13,8 @@ export const fr: Dict = {
   'nav.language': 'Langue',
   'nav.menu': 'Menu',
 
-  'home.badge': 'Bêta · 10 pays d’Europe',
-  'home.title1': 'Votre voyage en Europe, planifié selon',
+  'home.badge': 'Bêta · {countries} dans le monde',
+  'home.title1': 'Votre voyage partout dans le monde, planifié selon',
   'home.title2': 'votre budget.',
   'home.lead': 'Dites-nous combien vous voulez dépenser. Nous planifions vols, hôtel, visites et repas pour chaque jour. Ou composez le voyage vous-même en suivant votre budget.',
   'home.perk1': 'Un seul prix pour tout',
@@ -26,7 +26,11 @@ export const fr: Dict = {
   'search.modeManual': 'Je compose moi-même',
   'search.from': 'Départ de',
   'search.to': 'Destination',
-  'search.anywhere': 'N’importe où en Europe',
+  'search.anywhere': 'N’importe où dans le monde',
+  'search.anyIn.europe': 'N’importe où en Europe',
+  'search.anyIn.asia': 'N’importe où en Asie',
+  'search.anyIn.americas': 'N’importe où en Amérique',
+  'search.anyIn.mea': 'N’importe où au Moyen-Orient et en Afrique',
   'search.start': 'Départ',
   'search.nights': 'Nuits',
   'search.travelers': 'Voyageurs',
@@ -43,11 +47,17 @@ export const fr: Dict = {
   'deals.new': 'Nouveau',
   'deals.endsSoon': 'Bientôt fini',
 
-  'dest.title': 'Les pays les plus visités d’Europe',
-  'dest.sub': 'Choisis d’après les arrivées 2024 publiées par ONU Tourisme. Prix estimés pour 7 nuits par personne : hôtel, repas, visites et transports locaux, sans les vols.',
+  'dest.title': 'Les pays les plus visités du monde',
+  'dest.sub': 'Choisis d’après les arrivées 2024 publiées par ONU Tourisme : les 10 premiers en Europe et les 10 premiers hors d’Europe. Prix estimés pour 7 nuits par personne : hôtel, repas, visites et transports locaux, sans les vols.',
   'dest.from': '7 nuits dès',
   'dest.level': 'Niveau de prix {n} sur 4',
   'dest.all': 'Toutes les destinations',
+  'dest.tabAll': 'Tous',
+  'dest.regions': 'Régions',
+  'region.europe': 'Europe',
+  'region.asia': 'Asie',
+  'region.americas': 'Amériques',
+  'region.mea': 'Moyen-Orient et Afrique',
 
   'how.title': 'Comment ça marche',
   'how.s1t': 'Fixez votre budget',
@@ -64,7 +74,7 @@ export const fr: Dict = {
   'teaser.text': 'Le planificateur choisit la ville, les vols et l’hôtel qui conviennent, puis remplit chaque jour de visites, trajets et adresses où manger, avec un prix pour chaque étape.',
   'teaser.cta': 'Essayer le planificateur',
 
-  'footer.tagline': 'Des voyages en Europe adaptés à votre budget.',
+  'footer.tagline': 'Des voyages partout dans le monde adaptés à votre budget.',
   'footer.plan': 'Planifier',
   'footer.account': 'Compte',
   'footer.about': 'À propos',
@@ -137,6 +147,7 @@ export const fr: Dict = {
   'u.traveler': { one: '{n} voyageur', other: '{n} voyageurs' },
   'u.ticket': { one: '{n} billet', other: '{n} billets' },
   'u.stop': { one: '{n} étape', other: '{n} étapes' },
+  'u.country': { one: '{n} pays', other: '{n} pays' },
 
   'kind.flight': 'Vol',
   'kind.transit': 'Trajet',
@@ -146,7 +157,7 @@ export const fr: Dict = {
   'kind.free': 'Libre',
 
   'item.flightIn': 'Arrivée à {city} ({code})',
-  'item.flightInNote': 'Vols aller-retour pour tous : {option}.',
+  'item.flightInNote': 'Vols aller-retour pour tous : {option}. Environ {duration} de vol.',
   'item.flightOut': 'Vol retour depuis {city} ({code})',
   'item.flightOutNote': 'Compris dans vos vols aller-retour.',
   'item.transferIn': '{mode} jusqu’à l’hôtel',

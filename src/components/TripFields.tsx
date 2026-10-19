@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { COUNTRIES, ORIGINS } from '../data';
+import { ORIGINS, REGIONS, countriesIn, regionDest } from '../data';
 import { useI18n } from '../i18n';
 import type { TripInput } from '../lib/planner';
 import { todayIso } from '../lib/query';
@@ -49,10 +49,15 @@ export function TripFields({ idPrefix, value, onChange, showCountry = true, clas
         <Field label={t('search.to')} htmlFor={id('country')}>
           <select id={id('country')} className={controlClass} value={value.country} onChange={(e) => set('country', e.target.value)}>
             <option value="any">{t('search.anywhere')}</option>
-            {COUNTRIES.map((c) => (
-              <option key={c.id} value={c.id}>
-                {pick(c.n)}
-              </option>
+            {REGIONS.map((r) => (
+              <optgroup key={r} label={t(`region.${r}`)}>
+                <option value={regionDest(r)}>{t(`search.anyIn.${r}`)}</option>
+                {countriesIn(r).map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {pick(c.n)}
+                  </option>
+                ))}
+              </optgroup>
             ))}
           </select>
         </Field>

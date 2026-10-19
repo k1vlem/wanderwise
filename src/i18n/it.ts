@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const it: Dict = {
-  'meta.title': 'Wanderwise · Viaggi in Europa su misura per il tuo budget',
+  'meta.title': 'Wanderwise · Viaggi in tutto il mondo su misura per il tuo budget',
   'nav.destinations': 'Destinazioni',
   'nav.deals': 'Offerte',
   'nav.plan': 'Pianifica',
@@ -13,8 +13,8 @@ export const it: Dict = {
   'nav.language': 'Lingua',
   'nav.menu': 'Menu',
 
-  'home.badge': 'Beta · 10 paesi europei',
-  'home.title1': 'Il tuo viaggio in Europa, pianificato sul',
+  'home.badge': 'Beta · {countries} in tutto il mondo',
+  'home.title1': 'Il tuo viaggio ovunque nel mondo, pianificato sul',
   'home.title2': 'tuo budget.',
   'home.lead': 'Dicci quanto vuoi spendere. Pianifichiamo voli, hotel, visite e pasti per ogni giorno. Oppure componi il viaggio da solo e tieni d’occhio il budget.',
   'home.perk1': 'Un unico prezzo per tutto',
@@ -26,7 +26,11 @@ export const it: Dict = {
   'search.modeManual': 'Lo compongo io',
   'search.from': 'Partenza da',
   'search.to': 'Destinazione',
-  'search.anywhere': 'Ovunque in Europa',
+  'search.anywhere': 'Ovunque nel mondo',
+  'search.anyIn.europe': 'Ovunque in Europa',
+  'search.anyIn.asia': 'Ovunque in Asia',
+  'search.anyIn.americas': 'Ovunque nelle Americhe',
+  'search.anyIn.mea': 'Ovunque in Medio Oriente e Africa',
   'search.start': 'Partenza',
   'search.nights': 'Notti',
   'search.travelers': 'Viaggiatori',
@@ -43,11 +47,17 @@ export const it: Dict = {
   'deals.new': 'Novità',
   'deals.endsSoon': 'Scade presto',
 
-  'dest.title': 'I paesi più visitati d’Europa',
-  'dest.sub': 'Scelti in base agli arrivi 2024 di UN Tourism. Prezzi stimati per 7 notti a persona: hotel, pasti, visite e trasporti locali, voli esclusi.',
+  'dest.title': 'I paesi più visitati del mondo',
+  'dest.sub': 'Scelti in base agli arrivi 2024 di UN Tourism: i primi 10 in Europa e i primi 10 fuori dall’Europa. Prezzi stimati per 7 notti a persona: hotel, pasti, visite e trasporti locali, voli esclusi.',
   'dest.from': '7 notti da',
   'dest.level': 'Livello di prezzo {n} su 4',
   'dest.all': 'Tutte le destinazioni',
+  'dest.tabAll': 'Tutti',
+  'dest.regions': 'Regioni',
+  'region.europe': 'Europa',
+  'region.asia': 'Asia',
+  'region.americas': 'Americhe',
+  'region.mea': 'Medio Oriente e Africa',
 
   'how.title': 'Come funziona',
   'how.s1t': 'Imposta il budget',
@@ -64,7 +74,7 @@ export const it: Dict = {
   'teaser.text': 'Il pianificatore sceglie città, voli e hotel adatti e riempie ogni giorno di visite, spostamenti e posti dove mangiare, con il prezzo accanto a ogni voce.',
   'teaser.cta': 'Prova il pianificatore',
 
-  'footer.tagline': 'Viaggi in Europa su misura per il tuo budget.',
+  'footer.tagline': 'Viaggi in tutto il mondo su misura per il tuo budget.',
   'footer.plan': 'Pianifica',
   'footer.account': 'Account',
   'footer.about': 'Chi siamo',
@@ -137,6 +147,7 @@ export const it: Dict = {
   'u.traveler': { one: '{n} viaggiatore', other: '{n} viaggiatori' },
   'u.ticket': { one: '{n} biglietto', other: '{n} biglietti' },
   'u.stop': { one: '{n} tappa', other: '{n} tappe' },
+  'u.country': { one: '{n} paese', other: '{n} paesi' },
 
   'kind.flight': 'Volo',
   'kind.transit': 'Trasporto',
@@ -146,7 +157,7 @@ export const it: Dict = {
   'kind.free': 'Libero',
 
   'item.flightIn': 'Arrivo a {city} ({code})',
-  'item.flightInNote': 'Voli andata e ritorno per tutti: {option}.',
+  'item.flightInNote': 'Voli andata e ritorno per tutti: {option}. Circa {duration} di volo.',
   'item.flightOut': 'Volo di ritorno da {city} ({code})',
   'item.flightOutNote': 'Compreso nei voli andata e ritorno.',
   'item.transferIn': '{mode} fino all’hotel',

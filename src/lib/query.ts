@@ -1,4 +1,4 @@
-import { COUNTRIES, INTERESTS, ORIGINS, type Interest } from '../data';
+import { INTERESTS, ORIGINS, isDestination, type Interest } from '../data';
 import { addDays, type Pace, type TripInput } from './planner';
 
 export const todayIso = () => new Date().toISOString().slice(0, 10);
@@ -24,7 +24,7 @@ export function inputFromQuery(q: URLSearchParams): TripInput {
   const interests = (q.get('likes') ?? '').split(',').filter((x): x is Interest => (INTERESTS as string[]).includes(x));
   const pace = q.get('pace');
   return {
-    country: country === 'any' || COUNTRIES.some((c) => c.id === country) ? country : 'any',
+    country: isDestination(country) ? country : 'any',
     origin: ORIGINS.some((o) => o.id === origin) ? origin : 'europe',
     start: /^\d{4}-\d{2}-\d{2}$/.test(start) && start >= todayIso() ? start : defaultStart(),
     nights: clamp(Number(q.get('nights')) || DEFAULT_INPUT.nights, 2, 14),

@@ -5,7 +5,7 @@ import { Photo } from '../components/Photo';
 import { PhotoButton, type ViewerItem } from '../components/PhotoViewer';
 import { CostBar, Stamp } from '../components/PlanParts';
 import { TripFields } from '../components/TripFields';
-import { COUNTRIES, cityById, citiesOf, dishPhoto, originById, sightPhoto, type City } from '../data';
+import { REGIONS, builderCountry, cityById, citiesOf, countriesIn, dishPhoto, originById, sightPhoto, type City } from '../data';
 import { useI18n } from '../i18n';
 import { buildPlan, flightPerPerson, rooms, type FlightOpt, type FoodLevel, type Tier, type TripInput } from '../lib/planner';
 import { inputFromQuery, queryFromInput } from '../lib/query';
@@ -44,7 +44,7 @@ export function Build() {
   const { user, saveTrip, setPending } = useStore();
 
   const initial = inputFromQuery(query);
-  const initialCountry = initial.country === 'any' ? 'italy' : initial.country;
+  const initialCountry = builderCountry(initial.country);
   const initialCity = citiesOf(initialCountry).some((c) => c.id === query.get('city')) ? query.get('city')! : citiesOf(initialCountry)[0].id;
 
   const [trip, setTrip] = useState<TripInput>({ ...initial, country: initialCountry });
@@ -119,10 +119,14 @@ export function Build() {
         <label className="flex min-w-[220px] flex-col gap-1 rounded-2xl bg-white px-4 py-2.5 shadow-card">
           <span className="text-[13px] font-semibold text-muted">{t('build.country')}</span>
           <select className="bg-transparent text-[17px] font-semibold outline-none" value={trip.country} onChange={(e) => chooseCountry(e.target.value)}>
-            {COUNTRIES.map((c) => (
-              <option key={c.id} value={c.id}>
-                {pick(c.n)}
-              </option>
+            {REGIONS.map((r) => (
+              <optgroup key={r} label={t(`region.${r}`)}>
+                {countriesIn(r).map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {pick(c.n)}
+                  </option>
+                ))}
+              </optgroup>
             ))}
           </select>
         </label>
@@ -167,7 +171,7 @@ export function Build() {
           <Section title={t('build.flights')} sub={t('build.flightsSub', { origin: pick(originById(trip.origin).n), city: pick(city.n), code: city.airport })}>
             <div role="radiogroup" aria-label={t('build.flights')} className="grid gap-3">
               {FLIGHTS.map((f) => {
-                const pp = flightPerPerson(city.country, trip.origin, f);
+                const pp = flightPerPerson(city.id, trip.origin, f);
                 const on = f === flight;
                 return (
                   <button

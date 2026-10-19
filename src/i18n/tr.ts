@@ -2,7 +2,7 @@ import type { Dict } from './en';
 
 // Turkish suffixes depend on the word, so placeholders are kept apart from suffixes.
 export const tr: Dict = {
-  'meta.title': 'Wanderwise · Bütçenize göre Avrupa gezileri',
+  'meta.title': 'Wanderwise · Bütçenize göre dünya gezileri',
   'nav.destinations': 'Rotalar',
   'nav.deals': 'Fırsatlar',
   'nav.plan': 'Gezi planla',
@@ -14,8 +14,8 @@ export const tr: Dict = {
   'nav.language': 'Dil',
   'nav.menu': 'Menü',
 
-  'home.badge': 'Beta · Avrupa’da 10 ülke',
-  'home.title1': 'Avrupa geziniz, tamamen',
+  'home.badge': 'Beta · dünya genelinde {countries}',
+  'home.title1': 'Dünyanın her yerine geziniz, tamamen',
   'home.title2': 'bütçenize göre.',
   'home.lead': 'Ne kadar harcamak istediğinizi söyleyin. Her gün için uçuş, otel, gezilecek yerler ve yemeği biz planlayalım. Ya da geziyi kendiniz oluşturun ve bütçeyi adım adım takip edin.',
   'home.perk1': 'Her şey için tek fiyat',
@@ -27,7 +27,11 @@ export const tr: Dict = {
   'search.modeManual': 'Kendim oluşturacağım',
   'search.from': 'Nereden',
   'search.to': 'Nereye',
-  'search.anywhere': 'Avrupa’da herhangi bir yer',
+  'search.anywhere': 'Dünyada herhangi bir yer',
+  'search.anyIn.europe': 'Avrupa’da herhangi bir yer',
+  'search.anyIn.asia': 'Asya’da herhangi bir yer',
+  'search.anyIn.americas': 'Amerika’da herhangi bir yer',
+  'search.anyIn.mea': 'Orta Doğu veya Afrika’da herhangi bir yer',
   'search.start': 'Gidiş',
   'search.nights': 'Gece',
   'search.travelers': 'Yolcu',
@@ -44,11 +48,17 @@ export const tr: Dict = {
   'deals.new': 'Yeni',
   'deals.endsSoon': 'Yakında bitiyor',
 
-  'dest.title': 'Avrupa’nın en çok ziyaret edilen ülkeleri',
-  'dest.sub': 'UN Tourism’in 2024 turist sayılarına göre seçildi. Fiyatlar kişi başı 7 gece için tahmindir: otel, yemek, gezilecek yerler ve şehir içi ulaşım, uçuş hariç.',
+  'dest.title': 'Dünyanın en çok ziyaret edilen ülkeleri',
+  'dest.sub': 'UN Tourism’in 2024 turist sayılarına göre seçildi: Avrupa’nın ilk 10’u ve Avrupa dışının ilk 10’u. Fiyatlar kişi başı 7 gece için tahmindir: otel, yemek, gezilecek yerler ve şehir içi ulaşım, uçuş hariç.',
   'dest.from': '7 gece, başlayan',
   'dest.level': 'Fiyat seviyesi {n}/4',
   'dest.all': 'Tüm rotalar',
+  'dest.tabAll': 'Tümü',
+  'dest.regions': 'Bölgeler',
+  'region.europe': 'Avrupa',
+  'region.asia': 'Asya',
+  'region.americas': 'Amerika',
+  'region.mea': 'Orta Doğu ve Afrika',
 
   'how.title': 'Nasıl çalışır',
   'how.s1t': 'Bütçenizi belirleyin',
@@ -65,7 +75,7 @@ export const tr: Dict = {
   'teaser.text': 'Planlayıcı uygun şehri, uçuşu ve oteli seçer, ardından her günü gezilecek yerler, ulaşım ve yemek mekânlarıyla doldurur. Her maddenin yanında fiyatı yazar.',
   'teaser.cta': 'Planlayıcıyı dene',
 
-  'footer.tagline': 'Bütçenize göre planlanan Avrupa gezileri.',
+  'footer.tagline': 'Bütçenize göre planlanan dünya gezileri.',
   'footer.plan': 'Planla',
   'footer.account': 'Hesap',
   'footer.about': 'Hakkında',
@@ -138,6 +148,7 @@ export const tr: Dict = {
   'u.traveler': { one: '{n} yolcu', other: '{n} yolcu' },
   'u.ticket': { one: '{n} bilet', other: '{n} bilet' },
   'u.stop': { one: '{n} durak', other: '{n} durak' },
+  'u.country': { one: '{n} ülke', other: '{n} ülke' },
 
   'kind.flight': 'Uçuş',
   'kind.transit': 'Ulaşım',
@@ -147,7 +158,7 @@ export const tr: Dict = {
   'kind.free': 'Serbest',
 
   'item.flightIn': 'Varış: {city} ({code})',
-  'item.flightInNote': 'Herkes için gidiş-dönüş uçuş: {option}.',
+  'item.flightInNote': 'Herkes için gidiş-dönüş uçuş: {option}. Uçuş süresi yaklaşık {duration}.',
   'item.flightOut': 'Dönüş uçuşu: {city} ({code})',
   'item.flightOutNote': 'Gidiş-dönüş biletine dahil.',
   'item.transferIn': 'Otele ulaşım: {mode}',

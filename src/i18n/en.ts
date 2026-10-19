@@ -2,7 +2,7 @@ export type Plural = { one: string; few?: string; many?: string; other: string }
 export type Msg = string | Plural;
 
 export const en = {
-  'meta.title': 'Wanderwise · Trips to Europe planned around your budget',
+  'meta.title': 'Wanderwise · Trips anywhere in the world, planned around your budget',
   'nav.destinations': 'Destinations',
   'nav.deals': 'Deals',
   'nav.plan': 'Plan a trip',
@@ -14,8 +14,8 @@ export const en = {
   'nav.language': 'Language',
   'nav.menu': 'Menu',
 
-  'home.badge': 'Beta · 10 countries in Europe',
-  'home.title1': 'Your trip to Europe, planned around',
+  'home.badge': 'Beta · {countries} worldwide',
+  'home.title1': 'Your trip anywhere in the world, planned around',
   'home.title2': 'your budget.',
   'home.lead': 'Tell us how much you want to spend. We plan flights, hotel, sights and food for every day. Or build the trip yourself and watch the budget as you go.',
   'home.perk1': 'One price for everything',
@@ -27,7 +27,11 @@ export const en = {
   'search.modeManual': "I'll build it myself",
   'search.from': 'Flying from',
   'search.to': 'Where to',
-  'search.anywhere': 'Anywhere in Europe',
+  'search.anywhere': 'Anywhere in the world',
+  'search.anyIn.europe': 'Anywhere in Europe',
+  'search.anyIn.asia': 'Anywhere in Asia',
+  'search.anyIn.americas': 'Anywhere in the Americas',
+  'search.anyIn.mea': 'Anywhere in the Middle East & Africa',
   'search.start': 'Departure',
   'search.nights': 'Nights',
   'search.travelers': 'Travelers',
@@ -44,11 +48,17 @@ export const en = {
   'deals.new': 'New',
   'deals.endsSoon': 'Ends soon',
 
-  'dest.title': "Europe's most visited countries",
-  'dest.sub': "Picked from UN Tourism's 2024 arrival figures. Prices are estimates for 7 nights per person: hotel, food, sights and local transport, without flights.",
+  'dest.title': 'The world\'s most visited countries',
+  'dest.sub': 'Picked from UN Tourism\'s 2024 arrival figures: the top 10 in Europe and the top 10 outside it. Prices are estimates for 7 nights per person: hotel, food, sights and local transport, without flights.',
   'dest.from': '7 nights from',
   'dest.level': 'Price level {n} of 4',
   'dest.all': 'All destinations',
+  'dest.tabAll': 'All',
+  'dest.regions': 'Regions',
+  'region.europe': 'Europe',
+  'region.asia': 'Asia',
+  'region.americas': 'Americas',
+  'region.mea': 'Middle East & Africa',
 
   'how.title': 'How it works',
   'how.s1t': 'Set your budget',
@@ -65,7 +75,7 @@ export const en = {
   'teaser.text': 'The planner picks the city, flights and hotel that fit, then fills each day with sights, transport and places to eat, with a price next to every item.',
   'teaser.cta': 'Try the planner',
 
-  'footer.tagline': 'Trips across Europe, planned around your budget.',
+  'footer.tagline': 'Trips anywhere in the world, planned around your budget.',
   'footer.plan': 'Plan',
   'footer.account': 'Account',
   'footer.about': 'About',
@@ -138,6 +148,7 @@ export const en = {
   'u.traveler': { one: '{n} traveler', other: '{n} travelers' },
   'u.ticket': { one: '{n} ticket', other: '{n} tickets' },
   'u.stop': { one: '{n} stop', other: '{n} stops' },
+  'u.country': { one: '{n} country', other: '{n} countries' },
 
   'kind.flight': 'Flight',
   'kind.transit': 'Transit',
@@ -147,7 +158,7 @@ export const en = {
   'kind.free': 'Free',
 
   'item.flightIn': 'Land at {city} ({code})',
-  'item.flightInNote': 'Return flights for everyone: {option}.',
+  'item.flightInNote': 'Return flights for everyone: {option}. About {duration} in the air.',
   'item.flightOut': 'Flight home from {city} ({code})',
   'item.flightOutNote': 'Included in your return flights.',
   'item.transferIn': '{mode} to your hotel',

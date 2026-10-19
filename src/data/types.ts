@@ -9,6 +9,13 @@ export const INTERESTS: Interest[] = ['history', 'art', 'food', 'nature', 'views
 
 export type Mode = 'train' | 'tram' | 'bus' | 'metro' | 'ferry' | 'flight';
 
+export const REGIONS = ['europe', 'asia', 'americas', 'mea'] as const;
+/** Europe, Asia, the Americas, the Middle East & Africa */
+export type Region = (typeof REGIONS)[number];
+
+/** Latitude and longitude */
+export type LatLon = readonly [number, number];
+
 export interface Sight {
   id: string;
   n: L7;
@@ -42,6 +49,8 @@ export interface City {
   country: string;
   n: L7;
   airport: string;
+  /** Where the airport is, for flight prices and times */
+  at: LatLon;
   /** Hotel room per night for 3★, 4★, 5★ */
   hotel: readonly [number, number, number];
   /** Neighbourhood for 3★, 4★, 5★ */
@@ -59,8 +68,7 @@ export interface Country {
   id: string;
   n: L7;
   blurb: L7;
-  /** Return economy fare per person from elsewhere in Europe */
-  fare: number;
+  region: Region;
   currency: string;
   level: 1 | 2 | 3 | 4;
   cities: [string, string];
@@ -71,6 +79,6 @@ export interface Country {
 export interface Origin {
   id: string;
   n: L7;
-  /** Fare multiplier compared with flying from elsewhere in Europe */
-  mult: number;
+  /** Main airport */
+  at: LatLon;
 }

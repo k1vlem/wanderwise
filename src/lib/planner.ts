@@ -1,5 +1,5 @@
-import { CITIES, cityById, citiesOf, countryById, originById } from '../data';
-import type { City, Interest, Sight } from '../data';
+import { cityById, citiesFor, countryById, originById } from '../data';
+import type { City, Interest, LatLon, Mode, Sight } from '../data';
 
 export type Tier = 3 | 4 | 5;
 export type FoodLevel = 0 | 1 | 2;
@@ -7,7 +7,7 @@ export type FlightOpt = 'saver' | 'standard' | 'flex';
 export type Pace = 'relaxed' | 'balanced' | 'packed';
 
 export interface TripInput {
-  /** Country id or 'any' */
+  /** Country id, a region such as "r:asia", or "any" */
   country: string;
   origin: string;
   /** YYYY-MM-DD */
@@ -102,12 +102,37 @@ export function weekday(date: string): number {
 
 export const rooms = (travelers: number) => Math.ceil(travelers / 2);
 
-/** Return fare per person, rounded to 5 EUR. */
-export function flightPerPerson(countryId: string, originId: string, opt: FlightOpt): number {
-  const country = countryById(countryId);
-  if (!country) return 0;
-  return Math.round((country.fare * originById(originId).mult * FLIGHT_MULT[opt]) / 5) * 5;
+const toMin = (time: string) => Number(time.slice(0, 2)) * 60 + Number(time.slice(3, 5));
+const hhmm = (mins: number) => `${String(Math.floor(mins / 60)).padStart(2, '0')}:${String(mins % 60).padStart(2, '0')}`;
+const roundUp = (mins: number, step = 15) => Math.ceil(mins / step) * step;
+
+/** Great-circle distance in km. */
+export function distanceKm([lat1, lon1]: LatLon, [lat2, lon2]: LatLon): number {
+  const rad = Math.PI / 180;
+  const a = Math.sin(((lat2 - lat1) * rad) / 2) ** 2 + Math.cos(lat1 * rad) * Math.cos(lat2 * rad) * Math.sin(((lon2 - lon1) * rad) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(a));
 }
+
+// Very short hops are priced like a regional flight.
+const flightKm = (cityId: string, originId: string) => Math.max(300, distanceKm(originById(originId).at, cityById(cityId).at));
+
+/** Return fare per person to the city's airport, rounded to 5 EUR. Long-haul kilometres cost less than short-haul ones. */
+export function flightPerPerson(cityId: string, originId: string, opt: FlightOpt): number {
+  const km = flightKm(cityId, originId);
+  const base = 110 + 0.1 * Math.min(km, 4000) + 0.06 * Math.max(0, km - 4000);
+  return Math.round((base * FLIGHT_MULT[opt]) / 5) * 5;
+}
+
+/** Time in the air one way, in minutes, rounded to 5. */
+export function flightMinutes(cityId: string, originId: string): number {
+  return Math.round((flightKm(cityId, originId) / 780 + 0.5) * 12) * 5;
+}
+
+/** After a flight this long the first afternoon is kept for rest. */
+const LONG_HAUL_MINS = 6 * 60;
+
+// Getting to the station, port or airport and through it, on top of the ride itself.
+const DOOR_TO_DOOR: Record<Mode, number> = { flight: 150, ferry: 60, train: 30, bus: 30, tram: 15, metro: 15 };
 
 export function hotelTotal(city: City, tier: Tier, nights: number, travelers: number): number {
   return city.hotel[tier - 3] * nights * rooms(travelers);
@@ -133,7 +158,8 @@ export function buildPlan(input: TripInput, choice: Choice): Plan {
   const countryId = firstCity.country;
   const country = countryById(countryId)!;
   const totalNights = choice.stops.reduce((n, s) => n + s.nights, 0);
-  const flights = flightPerPerson(countryId, input.origin, choice.flight) * T;
+  const flights = flightPerPerson(firstCity.id, input.origin, choice.flight) * T;
+  const longHaul = flightMinutes(firstCity.id, input.origin) >= LONG_HAUL_MINS;
 
   const queues = new Map<string, Sight[]>();
   const dishTurn = new Map<string, { lunch: number; dinner: number }>();
@@ -171,28 +197,41 @@ export function buildPlan(input: TripInput, choice: Choice): Plan {
       const open = (s: Sight) => !(s.closed ?? []).includes(wd);
 
       if (dayNo === 0) {
-        const items: Item[] = [
-          { time: '11:00', kind: 'flightIn', city: city.id, cost: flights },
-          { time: '11:45', kind: 'transferIn', city: city.id, cost: city.transfer.pp * T },
-          { time: '13:00', kind: 'checkin', city: city.id, nights: stop.nights, cost: hotel },
-          meal(city, 'lunch', '13:45'),
-        ];
-        const light = takeSight(queue, (s) => open(s) && !s.fullDay && !s.early && s.hours <= 2 && (s.evening || s.pp === 0));
+        // Long-haul flights land later and leave travelers tired, so that day has no sightseeing.
+        const items: Item[] = longHaul
+          ? [
+              { time: '14:00', kind: 'flightIn', city: city.id, cost: flights },
+              { time: '14:45', kind: 'transferIn', city: city.id, cost: city.transfer.pp * T },
+              { time: '16:00', kind: 'checkin', city: city.id, nights: stop.nights, cost: hotel },
+            ]
+          : [
+              { time: '11:00', kind: 'flightIn', city: city.id, cost: flights },
+              { time: '11:45', kind: 'transferIn', city: city.id, cost: city.transfer.pp * T },
+              { time: '13:00', kind: 'checkin', city: city.id, nights: stop.nights, cost: hotel },
+              meal(city, 'lunch', '13:45'),
+            ];
+        const light = longHaul ? undefined : takeSight(queue, (s) => open(s) && !s.fullDay && !s.early && s.hours <= 2 && (s.evening || s.pp === 0));
         if (light) items.push(sightItem(city, light, light.evening ? '18:30' : '16:00'));
-        items.push(meal(city, 'dinner', light?.evening ? '20:30' : '20:00'));
+        items.push(meal(city, 'dinner', light?.evening ? '20:30' : longHaul ? '19:30' : '20:00'));
         days.push({ date, city: city.id, kind: 'arrival', items });
         continue;
       }
 
       if (d === 0) {
         const prev = cityById(choice.stops[si - 1].city);
+        const { link } = country;
+        // Check in once the train, ferry or flight has arrived, but not before 13:00.
+        const arrive = toMin('10:00') + link.mins + DOOR_TO_DOOR[link.mode];
+        const checkin = Math.max(toMin('13:00'), roundUp(arrive + 30));
         const items: Item[] = [
           { time: '09:00', kind: 'checkout', city: prev.id, cost: 0 },
-          { time: '10:00', kind: 'intercity', city: prev.id, to: city.id, cost: country.link.pp * T },
-          { time: '13:00', kind: 'checkin', city: city.id, nights: stop.nights, cost: hotel },
-          meal(city, 'lunch', '13:45'),
+          { time: '10:00', kind: 'intercity', city: prev.id, to: city.id, cost: link.pp * T },
+          { time: hhmm(checkin), kind: 'checkin', city: city.id, nights: stop.nights, cost: hotel },
         ];
-        const s = takeSight(queue, (x) => open(x) && !x.fullDay && !x.early && x.hours <= 2.5);
+        if (checkin <= toMin('14:30')) items.push(meal(city, 'lunch', hhmm(Math.max(checkin + 45, toMin('13:45')))));
+        const late = checkin > toMin('15:00');
+        const s =
+          checkin <= toMin('17:30') ? takeSight(queue, (x) => open(x) && !x.fullDay && !x.early && x.hours <= 2.5 && (!late || !!x.evening)) : undefined;
         if (s) items.push(sightItem(city, s, s.evening ? '18:30' : '16:00'));
         items.push(meal(city, 'dinner', s?.evening ? '20:30' : '20:00'));
         days.push({ date, city: city.id, kind: 'move', from: prev.id, items });
@@ -311,13 +350,14 @@ function interestScore(stops: Stop[], interests: Interest[]): number {
 
 /** Find the most comfortable trip that fits the budget. */
 export function planTrip(input: TripInput, opts: PlanOptions = {}): PlanResult {
-  const cities = input.country === 'any' ? CITIES : citiesOf(input.country);
+  const cities = citiesFor(input.country);
+  const broad = !countryById(input.country);
   const cap = opts.budgetCap ?? input.budget;
   const scored: { plan: Plan; score: number; key: string }[] = [];
   let cheapest: Plan | undefined;
 
   for (const stops of stopOptions(cities, input.nights)) {
-    const interest = interestScore(stops, input.interests) * (input.country === 'any' ? 4 : 2);
+    const interest = interestScore(stops, input.interests) * (broad ? 4 : 2);
     for (const tier of [5, 4, 3] as Tier[]) {
       for (const food of [2, 1, 0] as FoodLevel[]) {
         if (opts.minFood !== undefined && food < opts.minFood) continue;
@@ -359,6 +399,6 @@ export function weekFromPerPerson(city: City): number {
 
 /** Sample "flight + 4★ hotel" price per person for the deals block. */
 export function dealPerPerson(city: City, nights: number): number {
-  const flight = flightPerPerson(city.country, 'europe', 'standard');
+  const flight = flightPerPerson(city.id, 'europe', 'standard');
   return Math.round(flight + (city.hotel[1] * nights) / 2);
 }

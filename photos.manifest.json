@@ -137,6 +137,157 @@
    "file": "File:Utrecht, de Domtoren (RM36075) vanaf de Oudegracht 230 ongeveer foto5 2015-11-01 08.56.jpg"
   },
   {
+   "id": "newyork",
+   "kind": "place",
+   "wiki": [
+    "Manhattan",
+    "Brooklyn Bridge"
+   ]
+  },
+  {
+   "id": "losangeles",
+   "kind": "place",
+   "wiki": [
+    "Downtown Los Angeles",
+    "Hollywood Sign"
+   ]
+  },
+  {
+   "id": "beijing",
+   "kind": "place",
+   "wiki": [
+    "Tiananmen",
+    "Jingshan Park"
+   ]
+  },
+  {
+   "id": "shanghai",
+   "kind": "place",
+   "wiki": [
+    "Lujiazui"
+   ]
+  },
+  {
+   "id": "mexicocity",
+   "kind": "place",
+   "wiki": [
+    "Palacio de Bellas Artes",
+    "Paseo de la Reforma"
+   ]
+  },
+  {
+   "id": "cancun",
+   "kind": "place",
+   "wiki": [
+    "Cancún"
+   ]
+  },
+  {
+   "id": "tokyo",
+   "kind": "place",
+   "wiki": [
+    "Tokyo Tower",
+    "Shinjuku"
+   ]
+  },
+  {
+   "id": "kyoto",
+   "kind": "place",
+   "wiki": [
+    "Hōkan-ji",
+    "Kiyomizu-dera"
+   ]
+  },
+  {
+   "id": "bangkok",
+   "kind": "place",
+   "wiki": [
+    "Chao Phraya River",
+    "Bangkok"
+   ]
+  },
+  {
+   "id": "phuket",
+   "kind": "place",
+   "wiki": [
+    "Patong",
+    "Phuket province"
+   ]
+  },
+  {
+   "id": "dubai",
+   "kind": "place",
+   "wiki": [
+    "Dubai Marina"
+   ]
+  },
+  {
+   "id": "abudhabi",
+   "kind": "place",
+   "wiki": [
+    "Emirates Palace"
+   ]
+  },
+  {
+   "id": "riyadh",
+   "kind": "place",
+   "wiki": [
+    "Al Faisaliyah Center",
+    "Riyadh"
+   ]
+  },
+  {
+   "id": "alula",
+   "kind": "place",
+   "wiki": [
+    "AlUla"
+   ]
+  },
+  {
+   "id": "kualalumpur",
+   "kind": "place",
+   "wiki": [
+    "Kuala Lumpur Tower",
+    "Kuala Lumpur"
+   ]
+  },
+  {
+   "id": "penang",
+   "kind": "place",
+   "wiki": [
+    "George Town, Penang"
+   ]
+  },
+  {
+   "id": "hanoi",
+   "kind": "place",
+   "wiki": [
+    "Hanoi Opera House",
+    "Long Biên Bridge"
+   ]
+  },
+  {
+   "id": "hoian",
+   "kind": "place",
+   "wiki": [
+    "Hội An"
+   ]
+  },
+  {
+   "id": "marrakech",
+   "kind": "place",
+   "wiki": [
+    "Koutoubia Mosque"
+   ]
+  },
+  {
+   "id": "fes",
+   "kind": "place",
+   "wiki": [
+    "Bab Bou Jeloud"
+   ]
+  },
+  {
    "id": "s-eiffel",
    "kind": "detail",
    "file": "File:Eiffel tower from trocadero.jpg"
@@ -784,6 +935,740 @@
    "file": "File:Utrecht Oudegracht aan de Werf next to Jansbrug seen from the southwest.jpg"
   },
   {
+   "id": "s-top_rock",
+   "kind": "detail",
+   "wiki": [
+    "Top of the Rock"
+   ]
+  },
+  {
+   "id": "s-central_park",
+   "kind": "detail",
+   "wiki": [
+    "Central Park"
+   ]
+  },
+  {
+   "id": "s-met",
+   "kind": "detail",
+   "wiki": [
+    "Metropolitan Museum of Art"
+   ]
+  },
+  {
+   "id": "s-liberty",
+   "kind": "detail",
+   "wiki": [
+    "Statue of Liberty"
+   ]
+  },
+  {
+   "id": "s-broadway",
+   "kind": "detail",
+   "wiki": [
+    "Broadway theatre",
+    "Times Square"
+   ]
+  },
+  {
+   "id": "s-griffith",
+   "kind": "detail",
+   "wiki": [
+    "Griffith Observatory"
+   ]
+  },
+  {
+   "id": "s-walk_of_fame",
+   "kind": "detail",
+   "wiki": [
+    "Hollywood Walk of Fame"
+   ]
+  },
+  {
+   "id": "s-santa_monica",
+   "kind": "detail",
+   "wiki": [
+    "Santa Monica Pier"
+   ]
+  },
+  {
+   "id": "s-getty",
+   "kind": "detail",
+   "wiki": [
+    "Getty Center"
+   ]
+  },
+  {
+   "id": "s-universal",
+   "kind": "detail",
+   "wiki": [
+    "Universal Studios Hollywood"
+   ]
+  },
+  {
+   "id": "s-great_wall",
+   "kind": "detail",
+   "wiki": [
+    "Mutianyu",
+    "Great Wall of China"
+   ]
+  },
+  {
+   "id": "s-forbidden_city",
+   "kind": "detail",
+   "wiki": [
+    "Forbidden City"
+   ]
+  },
+  {
+   "id": "s-temple_heaven",
+   "kind": "detail",
+   "wiki": [
+    "Temple of Heaven"
+   ]
+  },
+  {
+   "id": "s-summer_palace",
+   "kind": "detail",
+   "wiki": [
+    "Summer Palace"
+   ]
+  },
+  {
+   "id": "s-hutongs",
+   "kind": "detail",
+   "wiki": [
+    "Hutong",
+    "Shichahai"
+   ]
+  },
+  {
+   "id": "s-bund",
+   "kind": "detail",
+   "wiki": [
+    "The Bund"
+   ]
+  },
+  {
+   "id": "s-yu_garden",
+   "kind": "detail",
+   "wiki": [
+    "Yu Garden"
+   ]
+  },
+  {
+   "id": "s-shanghai_tower",
+   "kind": "detail",
+   "wiki": [
+    "Shanghai Tower"
+   ]
+  },
+  {
+   "id": "s-french_concession",
+   "kind": "detail",
+   "wiki": [
+    "Shanghai French Concession"
+   ]
+  },
+  {
+   "id": "s-zhujiajiao",
+   "kind": "detail",
+   "wiki": [
+    "Zhujiajiao"
+   ]
+  },
+  {
+   "id": "s-teotihuacan",
+   "kind": "detail",
+   "wiki": [
+    "Teotihuacan",
+    "Pyramid of the Sun"
+   ]
+  },
+  {
+   "id": "s-anthropology",
+   "kind": "detail",
+   "wiki": [
+    "National Museum of Anthropology (Mexico)"
+   ]
+  },
+  {
+   "id": "s-frida",
+   "kind": "detail",
+   "wiki": [
+    "Frida Kahlo Museum"
+   ]
+  },
+  {
+   "id": "s-zocalo",
+   "kind": "detail",
+   "wiki": [
+    "Zócalo",
+    "Templo Mayor"
+   ]
+  },
+  {
+   "id": "s-xochimilco",
+   "kind": "detail",
+   "wiki": [
+    "Xochimilco"
+   ]
+  },
+  {
+   "id": "s-chichen_itza",
+   "kind": "detail",
+   "wiki": [
+    "Chichen Itza",
+    "El Castillo, Chichen Itza"
+   ]
+  },
+  {
+   "id": "s-isla_mujeres",
+   "kind": "detail",
+   "wiki": [
+    "Isla Mujeres"
+   ]
+  },
+  {
+   "id": "s-cenote",
+   "kind": "detail",
+   "wiki": [
+    "Ik Kil",
+    "Cenote"
+   ]
+  },
+  {
+   "id": "s-playa_delfines",
+   "kind": "detail",
+   "wiki": [
+    "es:Playa Delfines"
+   ]
+  },
+  {
+   "id": "s-musa",
+   "kind": "detail",
+   "wiki": [
+    "Cancún Underwater Museum"
+   ]
+  },
+  {
+   "id": "s-sensoji",
+   "kind": "detail",
+   "wiki": [
+    "Sensō-ji"
+   ]
+  },
+  {
+   "id": "s-shibuya",
+   "kind": "detail",
+   "wiki": [
+    "Shibuya Crossing"
+   ]
+  },
+  {
+   "id": "s-meiji",
+   "kind": "detail",
+   "wiki": [
+    "Meiji Shrine"
+   ]
+  },
+  {
+   "id": "s-teamlab",
+   "kind": "detail",
+   "wiki": [
+    "TeamLab Planets",
+    "TeamLab"
+   ]
+  },
+  {
+   "id": "s-fuji",
+   "kind": "detail",
+   "wiki": [
+    "Mount Fuji",
+    "Lake Kawaguchi"
+   ]
+  },
+  {
+   "id": "s-fushimi_inari",
+   "kind": "detail",
+   "wiki": [
+    "Fushimi Inari-taisha"
+   ]
+  },
+  {
+   "id": "s-kinkakuji",
+   "kind": "detail",
+   "wiki": [
+    "Kinkaku-ji"
+   ]
+  },
+  {
+   "id": "s-arashiyama",
+   "kind": "detail",
+   "wiki": [
+    "Sagano Bamboo Forest",
+    "Arashiyama"
+   ]
+  },
+  {
+   "id": "s-gion",
+   "kind": "detail",
+   "wiki": [
+    "Gion",
+    "Kiyomizu-dera"
+   ]
+  },
+  {
+   "id": "s-nara",
+   "kind": "detail",
+   "wiki": [
+    "Tōdai-ji",
+    "Nara Park"
+   ]
+  },
+  {
+   "id": "s-grand_palace",
+   "kind": "detail",
+   "wiki": [
+    "Grand Palace"
+   ]
+  },
+  {
+   "id": "s-wat_pho",
+   "kind": "detail",
+   "wiki": [
+    "Wat Pho"
+   ]
+  },
+  {
+   "id": "s-wat_arun",
+   "kind": "detail",
+   "wiki": [
+    "Wat Arun"
+   ]
+  },
+  {
+   "id": "s-chatuchak",
+   "kind": "detail",
+   "wiki": [
+    "Chatuchak Weekend Market"
+   ]
+  },
+  {
+   "id": "s-floating_market",
+   "kind": "detail",
+   "wiki": [
+    "Damnoen Saduak Floating Market"
+   ]
+  },
+  {
+   "id": "s-phi_phi",
+   "kind": "detail",
+   "wiki": [
+    "Phi Phi Islands",
+    "Maya Bay"
+   ]
+  },
+  {
+   "id": "s-big_buddha",
+   "kind": "detail",
+   "wiki": [
+    "Big Buddha (Phuket)"
+   ]
+  },
+  {
+   "id": "s-old_town_phuket",
+   "kind": "detail",
+   "wiki": [
+    "Phuket City"
+   ]
+  },
+  {
+   "id": "s-kata_beach",
+   "kind": "detail",
+   "wiki": [
+    "Kata Beach",
+    "Karon Beach"
+   ]
+  },
+  {
+   "id": "s-promthep",
+   "kind": "detail",
+   "wiki": [
+    "Laem Phromthep"
+   ]
+  },
+  {
+   "id": "s-burj_khalifa",
+   "kind": "detail",
+   "wiki": [
+    "Burj Khalifa"
+   ]
+  },
+  {
+   "id": "s-dubai_fountain",
+   "kind": "detail",
+   "wiki": [
+    "Dubai Fountain"
+   ]
+  },
+  {
+   "id": "s-desert_safari",
+   "kind": "detail",
+   "wiki": [
+    "Desert safari",
+    "Arabian Desert"
+   ]
+  },
+  {
+   "id": "s-old_dubai",
+   "kind": "detail",
+   "wiki": [
+    "Abra (boat)",
+    "Dubai Creek"
+   ]
+  },
+  {
+   "id": "s-jbr",
+   "kind": "detail",
+   "wiki": [
+    "Jumeirah Beach Residence"
+   ]
+  },
+  {
+   "id": "s-grand_mosque",
+   "kind": "detail",
+   "wiki": [
+    "Sheikh Zayed Grand Mosque"
+   ]
+  },
+  {
+   "id": "s-louvre_ad",
+   "kind": "detail",
+   "wiki": [
+    "Louvre Abu Dhabi"
+   ]
+  },
+  {
+   "id": "s-qasr_watan",
+   "kind": "detail",
+   "wiki": [
+    "Qasr Al Watan"
+   ]
+  },
+  {
+   "id": "s-corniche",
+   "kind": "detail",
+   "wiki": [
+    "Abu Dhabi Corniche",
+    "Corniche (Abu Dhabi)"
+   ]
+  },
+  {
+   "id": "s-mangroves",
+   "kind": "detail",
+   "wiki": [
+    "Mangrove National Park (Abu Dhabi)",
+    "Eastern Mangroves"
+   ]
+  },
+  {
+   "id": "s-diriyah",
+   "kind": "detail",
+   "wiki": [
+    "At-Turaif",
+    "Diriyah"
+   ]
+  },
+  {
+   "id": "s-edge_world",
+   "kind": "detail",
+   "wiki": [
+    "Edge of the World (Saudi Arabia)",
+    "Jebel Fihrayn"
+   ]
+  },
+  {
+   "id": "s-kingdom_centre",
+   "kind": "detail",
+   "wiki": [
+    "Kingdom Centre"
+   ]
+  },
+  {
+   "id": "s-masmak",
+   "kind": "detail",
+   "wiki": [
+    "Masmak fort",
+    "Al Masmak Fortress"
+   ]
+  },
+  {
+   "id": "s-national_museum_sa",
+   "kind": "detail",
+   "wiki": [
+    "National Museum of Saudi Arabia"
+   ]
+  },
+  {
+   "id": "s-hegra",
+   "kind": "detail",
+   "wiki": [
+    "Hegra (Mada'in Salih)",
+    "Hegra"
+   ]
+  },
+  {
+   "id": "s-elephant_rock",
+   "kind": "detail",
+   "wiki": [
+    "Elephant Rock (Saudi Arabia)",
+    "Jabal AlFil"
+   ]
+  },
+  {
+   "id": "s-old_town_alula",
+   "kind": "detail",
+   "wiki": [
+    "AlUla Old Town",
+    "Old Town of AlUla"
+   ]
+  },
+  {
+   "id": "s-maraya",
+   "kind": "detail",
+   "wiki": [
+    "Maraya (building)",
+    "Maraya"
+   ]
+  },
+  {
+   "id": "s-alula_balloon",
+   "kind": "detail",
+   "wiki": [
+    "Hot air balloon"
+   ]
+  },
+  {
+   "id": "s-petronas",
+   "kind": "detail",
+   "wiki": [
+    "Petronas Towers"
+   ]
+  },
+  {
+   "id": "s-batu_caves",
+   "kind": "detail",
+   "wiki": [
+    "Batu Caves"
+   ]
+  },
+  {
+   "id": "s-jalan_alor",
+   "kind": "detail",
+   "wiki": [
+    "Jalan Alor"
+   ]
+  },
+  {
+   "id": "s-merdeka",
+   "kind": "detail",
+   "wiki": [
+    "Merdeka Square, Kuala Lumpur",
+    "Sultan Abdul Samad Building"
+   ]
+  },
+  {
+   "id": "s-melaka",
+   "kind": "detail",
+   "wiki": [
+    "Christ Church, Malacca",
+    "Malacca City"
+   ]
+  },
+  {
+   "id": "s-george_town",
+   "kind": "detail",
+   "wiki": [
+    "Armenian Street, Penang",
+    "Street art"
+   ]
+  },
+  {
+   "id": "s-kek_lok_si",
+   "kind": "detail",
+   "wiki": [
+    "Kek Lok Si"
+   ]
+  },
+  {
+   "id": "s-penang_hill",
+   "kind": "detail",
+   "wiki": [
+    "Penang Hill"
+   ]
+  },
+  {
+   "id": "s-clan_jetties",
+   "kind": "detail",
+   "wiki": [
+    "Chew Jetty",
+    "Clan Jetties"
+   ]
+  },
+  {
+   "id": "s-batu_ferringhi",
+   "kind": "detail",
+   "wiki": [
+    "Batu Ferringhi"
+   ]
+  },
+  {
+   "id": "s-halong",
+   "kind": "detail",
+   "wiki": [
+    "Hạ Long Bay"
+   ]
+  },
+  {
+   "id": "s-old_quarter",
+   "kind": "detail",
+   "wiki": [
+    "Hoàn Kiếm Lake",
+    "Hanoi Old Quarter"
+   ]
+  },
+  {
+   "id": "s-temple_literature",
+   "kind": "detail",
+   "wiki": [
+    "Temple of Literature, Hanoi"
+   ]
+  },
+  {
+   "id": "s-train_street",
+   "kind": "detail",
+   "wiki": [
+    "Hanoi Train Street"
+   ]
+  },
+  {
+   "id": "s-water_puppets",
+   "kind": "detail",
+   "wiki": [
+    "Water puppetry"
+   ]
+  },
+  {
+   "id": "s-hoian_old_town",
+   "kind": "detail",
+   "wiki": [
+    "Japanese Covered Bridge",
+    "Hội An Ancient Town"
+   ]
+  },
+  {
+   "id": "s-lantern_night",
+   "kind": "detail",
+   "wiki": [
+    "Thu Bồn River"
+   ]
+  },
+  {
+   "id": "s-my_son",
+   "kind": "detail",
+   "wiki": [
+    "Mỹ Sơn"
+   ]
+  },
+  {
+   "id": "s-an_bang",
+   "kind": "detail",
+   "wiki": [
+    "An Bang Beach"
+   ]
+  },
+  {
+   "id": "s-ba_na",
+   "kind": "detail",
+   "wiki": [
+    "Golden Bridge (Vietnam)",
+    "Bà Nà Hills"
+   ]
+  },
+  {
+   "id": "s-jemaa",
+   "kind": "detail",
+   "wiki": [
+    "Jemaa el-Fnaa"
+   ]
+  },
+  {
+   "id": "s-majorelle",
+   "kind": "detail",
+   "wiki": [
+    "Majorelle Garden"
+   ]
+  },
+  {
+   "id": "s-bahia",
+   "kind": "detail",
+   "wiki": [
+    "Bahia Palace"
+   ]
+  },
+  {
+   "id": "s-souks",
+   "kind": "detail",
+   "wiki": [
+    "Medina of Marrakesh",
+    "Souk"
+   ]
+  },
+  {
+   "id": "s-atlas",
+   "kind": "detail",
+   "wiki": [
+    "Ourika Valley",
+    "High Atlas"
+   ]
+  },
+  {
+   "id": "s-chouara",
+   "kind": "detail",
+   "wiki": [
+    "Chouara Tannery"
+   ]
+  },
+  {
+   "id": "s-medina_fes",
+   "kind": "detail",
+   "wiki": [
+    "Fes el Bali"
+   ]
+  },
+  {
+   "id": "s-bou_inania",
+   "kind": "detail",
+   "wiki": [
+    "Bou Inania Madrasa (Fez)"
+   ]
+  },
+  {
+   "id": "s-merenid_tombs",
+   "kind": "detail",
+   "wiki": [
+    "Marinid Tombs"
+   ]
+  },
+  {
+   "id": "s-chefchaouen",
+   "kind": "detail",
+   "wiki": [
+    "Chefchaouen"
+   ]
+  },
+  {
    "id": "d-croque-monsieur",
    "kind": "detail",
    "wiki": [
@@ -1312,6 +2197,576 @@
    "wiki": [
     "Dutch apple pie",
     "Apple pie"
+   ]
+  },
+  {
+   "id": "d-ny-pizza",
+   "kind": "detail",
+   "wiki": [
+    "New York-style pizza"
+   ]
+  },
+  {
+   "id": "d-bagel-lox",
+   "kind": "detail",
+   "wiki": [
+    "Lox",
+    "Bagel"
+   ]
+  },
+  {
+   "id": "d-pastrami-on-rye",
+   "kind": "detail",
+   "wiki": [
+    "Pastrami on rye"
+   ]
+  },
+  {
+   "id": "d-ny-strip-steak",
+   "kind": "detail",
+   "wiki": [
+    "Strip steak"
+   ]
+  },
+  {
+   "id": "d-fish-tacos",
+   "kind": "detail",
+   "wiki": [
+    "Fish taco"
+   ]
+  },
+  {
+   "id": "d-french-dip",
+   "kind": "detail",
+   "wiki": [
+    "French dip"
+   ]
+  },
+  {
+   "id": "d-korean-bbq",
+   "kind": "detail",
+   "wiki": [
+    "Korean barbecue"
+   ]
+  },
+  {
+   "id": "d-cobb-salad",
+   "kind": "detail",
+   "wiki": [
+    "Cobb salad"
+   ]
+  },
+  {
+   "id": "d-jiaozi",
+   "kind": "detail",
+   "wiki": [
+    "Jiaozi"
+   ]
+  },
+  {
+   "id": "d-zhajiangmian",
+   "kind": "detail",
+   "wiki": [
+    "Zhajiangmian"
+   ]
+  },
+  {
+   "id": "d-peking-duck",
+   "kind": "detail",
+   "wiki": [
+    "Peking duck"
+   ]
+  },
+  {
+   "id": "d-shuan-yangrou",
+   "kind": "detail",
+   "wiki": [
+    "Instant-boiled mutton"
+   ]
+  },
+  {
+   "id": "d-xiaolongbao",
+   "kind": "detail",
+   "wiki": [
+    "Xiaolongbao"
+   ]
+  },
+  {
+   "id": "d-shengjianbao",
+   "kind": "detail",
+   "wiki": [
+    "Shengjian mantou"
+   ]
+  },
+  {
+   "id": "d-hong-shao-rou",
+   "kind": "detail",
+   "wiki": [
+    "Red braised pork belly"
+   ]
+  },
+  {
+   "id": "d-lions-head",
+   "kind": "detail",
+   "wiki": [
+    "Lion's head (food)"
+   ]
+  },
+  {
+   "id": "d-tacos-al-pastor",
+   "kind": "detail",
+   "wiki": [
+    "Al pastor"
+   ]
+  },
+  {
+   "id": "d-chilaquiles",
+   "kind": "detail",
+   "wiki": [
+    "Chilaquiles"
+   ]
+  },
+  {
+   "id": "d-mole-poblano",
+   "kind": "detail",
+   "wiki": [
+    "Mole poblano"
+   ]
+  },
+  {
+   "id": "d-pozole",
+   "kind": "detail",
+   "wiki": [
+    "Pozole"
+   ]
+  },
+  {
+   "id": "d-cochinita-pibil",
+   "kind": "detail",
+   "wiki": [
+    "Cochinita pibil"
+   ]
+  },
+  {
+   "id": "d-ceviche",
+   "kind": "detail",
+   "wiki": [
+    "Ceviche"
+   ]
+  },
+  {
+   "id": "d-sopa-de-lima",
+   "kind": "detail",
+   "wiki": [
+    "Sopa de lima"
+   ]
+  },
+  {
+   "id": "d-camarones-al-mojo-de-ajo",
+   "kind": "detail",
+   "wiki": [
+    "es:Camarones al mojo de ajo",
+    "Garlic shrimp"
+   ]
+  },
+  {
+   "id": "d-ramen",
+   "kind": "detail",
+   "wiki": [
+    "Ramen"
+   ]
+  },
+  {
+   "id": "d-tempura",
+   "kind": "detail",
+   "wiki": [
+    "Tempura"
+   ]
+  },
+  {
+   "id": "d-sushi",
+   "kind": "detail",
+   "wiki": [
+    "Sushi"
+   ]
+  },
+  {
+   "id": "d-yakitori",
+   "kind": "detail",
+   "wiki": [
+    "Yakitori"
+   ]
+  },
+  {
+   "id": "d-yudofu",
+   "kind": "detail",
+   "wiki": [
+    "Yudōfu"
+   ]
+  },
+  {
+   "id": "d-okonomiyaki",
+   "kind": "detail",
+   "wiki": [
+    "Okonomiyaki"
+   ]
+  },
+  {
+   "id": "d-kaiseki",
+   "kind": "detail",
+   "wiki": [
+    "Kaiseki"
+   ]
+  },
+  {
+   "id": "d-sukiyaki",
+   "kind": "detail",
+   "wiki": [
+    "Sukiyaki"
+   ]
+  },
+  {
+   "id": "d-pad-thai",
+   "kind": "detail",
+   "wiki": [
+    "Pad thai"
+   ]
+  },
+  {
+   "id": "d-som-tam",
+   "kind": "detail",
+   "wiki": [
+    "Green papaya salad"
+   ]
+  },
+  {
+   "id": "d-tom-yum",
+   "kind": "detail",
+   "wiki": [
+    "Tom yum"
+   ]
+  },
+  {
+   "id": "d-green-curry",
+   "kind": "detail",
+   "wiki": [
+    "Green curry"
+   ]
+  },
+  {
+   "id": "d-mee-hokkien",
+   "kind": "detail",
+   "wiki": [
+    "Hokkien mee"
+   ]
+  },
+  {
+   "id": "d-khao-pad",
+   "kind": "detail",
+   "wiki": [
+    "Thai fried rice"
+   ]
+  },
+  {
+   "id": "d-massaman-curry",
+   "kind": "detail",
+   "wiki": [
+    "Massaman curry"
+   ]
+  },
+  {
+   "id": "d-pla-neung-manao",
+   "kind": "detail",
+   "wiki": [
+    "th:ปลากะพงนึ่งมะนาว",
+    "Steamed fish"
+   ]
+  },
+  {
+   "id": "d-shawarma",
+   "kind": "detail",
+   "wiki": [
+    "Shawarma"
+   ]
+  },
+  {
+   "id": "d-manakish",
+   "kind": "detail",
+   "wiki": [
+    "Manakish"
+   ]
+  },
+  {
+   "id": "d-machboos",
+   "kind": "detail",
+   "wiki": [
+    "Machboos"
+   ]
+  },
+  {
+   "id": "d-arabic-mixed-grill",
+   "kind": "detail",
+   "wiki": [
+    "Mixed grill",
+    "Shish taouk"
+   ]
+  },
+  {
+   "id": "d-falafel",
+   "kind": "detail",
+   "wiki": [
+    "Falafel"
+   ]
+  },
+  {
+   "id": "d-harees",
+   "kind": "detail",
+   "wiki": [
+    "Harees"
+   ]
+  },
+  {
+   "id": "d-grilled-hammour",
+   "kind": "detail",
+   "wiki": [
+    "Hammour",
+    "Grilled fish"
+   ]
+  },
+  {
+   "id": "d-ouzi",
+   "kind": "detail",
+   "wiki": [
+    "Ouzi",
+    "Quzi"
+   ]
+  },
+  {
+   "id": "d-jareesh",
+   "kind": "detail",
+   "wiki": [
+    "Jareesh"
+   ]
+  },
+  {
+   "id": "d-mutabbaq",
+   "kind": "detail",
+   "wiki": [
+    "Murtabak"
+   ]
+  },
+  {
+   "id": "d-kabsa",
+   "kind": "detail",
+   "wiki": [
+    "Kabsa"
+   ]
+  },
+  {
+   "id": "d-mandi",
+   "kind": "detail",
+   "wiki": [
+    "Mandi (food)"
+   ]
+  },
+  {
+   "id": "d-sambusa",
+   "kind": "detail",
+   "wiki": [
+    "Samosa"
+   ]
+  },
+  {
+   "id": "d-ful-medames",
+   "kind": "detail",
+   "wiki": [
+    "Ful medames"
+   ]
+  },
+  {
+   "id": "d-saleeg",
+   "kind": "detail",
+   "wiki": [
+    "Saleeg"
+   ]
+  },
+  {
+   "id": "d-haneeth",
+   "kind": "detail",
+   "wiki": [
+    "Haneeth"
+   ]
+  },
+  {
+   "id": "d-nasi-lemak",
+   "kind": "detail",
+   "wiki": [
+    "Nasi lemak"
+   ]
+  },
+  {
+   "id": "d-roti-canai",
+   "kind": "detail",
+   "wiki": [
+    "Roti canai"
+   ]
+  },
+  {
+   "id": "d-satay",
+   "kind": "detail",
+   "wiki": [
+    "Satay"
+   ]
+  },
+  {
+   "id": "d-bak-kut-teh",
+   "kind": "detail",
+   "wiki": [
+    "Bak kut teh"
+   ]
+  },
+  {
+   "id": "d-char-kway-teow",
+   "kind": "detail",
+   "wiki": [
+    "Char kway teow"
+   ]
+  },
+  {
+   "id": "d-assam-laksa",
+   "kind": "detail",
+   "wiki": [
+    "Asam laksa",
+    "Laksa"
+   ]
+  },
+  {
+   "id": "d-nasi-kandar",
+   "kind": "detail",
+   "wiki": [
+    "Nasi kandar"
+   ]
+  },
+  {
+   "id": "d-prawn-mee",
+   "kind": "detail",
+   "wiki": [
+    "Hae mee",
+    "Prawn noodles"
+   ]
+  },
+  {
+   "id": "d-pho",
+   "kind": "detail",
+   "wiki": [
+    "Pho"
+   ]
+  },
+  {
+   "id": "d-bun-cha",
+   "kind": "detail",
+   "wiki": [
+    "Bún chả"
+   ]
+  },
+  {
+   "id": "d-cha-ca",
+   "kind": "detail",
+   "wiki": [
+    "Chả cá Lã Vọng",
+    "Chả cá"
+   ]
+  },
+  {
+   "id": "d-nem-ran",
+   "kind": "detail",
+   "wiki": [
+    "Chả giò"
+   ]
+  },
+  {
+   "id": "d-cao-lau",
+   "kind": "detail",
+   "wiki": [
+    "Cao lầu"
+   ]
+  },
+  {
+   "id": "d-banh-mi",
+   "kind": "detail",
+   "wiki": [
+    "Bánh mì"
+   ]
+  },
+  {
+   "id": "d-com-ga",
+   "kind": "detail",
+   "wiki": [
+    "Cơm gà"
+   ]
+  },
+  {
+   "id": "d-mi-quang",
+   "kind": "detail",
+   "wiki": [
+    "Mì Quảng"
+   ]
+  },
+  {
+   "id": "d-harira",
+   "kind": "detail",
+   "wiki": [
+    "Harira"
+   ]
+  },
+  {
+   "id": "d-mechoui",
+   "kind": "detail",
+   "wiki": [
+    "Mechoui"
+   ]
+  },
+  {
+   "id": "d-tagine",
+   "kind": "detail",
+   "wiki": [
+    "Tajine"
+   ]
+  },
+  {
+   "id": "d-tanjia",
+   "kind": "detail",
+   "wiki": [
+    "Tangia",
+    "Tanjia"
+   ]
+  },
+  {
+   "id": "d-bissara",
+   "kind": "detail",
+   "wiki": [
+    "Bissara"
+   ]
+  },
+  {
+   "id": "d-kefta",
+   "kind": "detail",
+   "wiki": [
+    "Kofta"
+   ]
+  },
+  {
+   "id": "d-pastilla",
+   "kind": "detail",
+   "wiki": [
+    "Pastilla"
+   ]
+  },
+  {
+   "id": "d-couscous",
+   "kind": "detail",
+   "wiki": [
+    "Couscous"
    ]
   }
  ]

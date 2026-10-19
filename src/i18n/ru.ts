@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const ru: Dict = {
-  'meta.title': 'Wanderwise · Поездки по Европе под ваш бюджет',
+  'meta.title': 'Wanderwise · Путешествия по всему миру под ваш бюджет',
   'nav.destinations': 'Направления',
   'nav.deals': 'Акции',
   'nav.plan': 'Спланировать',
@@ -13,8 +13,8 @@ export const ru: Dict = {
   'nav.language': 'Язык',
   'nav.menu': 'Меню',
 
-  'home.badge': 'Бета · 10 стран Европы',
-  'home.title1': 'Поездка в Европу, спланированная под',
+  'home.badge': 'Бета · {countries} по всему миру',
+  'home.title1': 'Путешествие в любую точку мира, спланированное под',
   'home.title2': 'ваш бюджет.',
   'home.lead': 'Скажите, сколько готовы потратить. Мы спланируем перелёт, отель, достопримечательности и еду на каждый день. Или соберите поездку сами и следите за бюджетом.',
   'home.perk1': 'Одна цена за всё',
@@ -26,7 +26,11 @@ export const ru: Dict = {
   'search.modeManual': 'Соберу сам',
   'search.from': 'Откуда',
   'search.to': 'Куда',
-  'search.anywhere': 'Куда угодно в Европе',
+  'search.anywhere': 'Куда угодно в мире',
+  'search.anyIn.europe': 'Куда угодно в Европе',
+  'search.anyIn.asia': 'Куда угодно в Азии',
+  'search.anyIn.americas': 'Куда угодно в Америке',
+  'search.anyIn.mea': 'Куда угодно на Ближнем Востоке и в Африке',
   'search.start': 'Вылет',
   'search.nights': 'Ночей',
   'search.travelers': 'Путешественники',
@@ -43,11 +47,17 @@ export const ru: Dict = {
   'deals.new': 'Новое',
   'deals.endsSoon': 'Скоро закончится',
 
-  'dest.title': 'Самые популярные страны Европы',
-  'dest.sub': 'Выбраны по данным UN Tourism о турпотоке за 2024 год. Цены примерные, на человека за 7 ночей: отель, еда, достопримечательности и транспорт, без перелёта.',
+  'dest.title': 'Самые посещаемые страны мира',
+  'dest.sub': 'Выбраны по данным UN Tourism о турпотоке за 2024 год: топ-10 в Европе и топ-10 за её пределами. Цены примерные, на человека за 7 ночей: отель, еда, достопримечательности и транспорт, без перелёта.',
   'dest.from': '7 ночей от',
   'dest.level': 'Уровень цен {n} из 4',
   'dest.all': 'Все направления',
+  'dest.tabAll': 'Все',
+  'dest.regions': 'Регионы',
+  'region.europe': 'Европа',
+  'region.asia': 'Азия',
+  'region.americas': 'Америка',
+  'region.mea': 'Ближний Восток и Африка',
 
   'how.title': 'Как это работает',
   'how.s1t': 'Укажите бюджет',
@@ -64,7 +74,7 @@ export const ru: Dict = {
   'teaser.text': 'Планировщик подбирает город, перелёт и отель, которые влезают в бюджет, и заполняет каждый день достопримечательностями, транспортом и местами, где поесть. Рядом с каждым пунктом указана цена.',
   'teaser.cta': 'Попробовать',
 
-  'footer.tagline': 'Поездки по Европе под ваш бюджет.',
+  'footer.tagline': 'Путешествия по всему миру под ваш бюджет.',
   'footer.plan': 'Планирование',
   'footer.account': 'Аккаунт',
   'footer.about': 'О проекте',
@@ -137,6 +147,7 @@ export const ru: Dict = {
   'u.traveler': { one: '{n} человек', few: '{n} человека', many: '{n} человек', other: '{n} человека' },
   'u.ticket': { one: '{n} билет', few: '{n} билета', many: '{n} билетов', other: '{n} билета' },
   'u.stop': { one: '{n} пункт', few: '{n} пункта', many: '{n} пунктов', other: '{n} пункта' },
+  'u.country': { one: '{n} страна', few: '{n} страны', many: '{n} стран', other: '{n} страны' },
 
   'kind.flight': 'Перелёт',
   'kind.transit': 'Транспорт',
@@ -146,7 +157,7 @@ export const ru: Dict = {
   'kind.free': 'Свободно',
 
   'item.flightIn': 'Прилёт: {city} ({code})',
-  'item.flightInNote': 'Билеты туда и обратно для всех: {option}.',
+  'item.flightInNote': 'Билеты туда и обратно для всех: {option}. В воздухе около {duration}.',
   'item.flightOut': 'Вылет домой: {city} ({code})',
   'item.flightOutNote': 'Входит в билеты туда и обратно.',
   'item.transferIn': '{mode} до отеля',

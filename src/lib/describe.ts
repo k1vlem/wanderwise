@@ -1,6 +1,6 @@
 import { cityById, countryById, dishPhoto, sightPhoto } from '../data';
 import type { I18n } from '../i18n';
-import type { Day, Item, Plan } from './planner';
+import { flightMinutes, type Day, type Item, type Plan } from './planner';
 
 export type Category = 'flight' | 'transit' | 'hotel' | 'sight' | 'food' | 'free';
 
@@ -37,7 +37,7 @@ export function describeItem(item: Item, plan: Plan, i18n: I18n): ItemText {
   switch (item.kind) {
     case 'flightIn':
       out.title = t('item.flightIn', { city: cityName, code: city.airport });
-      out.note = t('item.flightInNote', { option: t(`flight.${plan.choice.flight}`) });
+      out.note = t('item.flightInNote', { option: t(`flight.${plan.choice.flight}`), duration: duration(flightMinutes(city.id, plan.input.origin)) });
       break;
     case 'flightOut':
       out.title = t('item.flightOut', { city: cityName, code: city.airport });

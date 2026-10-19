@@ -5,7 +5,7 @@ import { Photo } from '../components/Photo';
 import { PhotoButton } from '../components/PhotoViewer';
 import { CATEGORY_STYLE } from '../components/PlanParts';
 import { TripFields } from '../components/TripFields';
-import { COUNTRIES, cityById, countryPhoto } from '../data';
+import { COUNTRIES, REGIONS, builderCountry, cityById, countryPhoto, type Region } from '../data';
 import { useI18n } from '../i18n';
 import { dayPhoto, dayTitle, describeItem } from '../lib/describe';
 import { addDays, dealPerPerson, planTrip, weekFromPerPerson, type TripInput } from '../lib/planner';
@@ -15,11 +15,11 @@ type DealTag = { kind: 'discount'; pct: number } | { kind: 'lastRooms' | 'new' |
 
 const DEALS: { city: string; inDays: number; nights: number; tag: DealTag }[] = [
   { city: 'barcelona', inDays: 24, nights: 7, tag: { kind: 'discount', pct: 24 } },
-  { city: 'rome', inDays: 38, nights: 5, tag: { kind: 'lastRooms' } },
+  { city: 'tokyo', inDays: 40, nights: 9, tag: { kind: 'new' } },
   { city: 'lisbon', inDays: 31, nights: 7, tag: { kind: 'discount', pct: 18 } },
+  { city: 'dubai', inDays: 19, nights: 5, tag: { kind: 'lastRooms' } },
   { city: 'santorini', inDays: 52, nights: 6, tag: { kind: 'endsSoon' } },
-  { city: 'istanbul', inDays: 19, nights: 5, tag: { kind: 'new' } },
-  { city: 'salzburg', inDays: 45, nights: 4, tag: { kind: 'discount', pct: 30 } },
+  { city: 'bangkok', inDays: 45, nights: 10, tag: { kind: 'discount', pct: 20 } },
 ];
 
 function SearchCard() {
@@ -30,7 +30,7 @@ function SearchCard() {
 
   const go = () => {
     if (mode === 'auto') navigate(`/plan?${queryFromInput(input, { go: '1' })}`);
-    else navigate(`/build?${queryFromInput({ ...input, country: input.country === 'any' ? 'italy' : input.country })}`);
+    else navigate(`/build?${queryFromInput({ ...input, country: builderCountry(input.country) })}`);
   };
 
   const tab = (on: boolean) =>
@@ -118,14 +118,30 @@ function Deals() {
 
 function Destinations() {
   const { t, pick, money } = useI18n();
+  const [region, setRegion] = useState<Region | 'all'>('all');
+  const shown = region === 'all' ? COUNTRIES : COUNTRIES.filter((c) => c.region === region);
+  const tab = (on: boolean) =>
+    `flex h-10 items-center gap-2 rounded-full px-4 text-[15px] font-semibold transition ${on ? 'bg-ink text-white' : 'bg-white text-ink ring-1 ring-line hover:bg-shell'}`;
   return (
     <section id="destinations" className="mx-auto max-w-7xl scroll-mt-24 px-4 pt-20 sm:px-6 lg:px-8">
       <div className="max-w-3xl">
         <h2 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">{t('dest.title')}</h2>
         <p className="mt-2 text-[16px] leading-relaxed text-muted">{t('dest.sub')}</p>
       </div>
-      <div className="mt-7 grid grid-cols-1 gap-4 min-[480px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-        {COUNTRIES.map((c) => {
+      <div role="group" aria-label={t('dest.regions')} className="mt-6 flex flex-wrap gap-2">
+        {(['all', ...REGIONS] as const).map((r) => {
+          const count = r === 'all' ? COUNTRIES.length : COUNTRIES.filter((c) => c.region === r).length;
+          if (count === 0) return null;
+          return (
+            <button key={r} type="button" aria-pressed={region === r} className={tab(region === r)} onClick={() => setRegion(r)}>
+              {r === 'all' ? t('dest.tabAll') : t(`region.${r}`)}
+              <span className={`text-sm tabular-nums ${region === r ? 'text-white/70' : 'text-muted'}`}>{count}</span>
+            </button>
+          );
+        })}
+      </div>
+      <div className="mt-6 grid grid-cols-1 gap-4 min-[480px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        {shown.map((c) => {
           const from = Math.min(...c.cities.map((id) => weekFromPerPerson(cityById(id))));
           return (
             <Link key={c.id} to={`/country/${c.id}`} className="group overflow-hidden rounded-3xl border border-line bg-white transition hover:-translate-y-0.5 hover:shadow-lift">
@@ -237,7 +253,7 @@ function PlannerTeaser() {
 }
 
 export function Home() {
-  const { t } = useI18n();
+  const { t, tn } = useI18n();
   return (
     <>
       <section className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
@@ -248,7 +264,7 @@ export function Home() {
           <div className="max-w-2xl px-6 pb-36 pt-14 text-white sm:px-10 sm:pb-40 sm:pt-20 lg:px-14">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-1.5 text-sm font-semibold backdrop-blur">
               <span className="h-2 w-2 rounded-full bg-sand" />
-              {t('home.badge')}
+              {t('home.badge', { countries: tn('u.country', COUNTRIES.length) })}
             </span>
             <h1 className="mt-5 text-balance break-words font-display text-[26px] font-semibold leading-[1.12] tracking-tight [hyphens:auto] min-[420px]:text-[30px] sm:text-[44px] lg:text-[52px]">
               {t('home.title1')} <span className="text-sand">{t('home.title2')}</span>
