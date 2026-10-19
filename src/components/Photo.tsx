@@ -5,9 +5,13 @@ import { photoUrl } from '../data';
 const FOCUS: Record<string, string> = {
   hero: '70% 50%',
   paris: '50% 35%',
-  utrecht: '50% 60%',
+  utrecht: '50% 40%',
   lisbon: '50% 45%',
-  santorini: '50% 60%',
+  santorini: '60% 40%',
+  salzburg: '50% 40%',
+  munich: '50% 30%',
+  's-dom': '50% 30%',
+  'd-suppli': '40% 80%',
 };
 
 interface Props {
