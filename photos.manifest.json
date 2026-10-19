@@ -2,7 +2,7 @@
   "note": "Each photo is the lead image of an English Wikipedia article, downloaded from Wikimedia Commons by scripts/fetch-photos.mjs. To replace a photo, set \"file\" to a Commons file name (\"File:Example.jpg\").",
   "photos": [
     { "id": "hero", "wiki": "Positano" },
-    { "id": "paris", "wiki": "Eiffel Tower" },
+    { "id": "paris", "file": "File:Tour Eiffel Wikimedia Commons.jpg" },
     { "id": "nice", "wiki": "Promenade des Anglais" },
     { "id": "barcelona", "wiki": "Sagrada Família" },
     { "id": "seville", "wiki": "Plaza de España (Seville)" },
@@ -20,7 +20,7 @@
     { "id": "salzburg", "wiki": "Hohensalzburg Fortress" },
     { "id": "lisbon", "wiki": "Belém Tower" },
     { "id": "porto", "wiki": "Dom Luís I Bridge" },
-    { "id": "amsterdam", "wiki": "Canals of Amsterdam" },
+    { "id": "amsterdam", "wiki": "Prinsengracht" },
     { "id": "utrecht", "wiki": "Dom Tower of Utrecht" }
   ]
 }

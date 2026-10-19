@@ -34,8 +34,12 @@ async function leadImageFile(article) {
   const summary = await get(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
   const src = summary.originalimage?.source;
   if (!src) throw new Error(`No lead image for "${article}"`);
-  if (!src.includes('/wikipedia/commons/')) throw new Error(`Lead image of "${article}" is not on Commons`);
-  return `File:${decodeURIComponent(src.split('/').pop())}`;
+  // e.g. /wikipedia/commons/thumb/a/ab/Name.jpg/3840px-Name.jpg?utm_source=... or /wikipedia/commons/a/ab/Name.jpg
+  const parts = new URL(src).pathname.split('/');
+  if (parts[2] !== 'commons') throw new Error(`Lead image of "${article}" is not on Commons`);
+  const thumb = parts.indexOf('thumb');
+  const name = thumb === -1 ? parts[parts.length - 1] : parts[thumb + 3];
+  return `File:${decodeURIComponent(name)}`;
 }
 
 async function fileInfo(file) {
