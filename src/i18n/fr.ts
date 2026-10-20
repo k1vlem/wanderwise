@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const fr: Dict = {
-  'meta.title': 'Wanderwise · Des voyages partout dans le monde adaptés à votre budget',
+  'meta.title': 'Pangea · Des voyages partout dans le monde adaptés à votre budget',
   'nav.destinations': 'Destinations',
   'nav.deals': 'Bons plans',
   'nav.plan': 'Planifier',
@@ -63,7 +63,7 @@ export const fr: Dict = {
   'how.s1t': 'Fixez votre budget',
   'how.s1': 'Budget total, dates et voyageurs. Toutes les options sont ensuite filtrées pour y tenir.',
   'how.s2t': 'Choisissez votre façon',
-  'how.s2': 'Laissez Wanderwise planifier tout le voyage, ou choisissez vous-même ville, vols, hôtel et activités.',
+  'how.s2': 'Laissez Pangea planifier tout le voyage, ou choisissez vous-même ville, vols, hôtel et activités.',
   'how.s3t': 'Réservez en une fois',
   'how.s3': 'Un seul paiement pour tout le séjour. Dans la bêta, la réservation est une démo et rien n’est débité.',
   'how.s4t': 'Suivez votre programme',
@@ -92,7 +92,7 @@ export const fr: Dict = {
   'country.getThere': '{mode} entre {a} et {b} : {duration}',
 
   'plan.title': 'Planifier mon voyage',
-  'plan.sub': 'Indiquez le budget et vos goûts. Wanderwise trouve la ville, les vols et l’hôtel adaptés et planifie chaque jour.',
+  'plan.sub': 'Indiquez le budget et vos goûts. Pangea trouve la ville, les vols et l’hôtel adaptés et planifie chaque jour.',
   'plan.country': 'Pays',
   'plan.interests': 'Qu’aimez-vous ?',
   'plan.pace': 'Rythme',
@@ -247,7 +247,7 @@ export const fr: Dict = {
   'build.adviceOk': 'Dans le budget. Le reste peut servir aux souvenirs, aux taxis ou à un bon dîner de plus.',
   'build.adviceOver': 'Budget dépassé. Essayez un hôtel moins cher, le vol éco ou moins de visites payantes.',
   'build.create': 'Créer mon programme',
-  'build.letPlanner': 'Laisser Wanderwise planifier',
+  'build.letPlanner': 'Laisser Pangea planifier',
 
   'auth.signinTitle': 'Bon retour',
   'auth.signupTitle': 'Créez votre compte',

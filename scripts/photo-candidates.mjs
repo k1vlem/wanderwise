@@ -5,7 +5,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 
-const UA = 'WanderwiseBot/0.2 (https://github.com/k1vlem/wanderwise; school project)';
+const UA = 'PangeaBot/0.2 (https://github.com/k1vlem/wanderwise; school project)';
 const OUT = 'review';
 const PER_KEY = 12;
 

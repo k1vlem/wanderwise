@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const it: Dict = {
-  'meta.title': 'Wanderwise · Viaggi in tutto il mondo su misura per il tuo budget',
+  'meta.title': 'Pangea · Viaggi in tutto il mondo su misura per il tuo budget',
   'nav.destinations': 'Destinazioni',
   'nav.deals': 'Offerte',
   'nav.plan': 'Pianifica',
@@ -63,7 +63,7 @@ export const it: Dict = {
   'how.s1t': 'Imposta il budget',
   'how.s1': 'Budget totale, date e viaggiatori. Tutte le opzioni vengono filtrate per rientrarci.',
   'how.s2t': 'Scegli come pianificare',
-  'how.s2': 'Lascia che Wanderwise pianifichi tutto il viaggio, oppure scegli tu città, voli, hotel e attività.',
+  'how.s2': 'Lascia che Pangea pianifichi tutto il viaggio, oppure scegli tu città, voli, hotel e attività.',
   'how.s3t': 'Prenota una volta sola',
   'how.s3': 'Un solo pagamento per tutto il pacchetto. Nella beta la prenotazione è una demo e non viene addebitato nulla.',
   'how.s4t': 'Segui il programma',
@@ -92,7 +92,7 @@ export const it: Dict = {
   'country.getThere': '{mode} tra {a} e {b}: {duration}',
 
   'plan.title': 'Pianifica il viaggio',
-  'plan.sub': 'Indica budget e preferenze. Wanderwise trova città, voli e hotel adatti e pianifica ogni giorno.',
+  'plan.sub': 'Indica budget e preferenze. Pangea trova città, voli e hotel adatti e pianifica ogni giorno.',
   'plan.country': 'Paese',
   'plan.interests': 'Cosa ti piace?',
   'plan.pace': 'Ritmo',
@@ -247,7 +247,7 @@ export const it: Dict = {
   'build.adviceOk': 'Nel budget. Il resto può andare in souvenir, taxi o una cena speciale in più.',
   'build.adviceOver': 'Fuori budget. Prova un hotel più economico, il volo economy o meno visite a pagamento.',
   'build.create': 'Crea il mio programma',
-  'build.letPlanner': 'Lascia pianificare a Wanderwise',
+  'build.letPlanner': 'Lascia pianificare a Pangea',
 
   'auth.signinTitle': 'Bentornato',
   'auth.signupTitle': 'Crea il tuo account',

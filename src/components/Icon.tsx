@@ -49,12 +49,15 @@ export function Icon({ name, size = 20, ...rest }: { name: IconName; size?: numb
   );
 }
 
+// A plane taking off with a dotted trail. public/favicon.svg is the same drawing.
+const PLANE = 'M12 2C12.9 2 13.4 2.9 13.4 4V9.2L21 13.6V15.6L13.4 13.2V18.4L15.8 20.2V21.8L12 20.8L8.2 21.8V20.2L10.6 18.4V13.2L3 15.6V13.6L10.6 9.2V4C10.6 2.9 11.1 2 12 2Z';
+
 export function Logo({ size = 34 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 36 36" aria-hidden="true">
       <rect width="36" height="36" rx="11" fill="#C2452D" />
-      <circle cx="25.5" cy="11.5" r="4.5" fill="#F6C177" />
-      <path d="M7 27 C11 19 17 15 24 16.5" stroke="#fff" strokeWidth="2.6" strokeLinecap="round" strokeDasharray="0.1 4.4" fill="none" />
+      <path d="M6.5 29.5C8.6 26.6 10.6 24.9 13.6 23.2" stroke="#F6C177" strokeWidth="2.4" strokeLinecap="round" strokeDasharray="0.1 4" fill="none" />
+      <path transform="translate(21.5 14.5) rotate(45) scale(0.92) translate(-12 -12)" fill="#fff" d={PLANE} />
     </svg>
   );
 }

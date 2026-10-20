@@ -82,9 +82,9 @@ function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-line/80 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-        <Link to="/" className="flex items-center gap-2.5" aria-label="Wanderwise">
+        <Link to="/" className="flex items-center gap-2.5" aria-label="Pangea">
           <Logo />
-          <span className="font-display text-[22px] font-bold tracking-tight text-ink">wanderwise</span>
+          <span className="font-display text-[22px] font-bold tracking-tight text-ink">pangea</span>
         </Link>
         <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
           {links.map((l) =>
@@ -171,7 +171,7 @@ function Footer() {
         <div className="space-y-3">
           <div className="flex items-center gap-2.5">
             <Logo size={30} />
-            <span className="font-display text-xl font-bold text-white">wanderwise</span>
+            <span className="font-display text-xl font-bold text-white">pangea</span>
           </div>
           <p className="max-w-xs text-[15px] leading-relaxed">{t('footer.tagline')}</p>
         </div>
@@ -193,7 +193,7 @@ function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className="mx-auto max-w-7xl px-4 py-6 text-sm sm:px-6 lg:px-8">© 2026 Wanderwise · {t('footer.demo')}</p>
+        <p className="mx-auto max-w-7xl px-4 py-6 text-sm sm:px-6 lg:px-8">© 2026 Pangea · {t('footer.demo')}</p>
       </div>
     </footer>
   );

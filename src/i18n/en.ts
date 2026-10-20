@@ -2,7 +2,7 @@ export type Plural = { one: string; few?: string; many?: string; other: string }
 export type Msg = string | Plural;
 
 export const en = {
-  'meta.title': 'Wanderwise · Trips anywhere in the world, planned around your budget',
+  'meta.title': 'Pangea · Trips anywhere in the world, planned around your budget',
   'nav.destinations': 'Destinations',
   'nav.deals': 'Deals',
   'nav.plan': 'Plan a trip',
@@ -64,7 +64,7 @@ export const en = {
   'how.s1t': 'Set your budget',
   'how.s1': 'Total budget, dates and travelers. Every option after this is filtered to fit it.',
   'how.s2t': 'Choose how to plan',
-  'how.s2': 'Let Wanderwise plan the whole trip, or pick the city, flights, hotel and activities yourself.',
+  'how.s2': 'Let Pangea plan the whole trip, or pick the city, flights, hotel and activities yourself.',
   'how.s3t': 'Book once',
   'how.s3': 'One checkout for the whole package. In the beta, bookings are a demo and no money is taken.',
   'how.s4t': 'Follow your schedule',
@@ -93,7 +93,7 @@ export const en = {
   'country.getThere': '{mode} between {a} and {b}: {duration}',
 
   'plan.title': 'Plan my trip',
-  'plan.sub': 'Set the budget and what you like. Wanderwise finds the city, flights and hotel that fit, then plans every day.',
+  'plan.sub': 'Set the budget and what you like. Pangea finds the city, flights and hotel that fit, then plans every day.',
   'plan.country': 'Country',
   'plan.interests': 'What do you like?',
   'plan.pace': 'Pace',
@@ -248,7 +248,7 @@ export const en = {
   'build.adviceOk': 'Fits your budget. The rest can go to souvenirs, taxis or one more great dinner.',
   'build.adviceOver': 'Over budget. Try a cheaper hotel, the saver flight or fewer paid sights.',
   'build.create': 'Create my schedule',
-  'build.letPlanner': 'Let Wanderwise plan it',
+  'build.letPlanner': 'Let Pangea plan it',
 
   'auth.signinTitle': 'Welcome back',
   'auth.signupTitle': 'Create your account',

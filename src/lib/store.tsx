@@ -49,6 +49,7 @@ function write(key: string, value: unknown, storage: Storage = localStorage) {
 export const newId = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
 async function hash(text: string): Promise<string> {
+  // The salt keeps the old project name so accounts made before the rename can still sign in.
   const bytes = new TextEncoder().encode(`wanderwise:${text}`);
   const digest = await crypto.subtle.digest('SHA-256', bytes);
   return [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');

@@ -2,7 +2,7 @@ import type { Dict } from './en';
 
 // Turkish suffixes depend on the word, so placeholders are kept apart from suffixes.
 export const tr: Dict = {
-  'meta.title': 'Wanderwise · Bütçenize göre dünya gezileri',
+  'meta.title': 'Pangea · Bütçenize göre dünya gezileri',
   'nav.destinations': 'Rotalar',
   'nav.deals': 'Fırsatlar',
   'nav.plan': 'Gezi planla',
@@ -64,7 +64,7 @@ export const tr: Dict = {
   'how.s1t': 'Bütçenizi belirleyin',
   'how.s1': 'Toplam bütçe, tarihler ve yolcu sayısı. Sonraki tüm seçenekler buna göre süzülür.',
   'how.s2t': 'Planlama şeklini seçin',
-  'how.s2': 'Tüm geziyi Wanderwise planlasın ya da şehri, uçuşu, oteli ve etkinlikleri kendiniz seçin.',
+  'how.s2': 'Tüm geziyi Pangea planlasın ya da şehri, uçuşu, oteli ve etkinlikleri kendiniz seçin.',
   'how.s3t': 'Tek seferde rezervasyon',
   'how.s3': 'Tüm paket için tek ödeme. Beta’da rezervasyon bir demodur, para çekilmez.',
   'how.s4t': 'Programınızı izleyin',
@@ -93,7 +93,7 @@ export const tr: Dict = {
   'country.getThere': '{a} – {b} arası {mode}: {duration}',
 
   'plan.title': 'Gezimi planla',
-  'plan.sub': 'Bütçenizi ve sevdiklerinizi belirtin. Wanderwise uygun şehri, uçuşu ve oteli bulur ve her günü planlar.',
+  'plan.sub': 'Bütçenizi ve sevdiklerinizi belirtin. Pangea uygun şehri, uçuşu ve oteli bulur ve her günü planlar.',
   'plan.country': 'Ülke',
   'plan.interests': 'Neleri seversiniz?',
   'plan.pace': 'Tempo',
@@ -248,7 +248,7 @@ export const tr: Dict = {
   'build.adviceOk': 'Bütçeye uygun. Kalan para hediyelik eşya, taksi ya da güzel bir akşam yemeği için kullanılabilir.',
   'build.adviceOver': 'Bütçe aşıldı. Daha uygun bir otel, ekonomik uçuş ya da daha az ücretli yer deneyin.',
   'build.create': 'Programımı oluştur',
-  'build.letPlanner': 'Wanderwise planlasın',
+  'build.letPlanner': 'Pangea planlasın',
 
   'auth.signinTitle': 'Tekrar hoş geldiniz',
   'auth.signupTitle': 'Hesabınızı oluşturun',

@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const de: Dict = {
-  'meta.title': 'Wanderwise · Reisen in die ganze Welt, passend zu deinem Budget',
+  'meta.title': 'Pangea · Reisen in die ganze Welt, passend zu deinem Budget',
   'nav.destinations': 'Reiseziele',
   'nav.deals': 'Angebote',
   'nav.plan': 'Reise planen',
@@ -63,7 +63,7 @@ export const de: Dict = {
   'how.s1t': 'Budget festlegen',
   'how.s1': 'Gesamtbudget, Daten und Reisende. Alle weiteren Optionen werden danach gefiltert.',
   'how.s2t': 'Planungsart wählen',
-  'how.s2': 'Lass Wanderwise die ganze Reise planen oder wähle Stadt, Flüge, Hotel und Aktivitäten selbst.',
+  'how.s2': 'Lass Pangea die ganze Reise planen oder wähle Stadt, Flüge, Hotel und Aktivitäten selbst.',
   'how.s3t': 'Einmal buchen',
   'how.s3': 'Eine Kasse für das ganze Paket. In der Beta ist die Buchung eine Demo, es wird nichts abgebucht.',
   'how.s4t': 'Dem Plan folgen',
@@ -92,7 +92,7 @@ export const de: Dict = {
   'country.getThere': '{mode} zwischen {a} und {b}: {duration}',
 
   'plan.title': 'Reise planen',
-  'plan.sub': 'Gib Budget und Vorlieben an. Wanderwise findet passende Stadt, Flüge und Hotel und plant jeden Tag.',
+  'plan.sub': 'Gib Budget und Vorlieben an. Pangea findet passende Stadt, Flüge und Hotel und plant jeden Tag.',
   'plan.country': 'Land',
   'plan.interests': 'Was magst du?',
   'plan.pace': 'Tempo',
@@ -247,7 +247,7 @@ export const de: Dict = {
   'build.adviceOk': 'Passt ins Budget. Der Rest reicht für Souvenirs, Taxis oder ein besonderes Abendessen.',
   'build.adviceOver': 'Über dem Budget. Versuch ein günstigeres Hotel, den Spartarif oder weniger kostenpflichtige Ziele.',
   'build.create': 'Tagesplan erstellen',
-  'build.letPlanner': 'Wanderwise planen lassen',
+  'build.letPlanner': 'Pangea planen lassen',
 
   'auth.signinTitle': 'Willkommen zurück',
   'auth.signupTitle': 'Konto erstellen',
