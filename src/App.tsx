@@ -3,6 +3,7 @@ import { Layout } from './components/Layout';
 import { PhotoViewerProvider } from './components/PhotoViewer';
 import { I18nProvider } from './i18n';
 import { StoreProvider } from './lib/store';
+import { About } from './pages/About';
 import { Auth } from './pages/Auth';
 import { Build } from './pages/Build';
 import { Checkout } from './pages/Checkout';
@@ -33,6 +34,8 @@ export function App() {
                 <Route path="trips/:id" element={<TripDetail />} />
                 <Route path="checkout/:id" element={<Checkout />} />
                 <Route path="credits" element={<Credits />} />
+                <Route path="mission" element={<About kind="mission" />} />
+                <Route path="vision" element={<About kind="vision" />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>

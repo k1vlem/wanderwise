@@ -75,6 +75,8 @@ function Header() {
     { to: '/plan', label: t('nav.plan') },
     { to: '/build', label: t('nav.build') },
     { to: '/trips', label: t('nav.trips') },
+    { to: '/mission', label: t('nav.mission') },
+    { to: '/vision', label: t('nav.vision') },
   ];
   const navClass = ({ isActive }: { isActive: boolean }) =>
     `rounded-full px-3 py-2 text-[15px] font-medium ${isActive ? 'text-sunset' : 'text-ink-soft hover:text-ink'}`;
@@ -86,7 +88,7 @@ function Header() {
           <Logo />
           <span className="font-display text-[22px] font-bold tracking-tight text-ink">pangea</span>
         </Link>
-        <nav aria-label="Main" className="hidden items-center gap-1 lg:flex">
+        <nav aria-label="Main" className="hidden items-center gap-1 whitespace-nowrap xl:flex">
           {links.map((l) =>
             l.to.includes('#') ? (
               <Link key={l.to} to={l.to} className="rounded-full px-3 py-2 text-[15px] font-medium text-ink-soft hover:text-ink">
@@ -128,14 +130,14 @@ function Header() {
             onClick={() => setMenu((m) => !m)}
             aria-expanded={menu}
             aria-label={t('nav.menu')}
-            className="flex h-11 w-11 items-center justify-center rounded-full border border-line lg:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-line xl:hidden"
           >
             <Icon name={menu ? 'close' : 'menu'} />
           </button>
         </div>
       </div>
       {menu && (
-        <nav aria-label="Mobile" className="border-t border-line bg-white px-4 pb-4 pt-2 lg:hidden">
+        <nav aria-label="Mobile" className="border-t border-line bg-white px-4 pb-4 pt-2 xl:hidden">
           {links.map((l) => (
             <Link key={l.to} to={l.to} className="block rounded-xl px-3 py-3 text-base font-medium text-ink hover:bg-shell">
               {l.label}
@@ -188,6 +190,8 @@ function Footer() {
         </div>
         <div className="space-y-2.5 text-[15px]">
           <p className="font-semibold text-white">{t('footer.about')}</p>
+          <Link className="block hover:text-white" to="/mission">{t('nav.mission')}</Link>
+          <Link className="block hover:text-white" to="/vision">{t('nav.vision')}</Link>
           <Link className="block hover:text-white" to="/credits">{t('footer.credits')}</Link>
           <a className="block hover:text-white" href="https://github.com/k1vlem/wanderwise" target="_blank" rel="noreferrer">GitHub</a>
         </div>

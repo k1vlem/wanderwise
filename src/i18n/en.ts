@@ -8,6 +8,8 @@ export const en = {
   'nav.plan': 'Plan a trip',
   'nav.build': 'Trip builder',
   'nav.trips': 'My trips',
+  'nav.mission': 'Mission',
+  'nav.vision': 'Vision',
   'nav.signin': 'Sign in',
   'nav.signup': 'Create account',
   'nav.signout': 'Sign out',
@@ -318,6 +320,23 @@ export const en = {
   'viewer.next': 'Next photo',
   'viewer.open': 'Open photo: {title}',
   'viewer.hint': 'Tap any photo to see it full size.',
+
+  'about.tabs': 'Mission and vision',
+  'about.missionLabel': 'Our mission',
+  'about.visionLabel': 'Our vision',
+  'about.mission1': 'The whole world.',
+  'about.mission2': 'One plan.',
+  'about.missionText': 'Pangea brings the world together into one plan. Tell us your budget, and we turn it into flights, a hotel, things to do and places to eat for every day, with an honest price next to each item, so anyone can travel without spreadsheets, stress or surprises.',
+  'about.world': '{countries} on four continents',
+  'about.vision': 'A world that feels like one continent again, where anyone, on any budget and in any language, can see a place, know exactly what the trip will cost, and go.',
+  'about.v1t': 'Any budget',
+  'about.v1': 'The planner fits flights, hotel, sights and food into the amount you name.',
+  'about.v2t': 'Any language',
+  'about.v2': 'The whole site works in 7 languages, and you can switch at any moment.',
+  'about.v3t': 'See the place',
+  'about.v3': 'Every sight and every dish has a real photo, so you know what you will see and eat.',
+  'about.v4t': 'Know the cost',
+  'about.v4': 'Every item has a price, and the total is shown before you book.',
 } satisfies Record<string, Msg>;
 
 export type Key = keyof typeof en;
