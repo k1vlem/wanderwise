@@ -27,33 +27,66 @@ function PlanButton() {
   );
 }
 
+// The partner commission. Clients pay no fee on top.
+const COMMISSION = 0.1;
+
+function HowWeEarn() {
+  const { t, money, locale } = useI18n();
+  const stats = [
+    { value: new Intl.NumberFormat(locale, { style: 'percent' }).format(COMMISSION), label: t('about.earnPartners') },
+    { value: money(0), label: t('about.earnYou') },
+  ];
+  return (
+    <section className="mt-16 grid gap-8 rounded-3xl border border-line bg-white p-6 sm:p-10 lg:grid-cols-[1.5fr_1fr] lg:items-center">
+      <div className="space-y-4">
+        <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sunset-light text-sunset-dark">
+          <Icon name="wallet" size={22} />
+        </span>
+        <h2 className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">{t('about.earnTitle')}</h2>
+        <p className="text-[17px] leading-relaxed text-ink-soft">{t('about.earnText')}</p>
+      </div>
+      <ul className="grid grid-cols-2 gap-3">
+        {stats.map((s) => (
+          <li key={s.label} className="rounded-2xl bg-shell p-5">
+            <p className="font-display text-3xl font-semibold text-sunset sm:text-4xl">{s.value}</p>
+            <p className="mt-2 text-[15px] leading-snug text-muted">{s.label}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 function Mission() {
   const { t, tn, pick } = useI18n();
   return (
-    <section className="grid gap-10 pt-14 lg:grid-cols-[1fr_1.25fr] lg:items-start">
-      <div className="space-y-7">
-        <p className="text-xl leading-relaxed text-ink-soft">{t('about.missionText')}</p>
-        <PlanButton />
-      </div>
-      <div className="min-w-0">
-        <h2 className="text-sm font-semibold uppercase tracking-[0.12em] text-muted">{t('about.world', { countries: tn('u.country', COUNTRIES.length) })}</h2>
-        <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {WORLD.map((id) => {
-            const city = cityById(id);
-            return (
-              <li key={id}>
-                <Link to={`/country/${city.country}`} className="group relative block aspect-[4/3] overflow-hidden rounded-2xl">
-                  <Photo id={id} alt="" className="h-full w-full transition duration-500 group-hover:scale-105" />
-                  <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-10 text-[15px] font-semibold text-white">
-                    {pick(city.n)}
-                  </span>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    </section>
+    <>
+      <section className="grid gap-10 pt-14 lg:grid-cols-[1fr_1.25fr] lg:items-start">
+        <div className="space-y-7">
+          <p className="text-xl leading-relaxed text-ink-soft">{t('about.missionText')}</p>
+          <PlanButton />
+        </div>
+        <div className="min-w-0">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.12em] text-muted">{t('about.world', { countries: tn('u.country', COUNTRIES.length) })}</h2>
+          <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {WORLD.map((id) => {
+              const city = cityById(id);
+              return (
+                <li key={id}>
+                  <Link to={`/country/${city.country}`} className="group relative block aspect-[4/3] overflow-hidden rounded-2xl">
+                    <Photo id={id} alt="" className="h-full w-full transition duration-500 group-hover:scale-105" />
+                    <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-10 text-[15px] font-semibold text-white">
+                      {pick(city.n)}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </section>
+      <HowWeEarn />
+    </>
   );
 }
 

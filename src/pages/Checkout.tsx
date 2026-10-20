@@ -9,7 +9,7 @@ import { useStore } from '../lib/store';
 import { NotFound } from './NotFound';
 import { SignInPrompt } from './Trips';
 
-const bookingRef = () => `WW-${Math.random().toString(36).slice(2, 7).toUpperCase()}`;
+const bookingRef = () => `PG-${Math.random().toString(36).slice(2, 7).toUpperCase()}`;
 
 export function Checkout() {
   const { id = '' } = useParams();

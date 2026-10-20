@@ -336,4 +336,8 @@ export const es: Dict = {
   'about.v3': 'Cada visita y cada plato tiene una foto real: sabes lo que verás y lo que comerás.',
   'about.v4t': 'Saber el precio',
   'about.v4': 'Cada elemento tiene su precio y el total se ve antes de reservar.',
+  'about.earnTitle': 'Cómo ganamos dinero',
+  'about.earnText': 'Pangea es un intermediario. Los hoteles y los organizadores de excursiones nos pagan un 10 % de cada reserva, así que tu viaje cuesta lo mismo que si reservaras directamente. Todos los socios pagan lo mismo, por eso el planificador elige según tu presupuesto, no según lo que más nos conviene.',
+  'about.earnPartners': 'de cada reserva, lo pagan nuestros socios',
+  'about.earnYou': 'de cargos extra para ti',
 };

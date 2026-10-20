@@ -337,6 +337,10 @@ export const en = {
   'about.v3': 'Every sight and every dish has a real photo, so you know what you will see and eat.',
   'about.v4t': 'Know the cost',
   'about.v4': 'Every item has a price, and the total is shown before you book.',
+  'about.earnTitle': 'How we make money',
+  'about.earnText': 'Pangea is a middleman. Hotels and tour organisers pay us 10% of every booking, so your trip costs the same as booking directly. Every partner pays the same rate, so the planner picks options by your budget, not by what earns us more.',
+  'about.earnPartners': 'of every booking, paid by our partners',
+  'about.earnYou': 'in extra fees for you',
 } satisfies Record<string, Msg>;
 
 export type Key = keyof typeof en;

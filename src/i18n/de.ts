@@ -336,4 +336,8 @@ export const de: Dict = {
   'about.v3': 'Jede Sehenswürdigkeit und jedes Gericht hat ein echtes Foto. So weißt du, was du sehen und essen wirst.',
   'about.v4t': 'Den Preis kennen',
   'about.v4': 'Jeder Punkt hat einen Preis, und die Summe siehst du vor der Buchung.',
+  'about.earnTitle': 'Wie wir Geld verdienen',
+  'about.earnText': 'Pangea ist ein Vermittler. Hotels und Tourveranstalter zahlen uns 10 % jeder Buchung, deshalb kostet deine Reise genauso viel wie bei einer Direktbuchung. Alle Partner zahlen denselben Satz, deshalb wählt der Planer nach deinem Budget aus und nicht danach, was uns mehr einbringt.',
+  'about.earnPartners': 'jeder Buchung zahlen unsere Partner',
+  'about.earnYou': 'Zusatzgebühren für dich',
 };
