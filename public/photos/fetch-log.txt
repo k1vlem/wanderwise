@@ -1,5 +1,1 @@
-ok   d-hong-shao-rou              File:Red braised pork belly 红烧肉 hóngshāoròu 23 January 2025 Filipinas4.jpg (3788x2707, CC BY-SA 4.0)
-ok   d-tacos-al-pastor            File:Tacos 2.jpg (4160x2340, CC BY-SA 3.0)
-ok   d-yakitori                   File:Yakitori set and others at Torihei-chan, Kamata East Exit (20230806200725).jpg (4032x2688, CC BY-SA 4.0)
-ok   d-couscous                   File:Couscous "7 vegetables".jpg (4128x2322, CC BY-SA 4.0)
-Done: 4 fetched, 0 failed.
+Done: 0 fetched, 0 failed.
