@@ -338,7 +338,7 @@ export const tr: Dict = {
   'about.v4t': 'Fiyatı bilin',
   'about.v4': 'Her kalemin bir fiyatı var ve toplamı rezervasyondan önce görürsünüz.',
   'about.earnTitle': 'Nasıl para kazanıyoruz',
-  'about.earnText': 'Pangea bir aracıdır. Oteller ve tur düzenleyicileri her rezervasyonun %10’unu bize öder; bu yüzden geziniz, doğrudan rezervasyon yaptığınızdaki fiyatla aynıdır. Tüm ortaklar aynı oranı öder; bu yüzden planlayıcı seçenekleri bizim kazancımıza göre değil, sizin bütçenize göre seçer.',
-  'about.earnPartners': 'her rezervasyondan, ortaklarımız öder',
-  'about.earnYou': 'size ek ücret',
+  'about.earnText': 'Pangea bir aracıdır. Gezginlerden gezi fiyatı üzerinden %5 hizmet bedeli alırız. Otellerden ve tur düzenleyicilerinden para almayız; bu yüzden planlayıcı seçenekleri bizim kazancımıza göre değil, sizin bütçenize göre seçer.',
+  'about.earnFee': 'gezi fiyatı üzerinden hizmet bedeli',
+  'about.earnHotels': 'otel ve turlardan komisyon',
 };

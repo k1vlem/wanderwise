@@ -337,7 +337,7 @@ export const fr: Dict = {
   'about.v4t': 'Connaître le prix',
   'about.v4': 'Chaque élément a son prix, et le total s’affiche avant la réservation.',
   'about.earnTitle': 'Comment nous gagnons de l’argent',
-  'about.earnText': 'Pangea est un intermédiaire. Les hôtels et les organisateurs d’excursions nous versent 10 % de chaque réservation : votre voyage coûte donc autant qu’en réservant directement. Tous les partenaires paient le même taux, si bien que le planificateur choisit selon votre budget, et non selon ce qui nous rapporte le plus.',
-  'about.earnPartners': 'de chaque réservation, payés par nos partenaires',
-  'about.earnYou': 'de frais en plus pour vous',
+  'about.earnText': 'Pangea est un intermédiaire. Nous facturons aux voyageurs des frais de service de 5 % sur le prix du voyage. Nous ne prenons rien aux hôtels ni aux organisateurs d’excursions : le planificateur choisit donc selon votre budget, et non selon ce qui nous rapporte le plus.',
+  'about.earnFee': 'de frais de service sur le prix du voyage',
+  'about.earnHotels': 'de commission des hôtels et excursions',
 };

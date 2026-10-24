@@ -27,14 +27,14 @@ function PlanButton() {
   );
 }
 
-// The partner commission. Clients pay no fee on top.
-const COMMISSION = 0.1;
+// Our only income: a service fee on the trip price. Hotels and tours pay us nothing.
+const SERVICE_FEE = 0.05;
 
 function HowWeEarn() {
   const { t, money, locale } = useI18n();
   const stats = [
-    { value: new Intl.NumberFormat(locale, { style: 'percent' }).format(COMMISSION), label: t('about.earnPartners') },
-    { value: money(0), label: t('about.earnYou') },
+    { value: new Intl.NumberFormat(locale, { style: 'percent' }).format(SERVICE_FEE), label: t('about.earnFee') },
+    { value: money(0), label: t('about.earnHotels') },
   ];
   return (
     <section className="mt-16 grid gap-8 rounded-3xl border border-line bg-white p-6 sm:p-10 lg:grid-cols-[1.5fr_1fr] lg:items-center">
